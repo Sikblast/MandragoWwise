@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	17721092	Play_Grab			\Default Work Unit\Play_Grab	
+	3802891128	Stop_Spell_Cast			\Default Work Unit\Stop_Spell_Cast	
+	4164487154	Play_Spell_Cast			\Default Work Unit\Play_Spell_Cast	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1912241455	Draw			\Default Work Unit\Draw	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
+	3604890626	High_Pass_60Hz	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	96081282	Grab	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Grab5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grab		288176
+	368691591	Cast Loop 2	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 2_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Draw\Cast Loop 2		2160144
+	474668960	Cast Loop 1	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 1_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Draw\Cast Loop 1		1608144
+	914488063	Cast Loop 3	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 3_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Draw\Cast Loop 3		2796144
+
