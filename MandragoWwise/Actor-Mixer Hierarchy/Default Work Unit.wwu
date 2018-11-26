@@ -26,7 +26,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Cast Loop 1" ID="{B1A81A15-05D5-442E-9F86-3848CF61BA24}" ShortID="943898618">
+						<Sound Name="Draw Loop 1" ID="{B1A81A15-05D5-442E-9F86-3848CF61BA24}" ShortID="943898618">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
@@ -53,7 +53,7 @@
 								<ActiveSource Name="Cast Loop 1" ID="{CE10C839-0F34-4492-9F0B-779F5218B58E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Cast Loop 2" ID="{771F8812-DB26-482D-ACC7-FA46899A6AF4}" ShortID="738963062">
+						<Sound Name="Draw Loop 2" ID="{771F8812-DB26-482D-ACC7-FA46899A6AF4}" ShortID="738963062">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
@@ -80,7 +80,7 @@
 								<ActiveSource Name="Cast Loop 2" ID="{CC6D3C9F-233F-435E-9E91-B0D7A44EA2BF}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Cast Loop 3" ID="{8D09DE33-62AB-4715-8324-470E73D51130}" ShortID="231367981">
+						<Sound Name="Draw Loop 3" ID="{8D09DE33-62AB-4715-8324-470E73D51130}" ShortID="231367981">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
@@ -115,7 +115,7 @@
 							</ReferenceList>
 							<BlendTrackAssocList>
 								<BlendTrackAssoc>
-									<ItemRef Name="Cast Loop 1" ID="{B1A81A15-05D5-442E-9F86-3848CF61BA24}"/>
+									<ItemRef Name="Draw Loop 1" ID="{B1A81A15-05D5-442E-9F86-3848CF61BA24}"/>
 									<CrossfadingInfo>
 										<LeftEdgePos>0</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
@@ -124,7 +124,7 @@
 									</CrossfadingInfo>
 								</BlendTrackAssoc>
 								<BlendTrackAssoc>
-									<ItemRef Name="Cast Loop 2" ID="{771F8812-DB26-482D-ACC7-FA46899A6AF4}"/>
+									<ItemRef Name="Draw Loop 2" ID="{771F8812-DB26-482D-ACC7-FA46899A6AF4}"/>
 									<CrossfadingInfo>
 										<LeftEdgePos>0.0005</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
@@ -133,7 +133,7 @@
 									</CrossfadingInfo>
 								</BlendTrackAssoc>
 								<BlendTrackAssoc>
-									<ItemRef Name="Cast Loop 3" ID="{8D09DE33-62AB-4715-8324-470E73D51130}"/>
+									<ItemRef Name="Draw Loop 3" ID="{8D09DE33-62AB-4715-8324-470E73D51130}"/>
 									<CrossfadingInfo>
 										<LeftEdgePos>50.1010101010101</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
