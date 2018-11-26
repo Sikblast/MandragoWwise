@@ -3,7 +3,11 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{0D722370-0E00-46EF-B000-EC471E7F4B00}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="New_Game_Parameter" ID="{17CE5216-1CEF-4F65-A497-82F1ED12B213}"/>
+				<GameParameter Name="Draw" ID="{17CE5216-1CEF-4F65-A497-82F1ED12B213}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

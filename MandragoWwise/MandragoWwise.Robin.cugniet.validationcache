@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="89">
-	<ValidationCacheItem File="C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1543192402" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1543243527" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\Actor-Mixer Hierarchy\Factory Crankcase REV.wwu" DateLow="1542893506" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1542895775" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1542618059" DateHigh="0"/>
@@ -16,7 +16,7 @@
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\Effects\Factory Auro Headphone.wwu" DateLow="1542618072" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\Effects\Factory Convolution Reverb Effects Ambisonics.wwu" DateLow="1542721094" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\Effects\Factory Convolution Reverb Effects Stereo.wwu" DateLow="1542721095" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\Effects\Factory Effects.wwu" DateLow="1542618059" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\Effects\Factory Effects.wwu" DateLow="1543243527" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\Effects\Factory iZotope Box Modeler.wwu" DateLow="1542618071" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\Effects\Factory iZotope Delay.wwu" DateLow="1542618071" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\Effects\Factory iZotope Dynamics.wwu" DateLow="1542618071" DateHigh="0"/>
@@ -30,7 +30,7 @@
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\Game Parameters\Factory Motion.wwu" DateLow="1542618059" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1542618059" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1542895765" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\MandragoWwise.Robin.cugniet.wsettings" DateLow="1543235484" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\MandragoWwise.Robin.cugniet.wsettings" DateLow="1543244037" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\MandragoWwise.wproj" DateLow="1542895765" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1542895775" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1542895765" DateHigh="0"/>

@@ -3,13 +3,23 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}" PersistMode="Standalone">
 			<ChildrenList>
-				<BlendContainer Name="Spell Cast" ID="{75531130-AB7E-4A45-AA39-5ED16DF571DF}" ShortID="232851395">
+				<BlendContainer Name="Draw" ID="{75531130-AB7E-4A45-AA39-5ED16DF571DF}" ShortID="232851395">
+					<PropertyList>
+						<Property Name="BypassEffect1" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 						</Reference>
 						<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 							<ObjectRef Name="High_Pass_60Hz" ID="{F9627628-0B10-4272-BC30-D4C20423CB38}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+							<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
@@ -100,7 +110,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="LayerCrossFadeControlInput">
-									<ObjectRef Name="New_Game_Parameter" ID="{17CE5216-1CEF-4F65-A497-82F1ED12B213}" WorkUnitID="{0D722370-0E00-46EF-B000-EC471E7F4B00}"/>
+									<ObjectRef Name="Draw" ID="{17CE5216-1CEF-4F65-A497-82F1ED12B213}" WorkUnitID="{0D722370-0E00-46EF-B000-EC471E7F4B00}"/>
 								</Reference>
 							</ReferenceList>
 							<BlendTrackAssocList>
@@ -109,23 +119,23 @@
 									<CrossfadingInfo>
 										<LeftEdgePos>0</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>39.7982297979798</RightEdgePos>
+										<RightEdgePos>50.1010101010101</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
 									</CrossfadingInfo>
 								</BlendTrackAssoc>
 								<BlendTrackAssoc>
 									<ItemRef Name="Cast Loop 2" ID="{771F8812-DB26-482D-ACC7-FA46899A6AF4}"/>
 									<CrossfadingInfo>
-										<LeftEdgePos>9.8994898989899</LeftEdgePos>
+										<LeftEdgePos>0.0005</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>89.9995</RightEdgePos>
+										<RightEdgePos>99.9995</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
 									</CrossfadingInfo>
 								</BlendTrackAssoc>
 								<BlendTrackAssoc>
 									<ItemRef Name="Cast Loop 3" ID="{8D09DE33-62AB-4715-8324-470E73D51130}"/>
 									<CrossfadingInfo>
-										<LeftEdgePos>60</LeftEdgePos>
+										<LeftEdgePos>50.1010101010101</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
 										<RightEdgePos>100</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
@@ -140,7 +150,7 @@
 										<RTPC Name="" ID="{C5ACC161-E082-4009-AFCF-BAA3AE336EA7}" ShortID="46971617">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="New_Game_Parameter" ID="{17CE5216-1CEF-4F65-A497-82F1ED12B213}" WorkUnitID="{0D722370-0E00-46EF-B000-EC471E7F4B00}"/>
+													<ObjectRef Name="Draw" ID="{17CE5216-1CEF-4F65-A497-82F1ED12B213}" WorkUnitID="{0D722370-0E00-46EF-B000-EC471E7F4B00}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{0A58F26D-6ADB-4EDB-B1B8-BE782B442F8C}">

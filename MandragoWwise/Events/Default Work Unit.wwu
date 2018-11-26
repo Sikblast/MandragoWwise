@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}" SchemaVersion="89">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Spell_Cast" ID="{C1662B55-76C4-4D8B-B65A-C0D2485D5962}">
+					<ChildrenList>
+						<Action Name="" ID="{24AE9CE3-D68C-4626-9F90-919E609DCDDF}" ShortID="59762566">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Draw" ID="{75531130-AB7E-4A45-AA39-5ED16DF571DF}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Spell_Cast" ID="{A9F6C306-BFAB-45B1-91EC-B3A5C506A1DB}">
+					<ChildrenList>
+						<Action Name="" ID="{EE4CBBBD-4547-433B-83BA-75E71A8C222F}" ShortID="299191185">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Draw" ID="{75531130-AB7E-4A45-AA39-5ED16DF571DF}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grab" ID="{EC5E073F-486B-4193-BCDA-887077F4D5F1}">
+					<ChildrenList>
+						<Action Name="" ID="{097EDDB0-F9DC-4EFF-9A58-D5AF9C435EBC}" ShortID="492614064">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grab" ID="{22290C34-1026-4A8C-B7C0-12A1C599B3B0}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
