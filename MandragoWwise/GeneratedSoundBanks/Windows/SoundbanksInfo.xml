@@ -21,9 +21,9 @@
 			<ShortName>Soundbank</ShortName>
 			<Path>Soundbank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2175127744" Name="Play_Draw" ObjectPath="\Events\Default Work Unit\Play_Draw"/>
 				<Event Id="17721092" Name="Play_Grab" ObjectPath="\Events\Default Work Unit\Play_Grab"/>
-				<Event Id="4164487154" Name="Play_Spell_Cast" ObjectPath="\Events\Default Work Unit\Play_Spell_Cast"/>
-				<Event Id="3802891128" Name="Stop_Spell_Cast" ObjectPath="\Events\Default Work Unit\Stop_Spell_Cast"/>
+				<Event Id="2661763918" Name="Stop_Draw" ObjectPath="\Events\Default Work Unit\Stop_Draw"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="96081282" Language="SFX">

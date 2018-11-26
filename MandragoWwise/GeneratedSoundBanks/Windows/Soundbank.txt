@@ -1,7 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	17721092	Play_Grab			\Default Work Unit\Play_Grab	
-	3802891128	Stop_Spell_Cast			\Default Work Unit\Stop_Spell_Cast	
-	4164487154	Play_Spell_Cast			\Default Work Unit\Play_Spell_Cast	
+	2175127744	Play_Draw			\Default Work Unit\Play_Draw	
+	2661763918	Stop_Draw			\Default Work Unit\Stop_Draw	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1912241455	Draw			\Default Work Unit\Draw	
