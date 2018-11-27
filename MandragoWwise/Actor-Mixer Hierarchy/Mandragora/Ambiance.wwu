@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9656DA03-6571-4597-9DAC-062F16B8018B}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Ambiance" ID="{9656DA03-6571-4597-9DAC-062F16B8018B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Drone Ominous Void" ID="{7DC1D22F-F3B8-4C56-AF2C-096D2E65C071}" ShortID="496308416">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Mono" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Drone Ominous Void" ID="{69FC8236-4135-412B-A1A0-F1BD3832B3C1}" ShortID="259832723">
+							<Language>SFX</Language>
+							<AudioFile>Drone Ominous Void.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Drone Ominous Void" ID="{69FC8236-4135-412B-A1A0-F1BD3832B3C1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

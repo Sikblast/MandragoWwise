@@ -3,8 +3,12 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{475C8B4E-2DF1-4CEC-A114-76F0049FD1C0}">
 			<PropertyList>
+				<Property Name="Event Action List\{10EEE64E-D7F5-47B8-BA70-D5024D61AA91}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{96304B6D-B4B5-4F71-BCA1-27A7A3BE3093}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A9F6C306-BFAB-45B1-91EC-B3A5C506A1DB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C1662B55-76C4-4D8B-B65A-C0D2485D5962}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C4FEB7F7-7550-4FE9-B9A1-6C1291FA34CE}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D523AA29-B8BC-41F7-8011-4B90848E3A99}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{EC5E073F-486B-4193-BCDA-887077F4D5F1}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -19,6 +23,7 @@
 				</Property>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
+				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="OyABuN7kAEa59owL4OT1MQ=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
@@ -50,10 +55,10 @@
 				<Property Name="ProjectExplorer\x64_Expanded_17_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_18_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_19_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="CZXyOSYS4EyRw4x7Y/XkLA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="MBFTdX6rRUqqOV7RbfVx30werDsi/9xKpV3QOd+XYX8="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="YNXQpoLxe0OtPi6RDw7CRUwerDsi/9xKpV3QOd+XYX8="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="YDC2ruPTnUydiEuPOuJHTA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
