@@ -8,11 +8,6 @@
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{874FED14-6203-4B7C-B6DB-8DF50476698D}" WorkUnitID="{0C657EB2-E32D-4DD4-8C2D-B33BA4FBFB81}"/>
 						</Reference>
-						<Reference Name="Effect0">
-							<Custom>
-								<Effect Name="Auro Headphone (Custom)" ID="{44840CF4-A170-46B2-B4B9-45A2F8488E96}" ShortID="307904758" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3"/>
-							</Custom>
-						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Mono" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}">

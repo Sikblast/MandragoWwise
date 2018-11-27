@@ -1,7 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
-	17721092	Play_Grab			\Default Work Unit\Play_Grab	
-	2175127744	Play_Draw			\Default Work Unit\Play_Draw	
-	2661763918	Stop_Draw			\Default Work Unit\Stop_Draw	
+	166240794	Draw_Stop			\Default Work Unit\Draw_Stop	
+	1160624332	Void_Play			\Default Work Unit\Void_Play	
+	2083537832	Draw_Play			\Default Work Unit\Draw_Play	
+	3088931226	Grab_End_Play			\Default Work Unit\Grab_End_Play	
+	3130408918	Void_Stop			\Default Work Unit\Void_Stop	
+	3761856123	Grab_Start_Play			\Default Work Unit\Grab_Start_Play	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1912241455	Draw			\Default Work Unit\Draw	
@@ -11,8 +14,11 @@ Effect plug-ins	ID	Name	Type				Notes
 	3604890626	High_Pass_60Hz	Wwise Parametric EQ			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	96081282	Grab	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Grab5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grab		288176
-	368691591	Cast Loop 2	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 2_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Draw\Cast Loop 2		2160144
-	474668960	Cast Loop 1	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 1_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Draw\Cast Loop 1		1608144
-	914488063	Cast Loop 3	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 3_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Draw\Cast Loop 3		2796144
+	97446475	Grab Start 1	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Grab Start 1_56D34C19.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Grab\Grab Start\Grab Start 1		288176
+	259832723	Drone Ominous Void	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Drone Ominous Void_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\Ambiance\Drone Ominous Void		4914112
+	368691591	Draw Loop 2	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 2_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Draw\Draw Loop 2		2160144
+	391204473	Grab Reception	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Grab Reception 2_56D34C19.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Grab\Grab Reception		402976
+	474668960	Draw Loop 1	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 1_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Draw\Draw Loop 1		1608144
+	914488063	Draw Loop 3	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 3_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Draw\Draw Loop 3		2796144
+	1057113020	Grab Start 2	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Grab Start 2_56D34C19.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Grab\Grab Start\Grab Start 2		288176
 

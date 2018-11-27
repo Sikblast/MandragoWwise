@@ -21,18 +21,29 @@
 			<ShortName>Soundbank</ShortName>
 			<Path>Soundbank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2175127744" Name="Play_Draw" ObjectPath="\Events\Default Work Unit\Play_Draw"/>
-				<Event Id="17721092" Name="Play_Grab" ObjectPath="\Events\Default Work Unit\Play_Grab"/>
-				<Event Id="2661763918" Name="Stop_Draw" ObjectPath="\Events\Default Work Unit\Stop_Draw"/>
+				<Event Id="2083537832" Name="Draw_Play" ObjectPath="\Events\Default Work Unit\Draw_Play"/>
+				<Event Id="166240794" Name="Draw_Stop" ObjectPath="\Events\Default Work Unit\Draw_Stop"/>
+				<Event Id="3088931226" Name="Grab_End_Play" ObjectPath="\Events\Default Work Unit\Grab_End_Play"/>
+				<Event Id="3761856123" Name="Grab_Start_Play" ObjectPath="\Events\Default Work Unit\Grab_Start_Play"/>
+				<Event Id="1160624332" Name="Void_Play" ObjectPath="\Events\Default Work Unit\Void_Play"/>
+				<Event Id="3130408918" Name="Void_Stop" ObjectPath="\Events\Default Work Unit\Void_Stop"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="96081282" Language="SFX">
-					<ShortName>Grab5.wav</ShortName>
-					<Path>SFX\Grab5_56D34C19.wem</Path>
+				<File Id="97446475" Language="SFX">
+					<ShortName>Grab Start 1.wav</ShortName>
+					<Path>SFX\Grab Start 1_56D34C19.wem</Path>
+				</File>
+				<File Id="259832723" Language="SFX">
+					<ShortName>Drone Ominous Void.wav</ShortName>
+					<Path>SFX\Drone Ominous Void_8956FC97.wem</Path>
 				</File>
 				<File Id="368691591" Language="SFX">
 					<ShortName>Cast Loop 2.wav</ShortName>
 					<Path>SFX\Cast Loop 2_8956FC97.wem</Path>
+				</File>
+				<File Id="391204473" Language="SFX">
+					<ShortName>Grab Reception 2.wav</ShortName>
+					<Path>SFX\Grab Reception 2_56D34C19.wem</Path>
 				</File>
 				<File Id="474668960" Language="SFX">
 					<ShortName>Cast Loop 1.wav</ShortName>
@@ -41,6 +52,10 @@
 				<File Id="914488063" Language="SFX">
 					<ShortName>Cast Loop 3.wav</ShortName>
 					<Path>SFX\Cast Loop 3_8956FC97.wem</Path>
+				</File>
+				<File Id="1057113020" Language="SFX">
+					<ShortName>Grab Start 2.wav</ShortName>
+					<Path>SFX\Grab Start 2_56D34C19.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
