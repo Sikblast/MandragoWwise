@@ -16,11 +16,11 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	985987111	Motion Factory Bus			\Default Work Unit\Motion Factory Bus	
-	3145425408	Mono			\Default Work Unit\Master Audio Bus\Mono	
+	2856286951	Auro 3D			\Default Work Unit\Master Audio Bus\Auro 3D	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Effect plug-ins	ID	Name	Type				Notes
-	61238839	Auro Headphone (Custom)	Auro Headphone			
+	270226430	Medium_Room_AHP	Auro Headphone			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

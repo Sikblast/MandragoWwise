@@ -1,10 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
 	166240794	Draw_Stop			\Default Work Unit\Draw_Stop	
-	1160624332	Void_Play			\Default Work Unit\Void_Play	
+	657070109	Telekinesis_Start_Play			\Default Work Unit\Telekinesis_Start_Play	
+	1394292256	Portal_Play			\Default Work Unit\Portal_Play	
+	1683069208	Telekinesis_End_Play			\Default Work Unit\Telekinesis_End_Play	
 	2083537832	Draw_Play			\Default Work Unit\Draw_Play	
-	3088931226	Grab_End_Play			\Default Work Unit\Grab_End_Play	
-	3130408918	Void_Stop			\Default Work Unit\Void_Stop	
-	3761856123	Grab_Start_Play			\Default Work Unit\Grab_Start_Play	
+	4032518562	Portal_Stop			\Default Work Unit\Portal_Stop	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1912241455	Draw			\Default Work Unit\Draw	
@@ -14,11 +14,11 @@ Effect plug-ins	ID	Name	Type				Notes
 	3604890626	High_Pass_60Hz	Wwise Parametric EQ			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	97446475	Grab Start 1	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Grab Start 1_56D34C19.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Grab\Grab Start\Grab Start 1		288176
-	259832723	Drone Ominous Void	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Drone Ominous Void_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\Ambiance\Drone Ominous Void		4914112
+	132330	Portal	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Mini Portal_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\Ambiance\Portal		2553088
+	97446475	Grab Start 1	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Grab Start 1_56D34C19.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Telekinesis\Telekinesis Start\Grab Start 1		288176
 	368691591	Draw Loop 2	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 2_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Draw\Draw Loop 2		2160144
-	391204473	Grab Reception	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Grab Reception 2_56D34C19.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Grab\Grab Reception		402976
+	391204473	Telekinesis Reception	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Grab Reception 2_56D34C19.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Telekinesis\Telekinesis Reception		402976
 	474668960	Draw Loop 1	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 1_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Draw\Draw Loop 1		1608144
 	914488063	Draw Loop 3	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 3_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Draw\Draw Loop 3		2796144
-	1057113020	Grab Start 2	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Grab Start 2_56D34C19.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Grab\Grab Start\Grab Start 2		288176
+	1057113020	Grab Start 2	C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Grab Start 2_56D34C19.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Telekinesis\Telekinesis Start\Grab Start 2		288176
 
