@@ -22,6 +22,7 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjYwODciIG1hc2s9IkRKU1A1OTM0IiBlbmM9IjAiPjxsaWNlbnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDMsNCwxMCwxMywxNCIgZXhwaXJlcz0iMjAxOS0wNy0zMSIgIC8+PGxpY2Vuc2UgaWQ9IjIyIiBuYW1lPSJMZXZlbCBBIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMTktMDctMzEiICAvPjxsaWNlbnNlIGlkPSIyMSIgbmFtZT0iTWFpbnRlbmFuY2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMTktMDctMzEiICAvPjxsaWNlbnNlIGlkPSIyNSIgbmFtZT0iQWxsIFd3aXNlIFBsdWctSW5zIiB0eXBlPSIzIiAgZXhwaXJlcz0iMjAxOS0wNy0zMSIgIC8+PC9wcm9qZWN0Pg==|HVW04VmcPAn8ba+kukNMAgterfaHqIb/9bEqeWCyJOLY9fXsZNy7suyUfBmeU5gKxEz1FL0CeraH1FxZ++xqdlXhYomvZE6rniko2pjW/YApzbAL1IOXUKqUxqDfWEz0kxIeKXHLMMS/vkPOaDJkmCl1jBC4o/2zQzgo1LNoC8MKQK3TW0ajs61K6cLevuwIiNKw/ucxDbAIqT5BFFXUcsAfOpLIsBL0WeinMhUXvapD3WbJiQTHw7zJsRxVPFqxV1Z9fO04lWVmgy02uiCtt3QacH9I+fGH0yN5msNNfI0tQysA2oRgcxQwGJ6amCfBXkgX19ouZj26mXsCZglAIA=="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
