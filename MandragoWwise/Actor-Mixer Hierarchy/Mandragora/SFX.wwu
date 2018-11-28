@@ -177,9 +177,9 @@
 						</BlendTrack>
 					</BlendTrackList>
 				</BlendContainer>
-				<Folder Name="Grab" ID="{22A83A77-F7B7-4787-A259-5CCB94C5BA89}" ShortID="438843781">
+				<Folder Name="Telekinesis" ID="{22A83A77-F7B7-4787-A259-5CCB94C5BA89}" ShortID="438843781">
 					<ChildrenList>
-						<RandomSequenceContainer Name="Grab Start" ID="{777F7517-DD67-4770-AC9F-3F3D8C2D6FA1}" ShortID="109967850">
+						<RandomSequenceContainer Name="Telekinesis Start" ID="{777F7517-DD67-4770-AC9F-3F3D8C2D6FA1}" ShortID="109967850">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
@@ -233,7 +233,7 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<Sound Name="Grab Reception" ID="{D7150C60-7B0B-4217-A2F8-755563EF14E4}" ShortID="806673322">
+						<Sound Name="Telekinesis Reception" ID="{D7150C60-7B0B-4217-A2F8-755563EF14E4}" ShortID="806673322">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>

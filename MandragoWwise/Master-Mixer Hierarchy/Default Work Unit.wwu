@@ -8,21 +8,21 @@
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{874FED14-6203-4B7C-B6DB-8DF50476698D}" WorkUnitID="{0C657EB2-E32D-4DD4-8C2D-B33BA4FBFB81}"/>
 						</Reference>
-						<Reference Name="Effect0">
-							<Custom>
-								<Effect Name="Auro Headphone (Custom)" ID="{273B783E-1CF0-4763-BA40-109885AE4940}" ShortID="61238839" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3"/>
-							</Custom>
-						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="Mono" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}">
+						<Bus Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}">
 							<PropertyList>
 								<Property Name="BusChannelConfig" Type="int32">
 									<ValueList>
-										<Value>16641</Value>
+										<Value>803467534</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
+									<ObjectRef Name="Medium_Room_AHP" ID="{084C1341-345B-44C4-88FE-89EA007AEDB3}" WorkUnitID="{B3C352EE-53F0-4C95-BAA9-B8ECC0034D25}"/>
+								</Reference>
+							</ReferenceList>
 						</Bus>
 					</ChildrenList>
 				</Bus>

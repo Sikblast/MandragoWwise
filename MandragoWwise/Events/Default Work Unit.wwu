@@ -31,7 +31,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Grab_Start_Play" ID="{96304B6D-B4B5-4F71-BCA1-27A7A3BE3093}">
+				<Event Name="Telekinesis_Start_Play" ID="{96304B6D-B4B5-4F71-BCA1-27A7A3BE3093}">
 					<ChildrenList>
 						<Action Name="" ID="{D433DCBE-A2EB-4843-95D9-199DCBD405D3}" ShortID="203407360">
 							<PropertyList>
@@ -39,13 +39,13 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Grab Start" ID="{777F7517-DD67-4770-AC9F-3F3D8C2D6FA1}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
+									<ObjectRef Name="Telekinesis Start" ID="{777F7517-DD67-4770-AC9F-3F3D8C2D6FA1}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Grab_End_Play" ID="{C4FEB7F7-7550-4FE9-B9A1-6C1291FA34CE}">
+				<Event Name="Telekinesis_End_Play" ID="{C4FEB7F7-7550-4FE9-B9A1-6C1291FA34CE}">
 					<ChildrenList>
 						<Action Name="" ID="{9D1D8E0F-3D0A-46C2-BD35-58336B7F5E8C}" ShortID="1033868264">
 							<PropertyList>
@@ -53,13 +53,13 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Grab Reception" ID="{D7150C60-7B0B-4217-A2F8-755563EF14E4}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
+									<ObjectRef Name="Telekinesis Reception" ID="{D7150C60-7B0B-4217-A2F8-755563EF14E4}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Void_Play" ID="{D523AA29-B8BC-41F7-8011-4B90848E3A99}">
+				<Event Name="Portal_Play" ID="{D523AA29-B8BC-41F7-8011-4B90848E3A99}">
 					<ChildrenList>
 						<Action Name="" ID="{FABE64C6-6F92-4BC8-83ED-B8EAF1D3C99A}" ShortID="583264923">
 							<PropertyList>
@@ -67,13 +67,13 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Drone Ominous Void" ID="{7DC1D22F-F3B8-4C56-AF2C-096D2E65C071}" WorkUnitID="{9656DA03-6571-4597-9DAC-062F16B8018B}"/>
+									<ObjectRef Name="Portal" ID="{7DC1D22F-F3B8-4C56-AF2C-096D2E65C071}" WorkUnitID="{9656DA03-6571-4597-9DAC-062F16B8018B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Void_Stop" ID="{10EEE64E-D7F5-47B8-BA70-D5024D61AA91}">
+				<Event Name="Portal_Stop" ID="{10EEE64E-D7F5-47B8-BA70-D5024D61AA91}">
 					<ChildrenList>
 						<Action Name="" ID="{0BEDFAF2-FB8C-48EB-B13B-ADC8BA8C052E}" ShortID="383088591">
 							<PropertyList>
@@ -81,7 +81,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Drone Ominous Void" ID="{7DC1D22F-F3B8-4C56-AF2C-096D2E65C071}" WorkUnitID="{9656DA03-6571-4597-9DAC-062F16B8018B}"/>
+									<ObjectRef Name="Portal" ID="{7DC1D22F-F3B8-4C56-AF2C-096D2E65C071}" WorkUnitID="{9656DA03-6571-4597-9DAC-062F16B8018B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
