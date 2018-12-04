@@ -8,6 +8,11 @@
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{874FED14-6203-4B7C-B6DB-8DF50476698D}" WorkUnitID="{0C657EB2-E32D-4DD4-8C2D-B33BA4FBFB81}"/>
 						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise Recorder (Custom)" ID="{7E0CC705-1C5A-4832-8A7D-48D3758E011A}" ShortID="1030353756" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3"/>
+							</Custom>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}">
@@ -15,6 +20,11 @@
 								<Property Name="BusChannelConfig" Type="int32">
 									<ValueList>
 										<Value>803467534</Value>
+									</ValueList>
+								</Property>
+								<Property Name="BypassEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

@@ -31,20 +31,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Telekinesis_Start_Play" ID="{96304B6D-B4B5-4F71-BCA1-27A7A3BE3093}">
-					<ChildrenList>
-						<Action Name="" ID="{D433DCBE-A2EB-4843-95D9-199DCBD405D3}" ShortID="203407360">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Telekinesis Start" ID="{777F7517-DD67-4770-AC9F-3F3D8C2D6FA1}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Telekinesis_End_Play" ID="{C4FEB7F7-7550-4FE9-B9A1-6C1291FA34CE}">
 					<ChildrenList>
 						<Action Name="" ID="{9D1D8E0F-3D0A-46C2-BD35-58336B7F5E8C}" ShortID="1033868264">
@@ -82,6 +68,34 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Portal" ID="{7DC1D22F-F3B8-4C56-AF2C-096D2E65C071}" WorkUnitID="{9656DA03-6571-4597-9DAC-062F16B8018B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Telekinesis_Start_Stop" ID="{E7D0CB32-437C-4969-8D40-0AD098869CE7}">
+					<ChildrenList>
+						<Action Name="" ID="{43977638-136A-48C6-9FE8-EBE1B4F086BC}" ShortID="913278539">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Whoosh loop telekinesis" ID="{C6D97D4E-244B-4652-B28B-031B3B796B24}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Telekinesis_Start_Play" ID="{0F8BD9D3-C285-499D-B755-5F3C3C3BA121}">
+					<ChildrenList>
+						<Action Name="" ID="{7AEFA051-C8B0-407A-84BA-9837DA11B635}" ShortID="1013879541">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Whoosh loop telekinesis" ID="{C6D97D4E-244B-4652-B28B-031B3B796B24}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -2,6 +2,7 @@
 <PluginInfo Project="MandragoWwise" Platform="Windows" BasePlatform="Windows">
 	<Plugins>
 		<Plugin Name="Wwise Parametric EQ" ID="6881283" DLL="AkParametricEQ"/>
+		<Plugin Name="Wwise Recorder" ID="8650755" DLL="AkRecorder"/>
 		<Plugin Name="System" ID="11403271" DLL="DefaultSink"/>
 		<Plugin Name="No Output" ID="11862023" DLL="DefaultSink"/>
 		<Plugin Name="Wwise Motion" ID="33226759" DLL="AkMotion"/>

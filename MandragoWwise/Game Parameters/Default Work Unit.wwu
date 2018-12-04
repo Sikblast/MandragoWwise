@@ -8,6 +8,7 @@
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Telekinesis" ID="{AD80F9B6-0B7F-49A9-81EF-42C0D1150491}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

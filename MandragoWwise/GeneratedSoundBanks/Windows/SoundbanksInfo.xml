@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -27,15 +27,16 @@
 				<Event Id="4032518562" Name="Portal_Stop" ObjectPath="\Events\Default Work Unit\Portal_Stop"/>
 				<Event Id="1683069208" Name="Telekinesis_End_Play" ObjectPath="\Events\Default Work Unit\Telekinesis_End_Play"/>
 				<Event Id="657070109" Name="Telekinesis_Start_Play" ObjectPath="\Events\Default Work Unit\Telekinesis_Start_Play"/>
+				<Event Id="2842912139" Name="Telekinesis_Start_Stop" ObjectPath="\Events\Default Work Unit\Telekinesis_Start_Stop"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="132330" Language="SFX">
 					<ShortName>Mini Portal.wav</ShortName>
 					<Path>SFX\Mini Portal_8956FC97.wem</Path>
 				</File>
-				<File Id="97446475" Language="SFX">
-					<ShortName>Grab Start 1.wav</ShortName>
-					<Path>SFX\Grab Start 1_56D34C19.wem</Path>
+				<File Id="113711360" Language="SFX">
+					<ShortName>Whoosh loop telekinesis.wav</ShortName>
+					<Path>SFX\Whoosh loop telekinesis_8956FC97.wem</Path>
 				</File>
 				<File Id="368691591" Language="SFX">
 					<ShortName>Cast Loop 2.wav</ShortName>
@@ -43,7 +44,7 @@
 				</File>
 				<File Id="391204473" Language="SFX">
 					<ShortName>Grab Reception 2.wav</ShortName>
-					<Path>SFX\Grab Reception 2_56D34C19.wem</Path>
+					<Path>SFX\Grab Reception 2_196144BA.wem</Path>
 				</File>
 				<File Id="474668960" Language="SFX">
 					<ShortName>Cast Loop 1.wav</ShortName>
@@ -52,10 +53,6 @@
 				<File Id="914488063" Language="SFX">
 					<ShortName>Cast Loop 3.wav</ShortName>
 					<Path>SFX\Cast Loop 3_8956FC97.wem</Path>
-				</File>
-				<File Id="1057113020" Language="SFX">
-					<ShortName>Grab Start 2.wav</ShortName>
-					<Path>SFX\Grab Start 2_56D34C19.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
