@@ -19,7 +19,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	132330	Portal	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Mini Portal_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\Ambiance\Portal		2553088
 	113711360	Whoosh loop telekinesis	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Whoosh loop telekinesis_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Telekinesis\Whoosh loop telekinesis		24618
 	368691591	Draw Loop 2	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 2_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Draw\Draw Loop 2		2160144
-	391204473	Telekinesis Reception	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Grab Reception 2_196144BA.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Telekinesis\Telekinesis Reception		93260
+	391204473	Telekinesis Reception	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Grab Reception 2_3819E370.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Telekinesis\Telekinesis Reception		93260
 	474668960	Draw Loop 1	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 1_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Draw\Draw Loop 1		1608144
 	914488063	Draw Loop 3	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 3_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Draw\Draw Loop 3		2796144
 

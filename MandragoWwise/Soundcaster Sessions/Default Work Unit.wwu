@@ -48,7 +48,7 @@
 							<Value>75</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="Telekinesis" ID="{AD80F9B6-0B7F-49A9-81EF-42C0D1150491}"/>
+							<GameParameterRef Name="Telekinesis_Speed" ID="{AD80F9B6-0B7F-49A9-81EF-42C0D1150491}"/>
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>

@@ -31,7 +31,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-12</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -83,6 +83,11 @@
 						<Sound Name="Draw Loop 3" ID="{8D09DE33-62AB-4715-8324-470E73D51130}" ShortID="231367981">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -160,7 +165,7 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-4.47728</YPos>
+														<YPos>-2.02915</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
@@ -212,7 +217,7 @@
 										<RTPC Name="" ID="{6ECDD626-3BFE-4F3E-AF47-F81F7E89FAAD}" ShortID="259160659">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="Telekinesis" ID="{AD80F9B6-0B7F-49A9-81EF-42C0D1150491}" WorkUnitID="{0D722370-0E00-46EF-B000-EC471E7F4B00}"/>
+													<ObjectRef Name="Telekinesis_Speed" ID="{AD80F9B6-0B7F-49A9-81EF-42C0D1150491}" WorkUnitID="{0D722370-0E00-46EF-B000-EC471E7F4B00}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{2019FD5C-C91D-4857-8473-2D86CBE0EF9D}">
@@ -222,12 +227,12 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>196</YPos>
+														<YPos>-612</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
 														<XPos>100</XPos>
-														<YPos>-194</YPos>
+														<YPos>374</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -246,6 +251,7 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
+												<Property Name="RadiusMax" Type="Real64" Value="5"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -262,8 +268,8 @@
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
-																	<YPos>-200</YPos>
+																	<XPos>5</XPos>
+																	<YPos>-16.75898</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
