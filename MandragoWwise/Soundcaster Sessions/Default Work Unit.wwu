@@ -81,7 +81,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Draw" ID="{17CE5216-1CEF-4F65-A497-82F1ED12B213}"/>
-							<Value>100</Value>
+							<Value>96.1616161616162</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
