@@ -34,13 +34,13 @@
 					<ShortName>Mini Portal.wav</ShortName>
 					<Path>SFX\Mini Portal_8956FC97.wem</Path>
 				</File>
-				<File Id="113711360" Language="SFX">
-					<ShortName>Whoosh loop telekinesis.wav</ShortName>
-					<Path>SFX\Whoosh loop telekinesis_8956FC97.wem</Path>
-				</File>
 				<File Id="368691591" Language="SFX">
 					<ShortName>Cast Loop 2.wav</ShortName>
 					<Path>SFX\Cast Loop 2_8956FC97.wem</Path>
+				</File>
+				<File Id="369881121" Language="SFX">
+					<ShortName>Test force field loop.wav</ShortName>
+					<Path>SFX\Test force field loop_8956FC97.wem</Path>
 				</File>
 				<File Id="391204473" Language="SFX">
 					<ShortName>Grab Reception 2.wav</ShortName>

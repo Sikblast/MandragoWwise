@@ -31,20 +31,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Telekinesis_End_Play" ID="{C4FEB7F7-7550-4FE9-B9A1-6C1291FA34CE}">
-					<ChildrenList>
-						<Action Name="" ID="{9D1D8E0F-3D0A-46C2-BD35-58336B7F5E8C}" ShortID="1033868264">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Telekinesis Reception" ID="{D7150C60-7B0B-4217-A2F8-755563EF14E4}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Portal_Play" ID="{D523AA29-B8BC-41F7-8011-4B90848E3A99}">
 					<ChildrenList>
 						<Action Name="" ID="{FABE64C6-6F92-4BC8-83ED-B8EAF1D3C99A}" ShortID="583264923">
@@ -73,29 +59,71 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Telekinesis_Start_Stop" ID="{E7D0CB32-437C-4969-8D40-0AD098869CE7}">
+				<Event Name="Telekinesis_Object_Play" ID="{085D63B1-6211-442C-977F-B52B40FD862B}">
 					<ChildrenList>
-						<Action Name="" ID="{43977638-136A-48C6-9FE8-EBE1B4F086BC}" ShortID="913278539">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Whoosh loop telekinesis" ID="{C6D97D4E-244B-4652-B28B-031B3B796B24}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Telekinesis_Start_Play" ID="{0F8BD9D3-C285-499D-B755-5F3C3C3BA121}">
-					<ChildrenList>
-						<Action Name="" ID="{7AEFA051-C8B0-407A-84BA-9837DA11B635}" ShortID="1013879541">
+						<Action Name="" ID="{CEF10F5B-C4E1-4788-9265-F7D31D255615}" ShortID="948201436">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Whoosh loop telekinesis" ID="{C6D97D4E-244B-4652-B28B-031B3B796B24}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
+									<ObjectRef Name="Telekinesis Object" ID="{D56BE8A9-2398-4C5B-B90A-FECB31AF5DDE}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Telekinesis_Object_Stop" ID="{0D7BAD65-AE81-4121-A291-DF6AA1A84AD6}">
+					<ChildrenList>
+						<Action Name="" ID="{B5C0DAA3-A504-4ED0-A661-689979BBAA4F}" ShortID="280087154">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Telekinesis Object" ID="{D56BE8A9-2398-4C5B-B90A-FECB31AF5DDE}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Telekinesis_Hand_Play" ID="{25950166-31A7-41FE-A1C0-0C3DFE377AD7}">
+					<ChildrenList>
+						<Action Name="" ID="{6B4AF3C1-0399-4001-8769-472BCA5F23AD}" ShortID="254202915">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Telekinesis Hand" ID="{9B6BFA89-37A6-4FE4-8AA9-388D2C6D0555}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Telekinesis_Hand_Stop" ID="{3EF815B9-0916-41DE-85EE-10A150800583}">
+					<ChildrenList>
+						<Action Name="" ID="{B5D7C73B-7B54-40D0-AD6D-D5EBE04AC10D}" ShortID="499540903">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Telekinesis Hand" ID="{9B6BFA89-37A6-4FE4-8AA9-388D2C6D0555}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Telekinesis_Grab_Play" ID="{BCF7FBDA-1936-451E-9FE4-956DEA3FE184}">
+					<ChildrenList>
+						<Action Name="" ID="{428C1FAC-B1FA-499A-B37B-952DDEBD8323}" ShortID="536062235">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Telekinesis Reception" ID="{D7150C60-7B0B-4217-A2F8-755563EF14E4}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -209,54 +209,67 @@
 								<ActiveSource Name="Grab Reception 2" ID="{45AEB35E-A310-4EAB-BD91-6C1B502E65DB}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Whoosh loop telekinesis" ID="{C6D97D4E-244B-4652-B28B-031B3B796B24}" ShortID="1043440880">
+						<Sound Name="Telekinesis Hand" ID="{9B6BFA89-37A6-4FE4-8AA9-388D2C6D0555}" ShortID="570896830">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Drone Low Wind Voice Smooth" ID="{4E92D3EA-942E-41A6-B962-81A5A18D32B0}" ShortID="151067743">
+									<Language>SFX</Language>
+									<AudioFile>Drone Low Wind Voice Smooth.wav</AudioFile>
+								</AudioFileSource>
+								<AudioFileSource Name="Drone Low Wind Voice Sub" ID="{F6B41C03-FB1D-49DA-B037-FE2364F7855C}" ShortID="752121456">
+									<Language>SFX</Language>
+									<AudioFile>Drone Low Wind Voice Sub.wav</AudioFile>
+								</AudioFileSource>
+								<AudioFileSource Name="Drone Pipe Wistle" ID="{85BCAA3B-B75B-4E69-9F0F-33E2BB74036B}" ShortID="130746212">
+									<Language>SFX</Language>
+									<AudioFile>Drone Pipe Wistle.wav</AudioFile>
+								</AudioFileSource>
+								<AudioFileSource Name="Drone Wind Low Airflow" ID="{7FE673A2-473E-4103-BC69-64BB282F1DB6}" ShortID="370049992">
+									<Language>SFX</Language>
+									<AudioFile>Drone Wind Low Airflow.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Drone Wind Low Airflow" ID="{7FE673A2-473E-4103-BC69-64BB282F1DB6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Telekinesis Object" ID="{D56BE8A9-2398-4C5B-B90A-FECB31AF5DDE}" ShortID="788293277">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Pitch" Type="int32">
-									<RTPCList>
-										<RTPC Name="" ID="{6ECDD626-3BFE-4F3E-AF47-F81F7E89FAAD}" ShortID="259160659">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="Telekinesis_Speed" ID="{AD80F9B6-0B7F-49A9-81EF-42C0D1150491}" WorkUnitID="{0D722370-0E00-46EF-B000-EC471E7F4B00}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{2019FD5C-C91D-4857-8473-2D86CBE0EF9D}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="65537"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-612</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>374</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
 									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{B08A00C7-8EB1-4374-B363-E9A9B46838FA}" ShortID="225882251">
+										<Attenuation Name="Attenuation (Custom)" ID="{128E6DFA-CBC2-4354-A01F-B0793E18E080}" ShortID="855554847">
 											<PropertyList>
 												<Property Name="ConeUse" Type="bool">
 													<ValueList>
 														<Value>True</Value>
 													</ValueList>
 												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="5"/>
+												<Property Name="RadiusMax" Type="Real64" Value="3"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{C9056202-483C-4FF7-9B5D-3B3FA8C64006}">
+														<Curve Name="VolumeDry" ID="{892656A3-B2ED-4E83-B6BD-894BCACAFE2F}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -268,8 +281,8 @@
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>5</XPos>
-																	<YPos>-16.75898</YPos>
+																	<XPos>3</XPos>
+																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -283,7 +296,25 @@
 													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="LowPassFilter" ID="{4A00308D-4CB3-4ED0-AE2C-1E311BB462E1}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>3</XPos>
+																	<YPos>100</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</LowPassFilterUsage>
 												<HighPassFilterUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -306,13 +337,17 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Whoosh loop telekinesis" ID="{0B514CAC-2A8A-40E2-96DC-B1F885945716}" ShortID="113711360">
+								<AudioFileSource Name="Airy Grab Object" ID="{723452E7-C12F-4C88-BFE2-BF6E31D3609D}" ShortID="3731931">
 									<Language>SFX</Language>
-									<AudioFile>Whoosh loop telekinesis.wav</AudioFile>
+									<AudioFile>Airy Grab Object.wav</AudioFile>
+								</AudioFileSource>
+								<AudioFileSource Name="Singing Pip Drone high" ID="{CFAF0784-B23B-4AA2-AC7A-3C518E41E622}" ShortID="658092478">
+									<Language>SFX</Language>
+									<AudioFile>Singing Pip Drone high.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Whoosh loop telekinesis" ID="{0B514CAC-2A8A-40E2-96DC-B1F885945716}" Platform="Linked"/>
+								<ActiveSource Name="Singing Pip Drone high" ID="{CFAF0784-B23B-4AA2-AC7A-3C518E41E622}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
