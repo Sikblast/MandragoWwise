@@ -25,9 +25,11 @@
 				<Event Id="166240794" Name="Draw_Stop" ObjectPath="\Events\Default Work Unit\Draw_Stop"/>
 				<Event Id="1394292256" Name="Portal_Play" ObjectPath="\Events\Default Work Unit\Portal_Play"/>
 				<Event Id="4032518562" Name="Portal_Stop" ObjectPath="\Events\Default Work Unit\Portal_Stop"/>
-				<Event Id="1683069208" Name="Telekinesis_End_Play" ObjectPath="\Events\Default Work Unit\Telekinesis_End_Play"/>
-				<Event Id="657070109" Name="Telekinesis_Start_Play" ObjectPath="\Events\Default Work Unit\Telekinesis_Start_Play"/>
-				<Event Id="2842912139" Name="Telekinesis_Start_Stop" ObjectPath="\Events\Default Work Unit\Telekinesis_Start_Stop"/>
+				<Event Id="350557399" Name="Telekinesis_Grab_Play" ObjectPath="\Events\Default Work Unit\Telekinesis_Grab_Play"/>
+				<Event Id="3425656180" Name="Telekinesis_Hand_Play" ObjectPath="\Events\Default Work Unit\Telekinesis_Hand_Play"/>
+				<Event Id="834591310" Name="Telekinesis_Hand_Stop" ObjectPath="\Events\Default Work Unit\Telekinesis_Hand_Stop"/>
+				<Event Id="2323001974" Name="Telekinesis_Object_Play" ObjectPath="\Events\Default Work Unit\Telekinesis_Object_Play"/>
+				<Event Id="3095115784" Name="Telekinesis_Object_Stop" ObjectPath="\Events\Default Work Unit\Telekinesis_Object_Stop"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="132330" Language="SFX">
@@ -38,9 +40,9 @@
 					<ShortName>Cast Loop 2.wav</ShortName>
 					<Path>SFX\Cast Loop 2_8956FC97.wem</Path>
 				</File>
-				<File Id="369881121" Language="SFX">
-					<ShortName>Test force field loop.wav</ShortName>
-					<Path>SFX\Test force field loop_8956FC97.wem</Path>
+				<File Id="370049992" Language="SFX">
+					<ShortName>Drone Wind Low Airflow.wav</ShortName>
+					<Path>SFX\Drone Wind Low Airflow_8956FC97.wem</Path>
 				</File>
 				<File Id="391204473" Language="SFX">
 					<ShortName>Grab Reception 2.wav</ShortName>
@@ -49,6 +51,10 @@
 				<File Id="474668960" Language="SFX">
 					<ShortName>Cast Loop 1.wav</ShortName>
 					<Path>SFX\Cast Loop 1_8956FC97.wem</Path>
+				</File>
+				<File Id="658092478" Language="SFX">
+					<ShortName>Singing Pip Drone high.wav</ShortName>
+					<Path>SFX\Singing Pip Drone high_8956FC97.wem</Path>
 				</File>
 				<File Id="914488063" Language="SFX">
 					<ShortName>Cast Loop 3.wav</ShortName>

@@ -6,7 +6,7 @@
 				<SoundcasterSession Name="Soundcaster" ID="{9250AAFA-73AC-4DB4-BC19-445060B5CA2B}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Telekinesis_Hand_Stop" ID="{3EF815B9-0916-41DE-85EE-10A150800583}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
+							<ObjectRef Name="Telekinesis_Object_Play" ID="{085D63B1-6211-442C-977F-B52B40FD862B}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
@@ -18,8 +18,8 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Telekinesis_Object_Play" ID="{085D63B1-6211-442C-977F-B52B40FD862B}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
-							<Position X="2" Y="0"/>
+							<ObjectRef Name="Telekinesis_Hand_Stop" ID="{3EF815B9-0916-41DE-85EE-10A150800583}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
+							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Telekinesis_Grab_Play" ID="{BCF7FBDA-1936-451E-9FE4-956DEA3FE184}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>

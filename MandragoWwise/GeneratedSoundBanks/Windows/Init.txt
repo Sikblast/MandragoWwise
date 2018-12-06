@@ -21,7 +21,6 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	270226430	Medium_Room_AHP	Auro Headphone			
-	1030353756	Wwise Recorder (Custom)	Wwise Recorder			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
