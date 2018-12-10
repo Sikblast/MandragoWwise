@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<MusicSwitchContainer Name="Sun" ID="{2148AA56-BE9F-4039-A33D-A42F4F03583A}" ShortID="80773175">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-6</Value>
@@ -12,6 +13,105 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{6B1DE66C-7E1D-4750-8310-628A082179B3}" ShortID="216461534">
+									<PropertyList>
+										<Property Name="ConeUse" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RadiusMax" Type="Real64" Value="6"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{64A3F319-2B86-4072-B8B0-C902E2713A7E}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Log3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>6</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="LowPassFilter" ID="{E3EC8EC4-DB5E-4DED-B1A7-AADCFE5F8199}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>7</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Exp3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>5.999</XPos>
+															<YPos>33</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Exp3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>6</XPos>
+															<YPos>33</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="Spread" ID="{F53E264C-A377-4600-B063-FC7F722C42C3}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="1"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>100</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>6</XPos>
+															<YPos>0</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 						</Reference>

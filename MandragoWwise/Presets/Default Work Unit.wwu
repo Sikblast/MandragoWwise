@@ -3,19 +3,27 @@
 	<Presets>
 		<WorkUnit Name="Default Work Unit" ID="{FF6008C8-2D84-4FBC-A213-B1073EB91C59}" PersistMode="Standalone">
 			<ChildrenList>
-				<Attenuation Name="Telekinesis Object Attenuation" ID="{4CD97AEE-9E8F-40C0-9697-4BDA8BD28F0A}">
+				<Effect Name="Test Auro Preset" ID="{DDD398D3-039A-475B-B57A-BFEDA563AD1D}" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
+					<PropertyList>
+						<Property Name="ER_Level" Type="Real32" Value="-3"/>
+						<Property Name="Reverb_level" Type="Real32" Value="-16"/>
+						<Property Name="Reverb_predelay" Type="Real32" Value="5"/>
+						<Property Name="Src_distance" Type="Real32" Value="2"/>
+					</PropertyList>
+				</Effect>
+				<Attenuation Name="Telekinesis Object Attenuation" ID="{091D6692-8500-4793-BF43-5FB75B550F29}">
 					<PropertyList>
 						<Property Name="ConeUse" Type="bool">
 							<ValueList>
 								<Value>True</Value>
 							</ValueList>
 						</Property>
-						<Property Name="RadiusMax" Type="Real64" Value="3"/>
+						<Property Name="RadiusMax" Type="Real64" Value="6"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-								<Curve Name="VolumeDry" ID="{26EDAB4A-D428-4ABF-B3DE-3F0B116B3014}">
+								<Curve Name="VolumeDry" ID="{474A21E4-7922-421D-8CBA-4DE5AE2608FC}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="3"/>
 									</PropertyList>
@@ -27,7 +35,7 @@
 											<SegmentShape>Log3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>3</XPos>
+											<XPos>6</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -43,19 +51,26 @@
 						</VolumeWetUserUsage>
 						<LowPassFilterUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-								<Curve Name="LowPassFilter" ID="{917B7AA7-7143-4FAC-9014-EE0B68369FE7}">
+								<Curve Name="LowPassFilter" ID="{AC9E1C0B-53AF-41E9-A675-A0102A86D387}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="65537"/>
 									</PropertyList>
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>0</YPos>
+											<YPos>7</YPos>
 											<Flags>5</Flags>
+											<SegmentShape>Exp3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>3</XPos>
-											<YPos>100</YPos>
+											<XPos>5.999</XPos>
+											<YPos>33</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Exp3</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>6</XPos>
+											<YPos>33</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -66,21 +81,31 @@
 							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 						</HighPassFilterUsage>
 						<SpreadUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="Spread" ID="{A1CE7109-762D-431C-BE17-F53043C06421}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="1"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>100</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>6</XPos>
+											<YPos>0</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
 						</SpreadUsage>
 						<FocusUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 						</FocusUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
-				<Effect Name="Test Auro Preset" ID="{DDD398D3-039A-475B-B57A-BFEDA563AD1D}" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
-					<PropertyList>
-						<Property Name="ER_Level" Type="Real32" Value="-3"/>
-						<Property Name="Reverb_level" Type="Real32" Value="-16"/>
-						<Property Name="Reverb_predelay" Type="Real32" Value="5"/>
-						<Property Name="Src_distance" Type="Real32" Value="2"/>
-					</PropertyList>
-				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Presets>
