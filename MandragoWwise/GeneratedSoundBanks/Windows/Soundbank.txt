@@ -13,15 +13,15 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1912241455	Draw			\Default Work Unit\Draw	
 
 Effect plug-ins	ID	Name	Type				Notes
-	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
-	3604890626	High_Pass_60Hz	Wwise Parametric EQ			
+	438210938	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	858623349	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	132330	Portal	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Mini Portal_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\Ambiance\Portal		2553088
-	368691591	Draw Loop 2	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 2_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Draw\Draw Loop 2		2160144
-	370049992	Telekinesis Hand	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Drone Wind Low Airflow_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Telekinesis\Telekinesis Hand		5568064
-	391204473	Telekinesis Reception	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Grab Reception 2_3819E370.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Telekinesis\Telekinesis Reception		93260
-	474668960	Draw Loop 1	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 1_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Draw\Draw Loop 1		1608144
-	658092478	Telekinesis Object	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Singing Pip Drone high_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Telekinesis\Telekinesis Object		792064
-	914488063	Draw Loop 3	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 3_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Draw\Draw Loop 3		2796144
+	132330	Portal	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Mini Portal_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\Ambiance\Mix Amb\Portal		2553088
+	368691591	Draw Loop 2	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 2_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Mix SFX\Draw\Draw Loop 2		2160144
+	391204473	Telekinesis Reception	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Grab Reception 2_ECD17D5C.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Mix SFX\Telekinesis\Telekinesis Reception		41368
+	474668960	Draw Loop 1	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 1_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Mix SFX\Draw\Draw Loop 1		1608144
+	658092478	Telekinesis Object	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Singing Pip Drone high_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Mix SFX\Telekinesis\Telekinesis Object		792064
+	752121456	Telekinesis Hand	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Drone Low Wind Voice Sub_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Mix SFX\Telekinesis\Telekinesis Hand		2832064
+	914488063	Draw Loop 3	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 3_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Mix SFX\Draw\Draw Loop 3		2796144
 

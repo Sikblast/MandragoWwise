@@ -14,12 +14,20 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Draw" ID="{75531130-AB7E-4A45-AA39-5ED16DF571DF}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Telekinesis_Hand_Play" ID="{25950166-31A7-41FE-A1C0-0C3DFE377AD7}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Telekinesis_Hand_Stop" ID="{3EF815B9-0916-41DE-85EE-10A150800583}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
 							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Musique codex stereo" ID="{21140427-58C4-4F52-B99F-23E7952DBB96}" WorkUnitID="{9656DA03-6571-4597-9DAC-062F16B8018B}"/>
+							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Telekinesis_Grab_Play" ID="{BCF7FBDA-1936-451E-9FE4-956DEA3FE184}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
@@ -81,7 +89,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Draw" ID="{17CE5216-1CEF-4F65-A497-82F1ED12B213}"/>
-							<Value>96.1616161616162</Value>
+							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>

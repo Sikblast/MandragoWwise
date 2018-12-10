@@ -8,6 +8,18 @@
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{874FED14-6203-4B7C-B6DB-8DF50476698D}" WorkUnitID="{0C657EB2-E32D-4DD4-8C2D-B33BA4FBFB81}"/>
 						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Auro Headphone (Custom)" ID="{F7C85144-3626-4A99-8EB5-971A8BF70D6A}" ShortID="591425947" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
+									<PropertyList>
+										<Property Name="ER_Level" Type="Real32" Value="-3"/>
+										<Property Name="Reverb_level" Type="Real32" Value="-16"/>
+										<Property Name="Reverb_predelay" Type="Real32" Value="5"/>
+										<Property Name="Src_distance" Type="Real32" Value="2"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}">
@@ -23,6 +35,15 @@
 									<ObjectRef Name="Medium_Room_AHP" ID="{084C1341-345B-44C4-88FE-89EA007AEDB3}" WorkUnitID="{B3C352EE-53F0-4C95-BAA9-B8ECC0034D25}"/>
 								</Reference>
 							</ReferenceList>
+						</Bus>
+						<Bus Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>6353158</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 						</Bus>
 					</ChildrenList>
 				</Bus>

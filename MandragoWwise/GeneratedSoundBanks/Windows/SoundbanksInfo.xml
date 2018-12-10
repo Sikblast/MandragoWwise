@@ -40,13 +40,9 @@
 					<ShortName>Cast Loop 2.wav</ShortName>
 					<Path>SFX\Cast Loop 2_8956FC97.wem</Path>
 				</File>
-				<File Id="370049992" Language="SFX">
-					<ShortName>Drone Wind Low Airflow.wav</ShortName>
-					<Path>SFX\Drone Wind Low Airflow_8956FC97.wem</Path>
-				</File>
 				<File Id="391204473" Language="SFX">
 					<ShortName>Grab Reception 2.wav</ShortName>
-					<Path>SFX\Grab Reception 2_3819E370.wem</Path>
+					<Path>SFX\Grab Reception 2_ECD17D5C.wem</Path>
 				</File>
 				<File Id="474668960" Language="SFX">
 					<ShortName>Cast Loop 1.wav</ShortName>
@@ -55,6 +51,10 @@
 				<File Id="658092478" Language="SFX">
 					<ShortName>Singing Pip Drone high.wav</ShortName>
 					<Path>SFX\Singing Pip Drone high_8956FC97.wem</Path>
+				</File>
+				<File Id="752121456" Language="SFX">
+					<ShortName>Drone Low Wind Voice Sub.wav</ShortName>
+					<Path>SFX\Drone Low Wind Voice Sub_8956FC97.wem</Path>
 				</File>
 				<File Id="914488063" Language="SFX">
 					<ShortName>Cast Loop 3.wav</ShortName>
