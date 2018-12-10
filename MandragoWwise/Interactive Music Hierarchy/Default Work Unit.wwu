@@ -1,6 +1,688 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{57CBA82D-39B2-44B7-9A56-9127E03E86F7}" SchemaVersion="89">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{57CBA82D-39B2-44B7-9A56-9127E03E86F7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{57CBA82D-39B2-44B7-9A56-9127E03E86F7}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="Sun" ID="{2148AA56-BE9F-4039-A33D-A42F4F03583A}" ShortID="80773175">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="1 Planet" ID="{9D9205AD-2053-4646-AE88-CA84447A0675}" ShortID="920205225">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="1 Planet" ID="{99B0060C-2EDB-44D6-BBB5-F9954828F593}" ShortID="543496179">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="32000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Philosophia" ID="{23FC375C-6999-4CB3-AB6F-F927AA7BD015}" ShortID="664308106">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Philosophia" ID="{D02588C3-E83C-4A59-9439-D05FC3050F90}" ShortID="273450164">
+													<Language>SFX</Language>
+													<AudioFile>Philosophia.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E8FD560C-76BA-4FC1-AF74-FBFAD7137A9D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{7F8069B8-4A92-4B41-947D-955077E49337}">
+													<ClipList>
+														<MusicClip Name="Philosophia" ID="{4DA49525-C7FE-4B55-B3A3-1F22D7C0C3AD}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="32000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Philosophia" ID="{D02588C3-E83C-4A59-9439-D05FC3050F90}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{0B770D1C-EEC3-46FE-ABF7-46C01D8D8BD3}"/>
+										<MusicCue Name="Exit Cue" ID="{994E6719-A947-4DC9-BC83-6C6ED95B221B}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="32000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Planets_Orbit" ID="{170DE9E9-E130-4983-A45A-418C785C0B86}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Three" ID="{FFF21CDE-C50F-435E-90A7-F1934BE24666}"/>
+										<State Name="" ID="{42E80337-5D5E-406D-90FC-D3404D9C0500}" ShortID="822940168"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="One" ID="{6B4ACC89-FAEE-46E0-8106-BA93989FBD7F}"/>
+										<State Name="" ID="{77E48ED3-9E97-4F7C-BD52-0DEC9E99E6FD}" ShortID="304038544"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Two" ID="{2A7BDE9E-1AAB-4B4B-B207-C6999322A12B}"/>
+										<State Name="" ID="{D462B87C-A7AA-48EA-97CF-A376022F4CA8}" ShortID="986791566"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Four" ID="{16546B11-C9B6-4C90-B7D4-776B4EFEFF3A}"/>
+										<State Name="" ID="{B887B883-807C-4D21-BE60-C2D0E4AC2A6B}" ShortID="826939504"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{400DF2D7-317F-4755-990F-F403F944B6A7}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{FEE0FF9B-5D09-446D-8C2E-F4ADAA0386AC}">
+											<PropertyList>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{2CC7E139-C83A-4457-A040-A07E475C2647}">
+														<PropertyList>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{D4DB2643-5B20-4645-9383-FF57435F9494}"/>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{33BB7306-303B-4627-A20C-44A6EB2E0E52}" ShortID="21092715">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{ACD72009-7255-4C84-A075-02EBB7B6EAC5}" ShortID="256655661">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="1 Planet" ID="{99B0060C-2EDB-44D6-BBB5-F9954828F593}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="2 Planets" ID="{DF10C8B7-763D-4386-954A-12AD630BA7C2}" ShortID="187742242">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="2 Planets" ID="{6171FC41-C456-405E-BE0E-D62F669A90F7}" ShortID="514884996">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="32000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Kuroiso" ID="{304BAC1E-5CC0-40DA-9BDF-3DA0AC5D83B8}" ShortID="879242278">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Kuroiso" ID="{6D60D5E6-8BF7-4B37-8AA5-65FFAA035567}" ShortID="906384858">
+													<Language>SFX</Language>
+													<AudioFile>Kuroiso.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{A5FA8FAE-1BA4-4330-99C6-1EF8C02B5DF8}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{EEDE8F80-C0D5-4F83-8D10-9DCB44C72B95}">
+													<ClipList>
+														<MusicClip Name="Kuroiso" ID="{4A271CE3-7716-4303-9FAB-896D12134273}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="32000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Kuroiso" ID="{6D60D5E6-8BF7-4B37-8AA5-65FFAA035567}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Philosophia" ID="{94BE7B25-08F1-4728-ABFB-0CD8643334B3}" ShortID="742597313">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Philosophia" ID="{C54D94C3-2073-47B0-B3F5-0F740D2BEE2F}" ShortID="886893719">
+													<Language>SFX</Language>
+													<AudioFile>Philosophia.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="273450164"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{DF03ABB3-8428-4F9A-8EA8-2AF58B6C6591}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{8538CEBC-8607-4E23-AF65-9B6D0789F31B}">
+													<ClipList>
+														<MusicClip Name="Philosophia" ID="{D7943BC0-42D6-4499-9338-AF6FC02DD768}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="32000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Philosophia" ID="{C54D94C3-2073-47B0-B3F5-0F740D2BEE2F}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{D4CB19C9-C4E5-45C4-AC6C-207F676BA50B}"/>
+										<MusicCue Name="Exit Cue" ID="{34274D06-2910-4185-A427-BFB195BD4C71}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="32000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{ECF5E516-B963-4921-B4D1-4E4F8CF170C2}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{55C88185-C691-423B-ACFD-DED886C9AFBC}">
+											<PropertyList>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{EA341DF9-5451-4677-99A2-B98B61E5CAB7}">
+														<PropertyList>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+											</TransitionInfo>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{2A3B4F5C-B26B-4980-B725-C191580DB15B}" ShortID="167817377">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{2EAEA780-6CB9-412A-ADF7-1CCE3234D7D4}" ShortID="716742838">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="2 Planets" ID="{6171FC41-C456-405E-BE0E-D62F669A90F7}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="4 Planets" ID="{7822093D-C62E-4F3D-8D9F-109C2A536E87}" ShortID="538187727">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="4 Planets" ID="{7FD03332-7FB7-4CD3-B393-F2ABBA75AF04}" ShortID="176804409">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="32000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+										</Reference>
+									</ReferenceList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{E7B25722-9593-49C1-9153-BCC0E075B928}"/>
+										<MusicCue Name="Exit Cue" ID="{1FB709BE-3AE2-4FDF-9E03-C2916A29CA96}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="1000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{E145E4E3-365C-4C85-841C-61BFA9102EDA}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{1769B799-7BFE-4857-930A-F38FD0D4CCDE}">
+											<PropertyList>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{F6AEE0FD-F5AF-4214-A32D-5B68A120049A}" ShortID="564572806">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{484B6D0F-A3A4-4407-A9A7-0E145FD5B108}" ShortID="650409256">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="4 Planets" ID="{7FD03332-7FB7-4CD3-B393-F2ABBA75AF04}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="3 Planets" ID="{AA973E2A-2489-4C04-B9FF-80CC266AB5A3}" ShortID="211696318">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="3 Planets" ID="{DC00A449-75E4-465B-AFB5-794CDD0F6FF2}" ShortID="978222974">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="35531.8275154004"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Galactic Dust" ID="{4B87184A-0FA3-4226-BF71-074CF53D4C81}" ShortID="83382475">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Galactic Dust" ID="{AAF7ABEB-7E88-487C-94BC-515A78B63CC1}" ShortID="988712491">
+													<Language>SFX</Language>
+													<AudioFile>Galactic Dust.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E48C8732-4EAC-4ECF-9ACD-D975DB28D130}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{4384161F-865E-4C0B-B195-99FEF4EEB0A3}">
+													<ClipList>
+														<MusicClip Name="Galactic Dust" ID="{AA4F53A1-8940-4BA3-A831-F24059A1144B}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="32000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Galactic Dust" ID="{AAF7ABEB-7E88-487C-94BC-515A78B63CC1}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Kuroiso" ID="{217E89A0-9E2D-4ABB-ADAB-5E0437AFCCD9}" ShortID="979808609">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Kuroiso" ID="{7617E71F-E439-4E36-BE9D-B5DD2DE3175C}" ShortID="350221274">
+													<Language>SFX</Language>
+													<AudioFile>Kuroiso.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="906384858"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{4A8D7C79-BD2B-48BF-A6A9-BA3DCAEDF011}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{598E984E-55F0-4B7F-86FA-DFD61B93D2F5}">
+													<ClipList>
+														<MusicClip Name="Kuroiso" ID="{14105ADE-CC23-415A-B2E6-4ADC3754A834}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="32000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Kuroiso" ID="{7617E71F-E439-4E36-BE9D-B5DD2DE3175C}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Philosophia" ID="{75DBD338-DE82-4BB6-B1AC-FC58C1EA5AEC}" ShortID="825222001">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Philosophia" ID="{97405FFB-7CA8-4B2F-83E4-C1412851E63C}" ShortID="558068835">
+													<Language>SFX</Language>
+													<AudioFile>Philosophia.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="273450164"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{3B912754-06FF-466C-8D67-AE460C2376AE}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{198A21DD-0DB6-4DB0-9F6D-808A140B7492}">
+													<ClipList>
+														<MusicClip Name="Philosophia" ID="{01F66FC8-F515-4C15-B18C-9694E5BF70E1}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="32000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Philosophia" ID="{97405FFB-7CA8-4B2F-83E4-C1412851E63C}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{9F2A87A1-CB27-4773-A298-E9FD99620D3A}"/>
+										<MusicCue Name="Exit Cue" ID="{CB8B3070-1FF2-4F14-A71E-58F0CD75271F}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="32000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{567C81A8-0596-4CEE-A0FD-4A1C5011A8B6}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{F01E822E-06B0-4BEA-9ED5-91A858CC9ED5}">
+											<PropertyList>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{A01D0883-9F2D-487B-9AF0-2D6FADC6E37A}">
+														<PropertyList>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{5E17596C-69C3-48A5-A666-9C3E0CCD5240}"/>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{FCD674F6-AC8E-4019-A27D-085EFF48D3CD}" ShortID="357891027">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{A5478BAA-D3E8-4652-B6D1-5EECD38E41ED}" ShortID="811339185">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="3 Planets" ID="{DC00A449-75E4-465B-AFB5-794CDD0F6FF2}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Planets_Orbit" ID="{170DE9E9-E130-4983-A45A-418C785C0B86}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Three" ID="{FFF21CDE-C50F-435E-90A7-F1934BE24666}"/>
+								<State Name="" ID="{8C3DD8B0-7F6B-41CF-ABE3-06F53F2C30F9}" ShortID="527870816"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="One" ID="{6B4ACC89-FAEE-46E0-8106-BA93989FBD7F}"/>
+								<State Name="" ID="{D73D24DC-E7A2-483C-95F1-C0841BF1E4DC}" ShortID="1038217029"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Two" ID="{2A7BDE9E-1AAB-4B4B-B207-C6999322A12B}"/>
+								<State Name="" ID="{7BEA4BF2-8686-4CC4-AAEB-805327F5F560}" ShortID="163596427"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Four" ID="{16546B11-C9B6-4C90-B7D4-776B4EFEFF3A}"/>
+								<State Name="" ID="{D855193F-3535-4A37-8ACE-1FAD48C56A99}" ShortID="674152401"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{8F741523-60F0-4285-8B3B-9BB2E16D02AC}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{9FC5423A-C144-4A61-856C-1DB35719EAE5}">
+									<PropertyList>
+										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+									</PropertyList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{1043E44C-733F-441F-AFCA-4B4CBFA909EB}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="1.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="3"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{ED91F3DD-6BCE-40A3-997D-8D7BEEBFB749}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="-1.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="3"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Planets_Orbit" ID="{170DE9E9-E130-4983-A45A-418C785C0B86}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Planets_Orbit" ID="{170DE9E9-E130-4983-A45A-418C785C0B86}"/>
+							</Path>
+							<AudioNodeInfo>
+								<NoObject Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="One" ID="{6B4ACC89-FAEE-46E0-8106-BA93989FBD7F}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="1 Planet" ID="{9D9205AD-2053-4646-AE88-CA84447A0675}" WorkUnitID="{57CBA82D-39B2-44B7-9A56-9127E03E86F7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Two" ID="{2A7BDE9E-1AAB-4B4B-B207-C6999322A12B}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="2 Planets" ID="{DF10C8B7-763D-4386-954A-12AD630BA7C2}" WorkUnitID="{57CBA82D-39B2-44B7-9A56-9127E03E86F7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Three" ID="{FFF21CDE-C50F-435E-90A7-F1934BE24666}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="3 Planets" ID="{AA973E2A-2489-4C04-B9FF-80CC266AB5A3}" WorkUnitID="{57CBA82D-39B2-44B7-9A56-9127E03E86F7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Four" ID="{16546B11-C9B6-4C90-B7D4-776B4EFEFF3A}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="4 Planets" ID="{7822093D-C62E-4F3D-8D9F-109C2A536E87}" WorkUnitID="{57CBA82D-39B2-44B7-9A56-9127E03E86F7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

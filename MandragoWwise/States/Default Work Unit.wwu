@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{62CB2D2A-5277-417B-A4F7-231DF81719A5}" SchemaVersion="89">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{62CB2D2A-5277-417B-A4F7-231DF81719A5}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{62CB2D2A-5277-417B-A4F7-231DF81719A5}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Planets_Orbit" ID="{170DE9E9-E130-4983-A45A-418C785C0B86}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{174BBBE7-162B-44A8-97CA-F05AC47DBD95}"/>
+						<State Name="One" ID="{6B4ACC89-FAEE-46E0-8106-BA93989FBD7F}"/>
+						<State Name="Two" ID="{2A7BDE9E-1AAB-4B4B-B207-C6999322A12B}"/>
+						<State Name="Three" ID="{FFF21CDE-C50F-435E-90A7-F1934BE24666}"/>
+						<State Name="Four" ID="{16546B11-C9B6-4C90-B7D4-776B4EFEFF3A}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

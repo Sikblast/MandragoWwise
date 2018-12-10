@@ -23,18 +23,39 @@
 			<IncludedEvents>
 				<Event Id="2083537832" Name="Draw_Play" ObjectPath="\Events\Default Work Unit\Draw_Play"/>
 				<Event Id="166240794" Name="Draw_Stop" ObjectPath="\Events\Default Work Unit\Draw_Stop"/>
+				<Event Id="3908603903" Name="Planet_Orbit_Play" ObjectPath="\Events\Default Work Unit\Planet_Orbit_Play"/>
+				<Event Id="3441388573" Name="Planet_Orbit_Stop" ObjectPath="\Events\Default Work Unit\Planet_Orbit_Stop"/>
 				<Event Id="1394292256" Name="Portal_Play" ObjectPath="\Events\Default Work Unit\Portal_Play"/>
 				<Event Id="4032518562" Name="Portal_Stop" ObjectPath="\Events\Default Work Unit\Portal_Stop"/>
+				<Event Id="3578106302" Name="Sun_Play" ObjectPath="\Events\Default Work Unit\Sun_Play"/>
+				<Event Id="279455104" Name="Sun_Stop" ObjectPath="\Events\Default Work Unit\Sun_Stop"/>
 				<Event Id="350557399" Name="Telekinesis_Grab_Play" ObjectPath="\Events\Default Work Unit\Telekinesis_Grab_Play"/>
 				<Event Id="3425656180" Name="Telekinesis_Hand_Play" ObjectPath="\Events\Default Work Unit\Telekinesis_Hand_Play"/>
 				<Event Id="834591310" Name="Telekinesis_Hand_Stop" ObjectPath="\Events\Default Work Unit\Telekinesis_Hand_Stop"/>
 				<Event Id="2323001974" Name="Telekinesis_Object_Play" ObjectPath="\Events\Default Work Unit\Telekinesis_Object_Play"/>
 				<Event Id="3095115784" Name="Telekinesis_Object_Stop" ObjectPath="\Events\Default Work Unit\Telekinesis_Object_Stop"/>
+				<Event Id="567745568" Name="Teleportation_Play" ObjectPath="\Events\Default Work Unit\Teleportation_Play"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="132330" Language="SFX">
 					<ShortName>Mini Portal.wav</ShortName>
 					<Path>SFX\Mini Portal_8956FC97.wem</Path>
+				</File>
+				<File Id="3731931" Language="SFX">
+					<ShortName>Airy Grab Object.wav</ShortName>
+					<Path>SFX\Airy Grab Object_8956FC97.wem</Path>
+				</File>
+				<File Id="80671927" Language="SFX">
+					<ShortName>Orbit loop mono.wav</ShortName>
+					<Path>SFX\Orbit loop mono_E5599837.wem</Path>
+				</File>
+				<File Id="89933582" Language="SFX">
+					<ShortName>Teleportation 2.wav</ShortName>
+					<Path>SFX\Teleportation 2_56D34C19.wem</Path>
+				</File>
+				<File Id="273450164" Language="SFX">
+					<ShortName>Philosophia.wav</ShortName>
+					<Path>SFX\Philosophia_8956FC97.wem</Path>
 				</File>
 				<File Id="368691591" Language="SFX">
 					<ShortName>Cast Loop 2.wav</ShortName>
@@ -48,17 +69,21 @@
 					<ShortName>Cast Loop 1.wav</ShortName>
 					<Path>SFX\Cast Loop 1_8956FC97.wem</Path>
 				</File>
-				<File Id="658092478" Language="SFX">
-					<ShortName>Singing Pip Drone high.wav</ShortName>
-					<Path>SFX\Singing Pip Drone high_8956FC97.wem</Path>
+				<File Id="542148081" Language="SFX">
+					<ShortName>Summon loop mono.wav</ShortName>
+					<Path>SFX\Summon loop mono_8956FC97.wem</Path>
 				</File>
-				<File Id="752121456" Language="SFX">
-					<ShortName>Drone Low Wind Voice Sub.wav</ShortName>
-					<Path>SFX\Drone Low Wind Voice Sub_8956FC97.wem</Path>
+				<File Id="906384858" Language="SFX">
+					<ShortName>Kuroiso.wav</ShortName>
+					<Path>SFX\Kuroiso_8956FC97.wem</Path>
 				</File>
 				<File Id="914488063" Language="SFX">
 					<ShortName>Cast Loop 3.wav</ShortName>
 					<Path>SFX\Cast Loop 3_8956FC97.wem</Path>
+				</File>
+				<File Id="988712491" Language="SFX">
+					<ShortName>Galactic Dust.wav</ShortName>
+					<Path>SFX\Galactic Dust_8956FC97.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

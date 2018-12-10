@@ -6,19 +6,19 @@
 				<SoundcasterSession Name="Soundcaster" ID="{9250AAFA-73AC-4DB4-BC19-445060B5CA2B}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Telekinesis_Object_Play" ID="{085D63B1-6211-442C-977F-B52B40FD862B}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
+							<ObjectRef Name="Sun" ID="{2148AA56-BE9F-4039-A33D-A42F4F03583A}" WorkUnitID="{57CBA82D-39B2-44B7-9A56-9127E03E86F7}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Telekinesis_Object_Stop" ID="{0D7BAD65-AE81-4121-A291-DF6AA1A84AD6}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
+							<ObjectRef Name="Telekinesis_Hand_Play" ID="{25950166-31A7-41FE-A1C0-0C3DFE377AD7}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Draw" ID="{75531130-AB7E-4A45-AA39-5ED16DF571DF}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
+							<ObjectRef Name="Telekinesis_Object_Play" ID="{085D63B1-6211-442C-977F-B52B40FD862B}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Telekinesis_Hand_Play" ID="{25950166-31A7-41FE-A1C0-0C3DFE377AD7}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
+							<ObjectRef Name="Draw" ID="{75531130-AB7E-4A45-AA39-5ED16DF571DF}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
@@ -26,12 +26,16 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Musique codex stereo" ID="{21140427-58C4-4F52-B99F-23E7952DBB96}" WorkUnitID="{9656DA03-6571-4597-9DAC-062F16B8018B}"/>
-							<Position X="2" Y="0"/>
+							<ObjectRef Name="Telekinesis_Object_Stop" ID="{0D7BAD65-AE81-4121-A291-DF6AA1A84AD6}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
+							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Telekinesis_Grab_Play" ID="{BCF7FBDA-1936-451E-9FE4-956DEA3FE184}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
-							<Position X="3" Y="1"/>
+							<ObjectRef Name="Teleportation" ID="{0AAF4D7F-FCAE-4B78-A464-5CFC07DFC959}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Planet Orbit" ID="{1074B0D2-9688-407B-B9A2-334A2A236DA3}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<Position X="2" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -92,7 +96,9 @@
 							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Three" ID="{FFF21CDE-C50F-435E-90A7-F1934BE24666}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>

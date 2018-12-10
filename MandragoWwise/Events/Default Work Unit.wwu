@@ -11,7 +11,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Draw" ID="{75531130-AB7E-4A45-AA39-5ED16DF571DF}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
+									<ObjectRef Name="Draw" ID="{75531130-AB7E-4A45-AA39-5ED16DF571DF}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -25,7 +25,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Draw" ID="{75531130-AB7E-4A45-AA39-5ED16DF571DF}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
+									<ObjectRef Name="Draw" ID="{75531130-AB7E-4A45-AA39-5ED16DF571DF}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -39,7 +39,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Portal" ID="{7DC1D22F-F3B8-4C56-AF2C-096D2E65C071}" WorkUnitID="{9656DA03-6571-4597-9DAC-062F16B8018B}"/>
+									<ObjectRef Name="Portal" ID="{7DC1D22F-F3B8-4C56-AF2C-096D2E65C071}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -53,7 +53,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Portal" ID="{7DC1D22F-F3B8-4C56-AF2C-096D2E65C071}" WorkUnitID="{9656DA03-6571-4597-9DAC-062F16B8018B}"/>
+									<ObjectRef Name="Portal" ID="{7DC1D22F-F3B8-4C56-AF2C-096D2E65C071}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -67,7 +67,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Telekinesis Object" ID="{D56BE8A9-2398-4C5B-B90A-FECB31AF5DDE}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
+									<ObjectRef Name="Telekinesis Object" ID="{D56BE8A9-2398-4C5B-B90A-FECB31AF5DDE}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -81,7 +81,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Telekinesis Object" ID="{D56BE8A9-2398-4C5B-B90A-FECB31AF5DDE}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
+									<ObjectRef Name="Telekinesis Object" ID="{D56BE8A9-2398-4C5B-B90A-FECB31AF5DDE}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -96,7 +96,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Telekinesis Hand" ID="{9B6BFA89-37A6-4FE4-8AA9-388D2C6D0555}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
+									<ObjectRef Name="Telekinesis Hand" ID="{9B6BFA89-37A6-4FE4-8AA9-388D2C6D0555}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -111,7 +111,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Telekinesis Hand" ID="{9B6BFA89-37A6-4FE4-8AA9-388D2C6D0555}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
+									<ObjectRef Name="Telekinesis Hand" ID="{9B6BFA89-37A6-4FE4-8AA9-388D2C6D0555}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -125,7 +125,77 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Telekinesis Reception" ID="{D7150C60-7B0B-4217-A2F8-755563EF14E4}" WorkUnitID="{14D4B9E8-2D78-4B5F-896B-B145FCA297AF}"/>
+									<ObjectRef Name="Telekinesis Reception" ID="{D7150C60-7B0B-4217-A2F8-755563EF14E4}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Sun_Play" ID="{3073CE1C-F12C-4969-919A-F41A0ED7405B}">
+					<ChildrenList>
+						<Action Name="" ID="{7C663557-1FCD-4052-AEAF-7FF6D47597B7}" ShortID="538003651">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sun" ID="{2148AA56-BE9F-4039-A33D-A42F4F03583A}" WorkUnitID="{57CBA82D-39B2-44B7-9A56-9127E03E86F7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Sun_Stop" ID="{FA8004A1-68C3-4FEE-8A2B-0284F77331A0}">
+					<ChildrenList>
+						<Action Name="" ID="{60838FA5-FB8B-4736-98CC-D446804EB5A5}" ShortID="975038679">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sun" ID="{2148AA56-BE9F-4039-A33D-A42F4F03583A}" WorkUnitID="{57CBA82D-39B2-44B7-9A56-9127E03E86F7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Planet_Orbit_Play" ID="{6A86B9BD-AD04-45B8-BC4D-8FE54875E522}">
+					<ChildrenList>
+						<Action Name="" ID="{7DB06778-72CF-4B46-A162-2541CAAD59EA}" ShortID="97843690">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Planet Orbit" ID="{1074B0D2-9688-407B-B9A2-334A2A236DA3}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Planet_Orbit_Stop" ID="{35C028BE-87CF-48EC-B133-EDA9F26DDE4A}">
+					<ChildrenList>
+						<Action Name="" ID="{F70EFBB1-DFDB-41C7-ACC8-E315FC4AE527}" ShortID="879640517">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Planet Orbit" ID="{1074B0D2-9688-407B-B9A2-334A2A236DA3}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Teleportation_Play" ID="{3FBEE46A-F9C6-4ADF-AADB-5F5700FBA194}">
+					<ChildrenList>
+						<Action Name="" ID="{76953233-320D-4AC3-B05C-B3E4471622EB}" ShortID="590418651">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Teleportation" ID="{0AAF4D7F-FCAE-4B78-A464-5CFC07DFC959}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

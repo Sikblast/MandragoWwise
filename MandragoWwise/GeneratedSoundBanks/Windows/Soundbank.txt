@@ -1,13 +1,28 @@
 Event	ID	Name			Wwise Object Path	Notes
 	166240794	Draw_Stop			\Default Work Unit\Draw_Stop	
+	279455104	Sun_Stop			\Default Work Unit\Sun_Stop	
 	350557399	Telekinesis_Grab_Play			\Default Work Unit\Telekinesis_Grab_Play	
+	567745568	Teleportation_Play			\Default Work Unit\Teleportation_Play	
 	834591310	Telekinesis_Hand_Stop			\Default Work Unit\Telekinesis_Hand_Stop	
 	1394292256	Portal_Play			\Default Work Unit\Portal_Play	
 	2083537832	Draw_Play			\Default Work Unit\Draw_Play	
 	2323001974	Telekinesis_Object_Play			\Default Work Unit\Telekinesis_Object_Play	
 	3095115784	Telekinesis_Object_Stop			\Default Work Unit\Telekinesis_Object_Stop	
 	3425656180	Telekinesis_Hand_Play			\Default Work Unit\Telekinesis_Hand_Play	
+	3441388573	Planet_Orbit_Stop			\Default Work Unit\Planet_Orbit_Stop	
+	3578106302	Sun_Play			\Default Work Unit\Sun_Play	
+	3908603903	Planet_Orbit_Play			\Default Work Unit\Planet_Orbit_Play	
 	4032518562	Portal_Stop			\Default Work Unit\Portal_Stop	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2061498879	Planets_Orbit			\Default Work Unit\Planets_Orbit	
+
+State	ID	Name	State Group			Notes
+	0	None	Planets_Orbit			
+	678209053	Two	Planets_Orbit			
+	912956111	Three	Planets_Orbit			
+	1064933119	One	Planets_Orbit			
+	2863728729	Four	Planets_Orbit			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1912241455	Draw			\Default Work Unit\Draw	
@@ -17,11 +32,16 @@ Effect plug-ins	ID	Name	Type				Notes
 	858623349	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	132330	Portal	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Mini Portal_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\Ambiance\Mix Amb\Portal		2553088
-	368691591	Draw Loop 2	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 2_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Mix SFX\Draw\Draw Loop 2		2160144
-	391204473	Telekinesis Reception	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Grab Reception 2_ECD17D5C.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Mix SFX\Telekinesis\Telekinesis Reception		41368
-	474668960	Draw Loop 1	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 1_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Mix SFX\Draw\Draw Loop 1		1608144
-	658092478	Telekinesis Object	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Singing Pip Drone high_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Mix SFX\Telekinesis\Telekinesis Object		792064
-	752121456	Telekinesis Hand	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Drone Low Wind Voice Sub_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Mix SFX\Telekinesis\Telekinesis Hand		2832064
-	914488063	Draw Loop 3	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 3_8956FC97.wem		\Actor-Mixer Hierarchy\Mandragora\SFX\Mix SFX\Draw\Draw Loop 3		2796144
+	132330	Portal	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Mini Portal_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mix Amb\Portal		2553088
+	3731931	Telekinesis Object	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Airy Grab Object_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mix SFX\Telekinesis\Telekinesis Object		2112064
+	80671927	Planet Orbit	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Orbit loop mono_E5599837.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mix SFX\Planet Orbit		384064
+	89933582	Teleportation	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Teleportation 2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mix SFX\Teleportation		725996
+	273450164	Philosophia	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Philosophia_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Sun\1 Planet\1 Planet\Philosophia		6144144
+	368691591	Draw Loop 2	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 2_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mix SFX\Draw\Draw Loop 2		2160144
+	391204473	Telekinesis Reception	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Grab Reception 2_ECD17D5C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mix SFX\Telekinesis\Telekinesis Reception		41368
+	474668960	Draw Loop 1	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 1_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mix SFX\Draw\Draw Loop 1		1608144
+	542148081	Telekinesis Hand	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Summon loop mono_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mix SFX\Telekinesis\Telekinesis Hand		576064
+	906384858	Kuroiso	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Kuroiso_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Sun\2 Planets\2 Planets\Kuroiso		6144144
+	914488063	Draw Loop 3	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Cast Loop 3_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mix SFX\Draw\Draw Loop 3		2796144
+	988712491	Galactic Dust	C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\SFX\Galactic Dust_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Sun\3 Planets\3 Planets\Galactic Dust		6144144
 
