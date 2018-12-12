@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\robin.cugniet\Desktop\Mandragora\Mandragora\MandragoWwise\MandragoWwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1661994096" Language="SFX">
+		<SoundBank Id="1661994096" GUID="{3B951699-D2BA-4D94-9B90-6B3CD5A8867D}" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Soundbank</ObjectPath>
 			<ShortName>Soundbank</ShortName>
 			<Path>Soundbank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2083537832" Name="Draw_Play" ObjectPath="\Events\Default Work Unit\Draw_Play"/>
-				<Event Id="166240794" Name="Draw_Stop" ObjectPath="\Events\Default Work Unit\Draw_Stop"/>
-				<Event Id="3908603903" Name="Planet_Orbit_Play" ObjectPath="\Events\Default Work Unit\Planet_Orbit_Play"/>
-				<Event Id="3441388573" Name="Planet_Orbit_Stop" ObjectPath="\Events\Default Work Unit\Planet_Orbit_Stop"/>
-				<Event Id="1394292256" Name="Portal_Play" ObjectPath="\Events\Default Work Unit\Portal_Play"/>
-				<Event Id="4032518562" Name="Portal_Stop" ObjectPath="\Events\Default Work Unit\Portal_Stop"/>
-				<Event Id="3578106302" Name="Sun_Play" ObjectPath="\Events\Default Work Unit\Sun_Play"/>
-				<Event Id="279455104" Name="Sun_Stop" ObjectPath="\Events\Default Work Unit\Sun_Stop"/>
-				<Event Id="350557399" Name="Telekinesis_Grab_Play" ObjectPath="\Events\Default Work Unit\Telekinesis_Grab_Play"/>
-				<Event Id="3425656180" Name="Telekinesis_Hand_Play" ObjectPath="\Events\Default Work Unit\Telekinesis_Hand_Play"/>
-				<Event Id="834591310" Name="Telekinesis_Hand_Stop" ObjectPath="\Events\Default Work Unit\Telekinesis_Hand_Stop"/>
-				<Event Id="2323001974" Name="Telekinesis_Object_Play" ObjectPath="\Events\Default Work Unit\Telekinesis_Object_Play"/>
-				<Event Id="3095115784" Name="Telekinesis_Object_Stop" ObjectPath="\Events\Default Work Unit\Telekinesis_Object_Stop"/>
-				<Event Id="567745568" Name="Teleportation_Play" ObjectPath="\Events\Default Work Unit\Teleportation_Play"/>
+				<Event Id="2083537832" Name="Draw_Play" ObjectPath="\Events\Default Work Unit\Draw_Play" GUID="{C1662B55-76C4-4D8B-B65A-C0D2485D5962}" DurationType="Infinite"/>
+				<Event Id="166240794" Name="Draw_Stop" ObjectPath="\Events\Default Work Unit\Draw_Stop" GUID="{A9F6C306-BFAB-45B1-91EC-B3A5C506A1DB}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3908603903" Name="Planet_Orbit_Play" ObjectPath="\Events\Default Work Unit\Planet_Orbit_Play" GUID="{6A86B9BD-AD04-45B8-BC4D-8FE54875E522}" DurationType="Infinite"/>
+				<Event Id="3441388573" Name="Planet_Orbit_Stop" ObjectPath="\Events\Default Work Unit\Planet_Orbit_Stop" GUID="{35C028BE-87CF-48EC-B133-EDA9F26DDE4A}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1394292256" Name="Portal_Play" ObjectPath="\Events\Default Work Unit\Portal_Play" GUID="{D523AA29-B8BC-41F7-8011-4B90848E3A99}" DurationType="Infinite"/>
+				<Event Id="4032518562" Name="Portal_Stop" ObjectPath="\Events\Default Work Unit\Portal_Stop" GUID="{10EEE64E-D7F5-47B8-BA70-D5024D61AA91}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3578106302" Name="Sun_Play" ObjectPath="\Events\Default Work Unit\Sun_Play" GUID="{3073CE1C-F12C-4969-919A-F41A0ED7405B}" MaxAttenuation="3.000000" DurationType="Infinite"/>
+				<Event Id="279455104" Name="Sun_Stop" ObjectPath="\Events\Default Work Unit\Sun_Stop" GUID="{FA8004A1-68C3-4FEE-8A2B-0284F77331A0}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="350557399" Name="Telekinesis_Grab_Play" ObjectPath="\Events\Default Work Unit\Telekinesis_Grab_Play" GUID="{BCF7FBDA-1936-451E-9FE4-956DEA3FE184}" MaxAttenuation="6.000000" DurationType="OneShot" DurationMin="0.215124" DurationMax="0.215124"/>
+				<Event Id="3425656180" Name="Telekinesis_Hand_Play" ObjectPath="\Events\Default Work Unit\Telekinesis_Hand_Play" GUID="{25950166-31A7-41FE-A1C0-0C3DFE377AD7}" MaxAttenuation="6.000000" DurationType="Infinite"/>
+				<Event Id="834591310" Name="Telekinesis_Hand_Stop" ObjectPath="\Events\Default Work Unit\Telekinesis_Hand_Stop" GUID="{3EF815B9-0916-41DE-85EE-10A150800583}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2323001974" Name="Telekinesis_Object_Play" ObjectPath="\Events\Default Work Unit\Telekinesis_Object_Play" GUID="{085D63B1-6211-442C-977F-B52B40FD862B}" MaxAttenuation="6.000000" DurationType="Infinite"/>
+				<Event Id="3095115784" Name="Telekinesis_Object_Stop" ObjectPath="\Events\Default Work Unit\Telekinesis_Object_Stop" GUID="{0D7BAD65-AE81-4121-A291-DF6AA1A84AD6}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="567745568" Name="Teleportation_Play" ObjectPath="\Events\Default Work Unit\Teleportation_Play" GUID="{3FBEE46A-F9C6-4ADF-AADB-5F5700FBA194}" DurationType="OneShot" DurationMin="0.510306" DurationMax="0.510306"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="132330" Language="SFX">
@@ -49,9 +49,9 @@
 					<ShortName>Orbit loop mono.wav</ShortName>
 					<Path>SFX\Orbit loop mono_E5599837.wem</Path>
 				</File>
-				<File Id="89933582" Language="SFX">
+				<File Id="89933583" Language="SFX">
 					<ShortName>Teleportation 2.wav</ShortName>
-					<Path>SFX\Teleportation 2_56D34C19.wem</Path>
+					<Path>SFX\Teleportation 2_196AA679.wem</Path>
 				</File>
 				<File Id="273450164" Language="SFX">
 					<ShortName>Philosophia.wav</ShortName>

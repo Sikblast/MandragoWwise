@@ -1,0 +1,225 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "11",
+  "SoundbankVersion": "132",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\robin.cugniet\\Desktop\\Mandragora\\MandragoWwise\\MandragoWwise\\",
+   "SourceFilesRoot": "C:\\Users\\robin.cugniet\\Desktop\\Mandragora\\MandragoWwise\\MandragoWwise\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\robin.cugniet\\Desktop\\Mandragora\\MandragoWwise\\MandragoWwise\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\robin.cugniet\\Desktop\\Mandragora\\MandragoWwise\\MandragoWwise\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1661994096",
+    "GUID": "{3B951699-D2BA-4D94-9B90-6B3CD5A8867D}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank",
+    "ShortName": "Soundbank",
+    "Path": "Soundbank.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2083537832",
+      "Name": "Draw_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Draw_Play",
+      "GUID": "{C1662B55-76C4-4D8B-B65A-C0D2485D5962}",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "166240794",
+      "Name": "Draw_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Draw_Stop",
+      "GUID": "{A9F6C306-BFAB-45B1-91EC-B3A5C506A1DB}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "3908603903",
+      "Name": "Planet_Orbit_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Planet_Orbit_Play",
+      "GUID": "{6A86B9BD-AD04-45B8-BC4D-8FE54875E522}",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "3441388573",
+      "Name": "Planet_Orbit_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Planet_Orbit_Stop",
+      "GUID": "{35C028BE-87CF-48EC-B133-EDA9F26DDE4A}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "1394292256",
+      "Name": "Portal_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Portal_Play",
+      "GUID": "{D523AA29-B8BC-41F7-8011-4B90848E3A99}",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "4032518562",
+      "Name": "Portal_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Portal_Stop",
+      "GUID": "{10EEE64E-D7F5-47B8-BA70-D5024D61AA91}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "3578106302",
+      "Name": "Sun_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Sun_Play",
+      "GUID": "{3073CE1C-F12C-4969-919A-F41A0ED7405B}",
+      "MaxAttenuation": "3.000000",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "279455104",
+      "Name": "Sun_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Sun_Stop",
+      "GUID": "{FA8004A1-68C3-4FEE-8A2B-0284F77331A0}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "350557399",
+      "Name": "Telekinesis_Grab_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Telekinesis_Grab_Play",
+      "GUID": "{BCF7FBDA-1936-451E-9FE4-956DEA3FE184}",
+      "MaxAttenuation": "6.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.215124",
+      "DurationMax": "0.215124"
+     },
+     {
+      "Id": "3425656180",
+      "Name": "Telekinesis_Hand_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Telekinesis_Hand_Play",
+      "GUID": "{25950166-31A7-41FE-A1C0-0C3DFE377AD7}",
+      "MaxAttenuation": "6.000000",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "834591310",
+      "Name": "Telekinesis_Hand_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Telekinesis_Hand_Stop",
+      "GUID": "{3EF815B9-0916-41DE-85EE-10A150800583}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2323001974",
+      "Name": "Telekinesis_Object_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Telekinesis_Object_Play",
+      "GUID": "{085D63B1-6211-442C-977F-B52B40FD862B}",
+      "MaxAttenuation": "6.000000",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "3095115784",
+      "Name": "Telekinesis_Object_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Telekinesis_Object_Stop",
+      "GUID": "{0D7BAD65-AE81-4121-A291-DF6AA1A84AD6}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "567745568",
+      "Name": "Teleportation_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Teleportation_Play",
+      "GUID": "{3FBEE46A-F9C6-4ADF-AADB-5F5700FBA194}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.510306",
+      "DurationMax": "0.510306"
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "132330",
+      "Language": "SFX",
+      "ShortName": "Mini Portal.wav",
+      "Path": "SFX\\Mini Portal_8956FC97.wem"
+     },
+     {
+      "Id": "3731931",
+      "Language": "SFX",
+      "ShortName": "Airy Grab Object.wav",
+      "Path": "SFX\\Airy Grab Object_8956FC97.wem"
+     },
+     {
+      "Id": "80671927",
+      "Language": "SFX",
+      "ShortName": "Orbit loop mono.wav",
+      "Path": "SFX\\Orbit loop mono_E5599837.wem"
+     },
+     {
+      "Id": "89933583",
+      "Language": "SFX",
+      "ShortName": "Teleportation 2.wav",
+      "Path": "SFX\\Teleportation 2_196AA679.wem"
+     },
+     {
+      "Id": "273450164",
+      "Language": "SFX",
+      "ShortName": "Philosophia.wav",
+      "Path": "SFX\\Philosophia_8956FC97.wem"
+     },
+     {
+      "Id": "368691591",
+      "Language": "SFX",
+      "ShortName": "Cast Loop 2.wav",
+      "Path": "SFX\\Cast Loop 2_8956FC97.wem"
+     },
+     {
+      "Id": "391204473",
+      "Language": "SFX",
+      "ShortName": "Grab Reception 2.wav",
+      "Path": "SFX\\Grab Reception 2_ECD17D5C.wem"
+     },
+     {
+      "Id": "474668960",
+      "Language": "SFX",
+      "ShortName": "Cast Loop 1.wav",
+      "Path": "SFX\\Cast Loop 1_8956FC97.wem"
+     },
+     {
+      "Id": "542148081",
+      "Language": "SFX",
+      "ShortName": "Summon loop mono.wav",
+      "Path": "SFX\\Summon loop mono_8956FC97.wem"
+     },
+     {
+      "Id": "906384858",
+      "Language": "SFX",
+      "ShortName": "Kuroiso.wav",
+      "Path": "SFX\\Kuroiso_8956FC97.wem"
+     },
+     {
+      "Id": "914488063",
+      "Language": "SFX",
+      "ShortName": "Cast Loop 3.wav",
+      "Path": "SFX\\Cast Loop 3_8956FC97.wem"
+     },
+     {
+      "Id": "988712491",
+      "Language": "SFX",
+      "ShortName": "Galactic Dust.wav",
+      "Path": "SFX\\Galactic Dust_8956FC97.wem"
+     }
+    ]
+   }
+  ]
+ }
+}
