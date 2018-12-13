@@ -102,7 +102,7 @@
 											</CurveUsageInfo>
 										</SpreadUsage>
 										<FocusUsage>
-											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+											<CurveUsageInfo Platform="Linked" CurveToUse="None">
 												<Curve Name="Focus" ID="{61BD4051-8CB8-46FA-84CA-BFE7BAF64F9C}">
 													<PropertyList>
 														<Property Name="Flags" Type="int32" Value="1"/>
