@@ -302,7 +302,7 @@
 															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 														</HighPassFilterUsage>
 														<SpreadUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+															<CurveUsageInfo Platform="Linked" CurveToUse="None">
 																<Curve Name="Spread" ID="{E4F7327C-0D77-4417-A76C-82979E02657A}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="1"/>
@@ -475,7 +475,7 @@
 															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 														</HighPassFilterUsage>
 														<SpreadUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+															<CurveUsageInfo Platform="Linked" CurveToUse="None">
 																<Curve Name="Spread" ID="{AAE3A067-844B-4DE8-AE80-FF02C72A1187}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="1"/>
@@ -643,7 +643,7 @@
 															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 														</HighPassFilterUsage>
 														<SpreadUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+															<CurveUsageInfo Platform="Linked" CurveToUse="None">
 																<Curve Name="Spread" ID="{7A87BB69-D371-4257-B26A-AE1B6A41FBCB}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="1"/>
