@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<IncrementalBankBuild Version="6" Flags="1800784961">
+<IncrementalBankBuild Version="6" Flags="601859981">
 	<Platform GUID="{B801203B-E4DE-4600-B9F6-8C0BE0E4F531}">
 		<Banks>
 			<Language ID="393239870">
@@ -13,7 +13,7 @@
 				<File Name="Soundbank" Hash="3782499424" Timestamp="1544703450"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="2117344865" Timestamp="1544703450"/>
+				<File Name="" Hash="1698454228" Timestamp="1544706953"/>
 			</Language>
 		</XMLInfo>
 		<JSONInfo>
