@@ -6,6 +6,7 @@
 				<MusicSwitchContainer Name="Sun" ID="{2148AA56-BE9F-4039-A33D-A42F4F03583A}" ShortID="80773175">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-6</Value>
@@ -27,7 +28,7 @@
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-												<Curve Name="VolumeDry" ID="{64A3F319-2B86-4072-B8B0-C902E2713A7E}">
+												<Curve Name="VolumeDry" ID="{7E2B5962-72D9-4C68-AF7D-CCD2C7A9DA84}">
 													<PropertyList>
 														<Property Name="Flags" Type="int32" Value="3"/>
 													</PropertyList>
@@ -55,7 +56,7 @@
 										</VolumeWetUserUsage>
 										<LowPassFilterUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-												<Curve Name="LowPassFilter" ID="{E3EC8EC4-DB5E-4DED-B1A7-AADCFE5F8199}">
+												<Curve Name="LowPassFilter" ID="{6373168E-B6B8-4713-B727-FE170B8D0352}">
 													<PropertyList>
 														<Property Name="Flags" Type="int32" Value="65537"/>
 													</PropertyList>
@@ -80,7 +81,29 @@
 										</HighPassFilterUsage>
 										<SpreadUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-												<Curve Name="Spread" ID="{F53E264C-A377-4600-B063-FC7F722C42C3}">
+												<Curve Name="Spread" ID="{0A432AF5-2974-4288-BE65-975C5E1F7E11}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="1"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>100</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Log3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>3</XPos>
+															<YPos>0</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="Focus" ID="{61BD4051-8CB8-46FA-84CA-BFE7BAF64F9C}">
 													<PropertyList>
 														<Property Name="Flags" Type="int32" Value="1"/>
 													</PropertyList>
@@ -98,9 +121,6 @@
 													</PointList>
 												</Curve>
 											</CurveUsageInfo>
-										</SpreadUsage>
-										<FocusUsage>
-											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 										</FocusUsage>
 									</CurveUsageInfoList>
 								</Attenuation>
@@ -701,6 +721,9 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{7637AE31-ADA6-4415-8647-9D6CA2470DE5}"/>
+					</PositioningInfo>
 					<StateInfo>
 						<StateGroupList>
 							<StateGroupInfo>

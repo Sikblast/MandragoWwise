@@ -244,7 +244,7 @@
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																<Curve Name="VolumeDry" ID="{526E607E-E52A-47A1-81F5-1028F3C3E37B}">
+																<Curve Name="VolumeDry" ID="{9947F87E-0FDE-4994-BD08-CCA986F1F5FB}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="3"/>
 																	</PropertyList>
@@ -272,7 +272,7 @@
 														</VolumeWetUserUsage>
 														<LowPassFilterUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																<Curve Name="LowPassFilter" ID="{4F3A7229-609A-42EF-A596-AE0FA43249B1}">
+																<Curve Name="LowPassFilter" ID="{3CB8D402-F4A8-458B-B0BB-4DE081F7ECCA}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="65537"/>
 																	</PropertyList>
@@ -303,7 +303,29 @@
 														</HighPassFilterUsage>
 														<SpreadUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																<Curve Name="Spread" ID="{494248B7-4045-4055-BA84-5BAEA50D8424}">
+																<Curve Name="Spread" ID="{E4F7327C-0D77-4417-A76C-82979E02657A}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="1"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>100</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>Log3</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>6</XPos>
+																			<YPos>0</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="Focus" ID="{9DC81403-E346-4D79-9C00-78F817924801}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="1"/>
 																	</PropertyList>
@@ -321,9 +343,6 @@
 																	</PointList>
 																</Curve>
 															</CurveUsageInfo>
-														</SpreadUsage>
-														<FocusUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 														</FocusUsage>
 													</CurveUsageInfoList>
 												</Attenuation>
@@ -398,7 +417,7 @@
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																<Curve Name="VolumeDry" ID="{2B77A98B-1721-48E2-8CAD-F651706FA54C}">
+																<Curve Name="VolumeDry" ID="{7B1B185A-1DE9-4F17-9044-4914DF40AB0D}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="3"/>
 																	</PropertyList>
@@ -419,33 +438,14 @@
 															</CurveUsageInfo>
 														</VolumeDryUsage>
 														<VolumeWetGameUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None">
-																<Curve Name="VolumeWetGame" ID="{FD554AD3-B962-4642-95EF-C4A6F76F5EAC}">
-																	<PropertyList>
-																		<Property Name="Flags" Type="int32" Value="3"/>
-																	</PropertyList>
-																	<PointList>
-																		<Point>
-																			<XPos>0</XPos>
-																			<YPos>0</YPos>
-																			<Flags>5</Flags>
-																			<SegmentShape>Log3</SegmentShape>
-																		</Point>
-																		<Point>
-																			<XPos>6</XPos>
-																			<YPos>-200</YPos>
-																			<Flags>37</Flags>
-																		</Point>
-																	</PointList>
-																</Curve>
-															</CurveUsageInfo>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
 														</VolumeWetGameUsage>
 														<VolumeWetUserUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
 														</VolumeWetUserUsage>
 														<LowPassFilterUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																<Curve Name="LowPassFilter" ID="{DF0BBFED-8A39-412A-A6B5-D5CE27D2DF06}">
+																<Curve Name="LowPassFilter" ID="{487553ED-53CC-4F56-A77D-B449A3E0C2F9}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="65537"/>
 																	</PropertyList>
@@ -476,7 +476,29 @@
 														</HighPassFilterUsage>
 														<SpreadUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																<Curve Name="Spread" ID="{7FA18E5C-D13B-4F40-B061-77147497B253}">
+																<Curve Name="Spread" ID="{AAE3A067-844B-4DE8-AE80-FF02C72A1187}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="1"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>100</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>Log3</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>6</XPos>
+																			<YPos>0</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="Focus" ID="{B1E26CAB-A3E9-4C70-9969-24E76661C224}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="1"/>
 																	</PropertyList>
@@ -494,9 +516,6 @@
 																	</PointList>
 																</Curve>
 															</CurveUsageInfo>
-														</SpreadUsage>
-														<FocusUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 														</FocusUsage>
 													</CurveUsageInfoList>
 												</Attenuation>
@@ -646,7 +665,25 @@
 															</CurveUsageInfo>
 														</SpreadUsage>
 														<FocusUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="Focus" ID="{3A59E1D6-C10A-4E40-B1D6-7A177666F73A}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="1"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>100</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>6</XPos>
+																			<YPos>0</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
 														</FocusUsage>
 													</CurveUsageInfoList>
 												</Attenuation>
@@ -1119,7 +1156,25 @@
 													</CurveUsageInfo>
 												</SpreadUsage>
 												<FocusUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Focus" ID="{FF3AEFC3-6DA1-490D-8CD2-E7A448EA8A75}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>100</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>3</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</FocusUsage>
 											</CurveUsageInfoList>
 										</Attenuation>
