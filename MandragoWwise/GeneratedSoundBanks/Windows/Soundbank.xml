@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\youe.graillot\Desktop\MandragoWwise\MandragoWwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\youe.graillot\Desktop\MandragoWwise\MandragoWwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\youe.graillot\Desktop\MandragoWwise\MandragoWwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\robin.cugniet\Desktop\Mandragora\MandragoWwise\MandragoWwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\youe.graillot\Desktop\MandragoWwise\MandragoWwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="1661994096" GUID="{3B951699-D2BA-4D94-9B90-6B3CD5A8867D}" Language="SFX">
@@ -43,7 +43,7 @@
 				</File>
 				<File Id="89933583" Language="SFX">
 					<ShortName>Teleportation 2.wav</ShortName>
-					<Path>SFX\Teleportation 2_196AA679.wem</Path>
+					<Path>SFX\Teleportation 2_9F6EB3C0.wem</Path>
 				</File>
 				<File Id="273450164" Language="SFX">
 					<ShortName>Philosophia.wav</ShortName>
