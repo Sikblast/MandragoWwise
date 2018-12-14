@@ -201,6 +201,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Clap" ID="{BC04988F-AF1A-4049-8F8A-021EA8C6F977}">
+					<ChildrenList>
+						<Action Name="" ID="{EB5C75A2-FB8E-4931-8668-2F038F867463}" ShortID="712821877">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Premier Clap 01" ID="{1C6BA06C-1697-4163-A83F-0F2684B3B63E}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
