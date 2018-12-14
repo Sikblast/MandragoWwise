@@ -204,7 +204,6 @@
 				<ActorMixer Name="Mix SFX" ID="{B5B99416-8A14-4E6C-8FFF-D6B537B7149C}" ShortID="1046693598">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
-						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -395,10 +394,9 @@
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
-										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-8</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -407,6 +405,12 @@
 											<Custom>
 												<Attenuation Name="Attenuation (Custom)" ID="{41B3429D-36D2-475E-92A0-CEAAE484AD6E}" ShortID="296772332">
 													<PropertyList>
+														<Property Name="ConeInnerAngle" Type="int32" Value="40"/>
+														<Property Name="ConeLowPassFilterValue" Type="int32">
+															<ValueList>
+																<Value>49</Value>
+															</ValueList>
+														</Property>
 														<Property Name="ConeUse" Type="bool">
 															<ValueList>
 																<Value>True</Value>
@@ -563,7 +567,6 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
-										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>12</Value>
@@ -721,7 +724,12 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
-										<Panner Name="" ID="{51EEBB0C-A668-4831-84BD-2AE822745968}"/>
+										<Panner Name="" ID="{51EEBB0C-A668-4831-84BD-2AE822745968}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-5.44009282066327E-15"/>
+												<Property Name="PanY" Type="Real64" Value="0.312012480499219"/>
+											</PropertyList>
+										</Panner>
 										<Position Name="" ID="{8EF56926-73D8-4C91-AF8C-7407AF2BD1A3}"/>
 									</PositioningInfo>
 									<ActiveSourceList>

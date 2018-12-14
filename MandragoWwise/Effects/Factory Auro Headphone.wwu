@@ -75,6 +75,7 @@
 				<Effect Name="Medium_Room_AHP" ID="{084C1341-345B-44C4-88FE-89EA007AEDB3}" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
 					<PropertyList>
 						<Property Name="ER_Level" Type="Real32" Value="-3"/>
+						<Property Name="Reverb" Type="bool" Value="False"/>
 						<Property Name="Reverb_level" Type="Real32" Value="-20.2875"/>
 						<Property Name="Reverb_predelay" Type="Real32" Value="5"/>
 						<Property Name="Src_distance" Type="Real32" Value="2"/>
