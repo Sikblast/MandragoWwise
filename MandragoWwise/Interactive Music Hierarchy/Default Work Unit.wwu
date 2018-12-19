@@ -7,11 +7,6 @@
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-6</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -130,7 +125,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+							<ObjectRef Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -301,7 +296,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-6</Value>
+														<Value>-7</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -521,6 +516,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="Galactic Dust" ID="{4B87184A-0FA3-4226-BF71-074CF53D4C81}" ShortID="83382475">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>

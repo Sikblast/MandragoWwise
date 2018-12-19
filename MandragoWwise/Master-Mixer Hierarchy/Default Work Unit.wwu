@@ -33,7 +33,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="BusChannelConfig" Type="int32">
 									<ValueList>
-										<Value>6353158</Value>
+										<Value>528</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -156,7 +156,10 @@
 										</Attenuation>
 									</Custom>
 								</Reference>
-								<Reference Name="Effect0" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
+								<Reference Name="Effect0" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+									<ObjectRef Name="Space_Ship_Ambisonics" ID="{9F0F1041-FE73-4568-B72A-79FFEBC77252}" WorkUnitID="{1562D13C-41E8-4FA1-A341-D4CB726E2AEC}"/>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
 									<ObjectRef Name="Medium_Room_AHP" ID="{084C1341-345B-44C4-88FE-89EA007AEDB3}" WorkUnitID="{B3C352EE-53F0-4C95-BAA9-B8ECC0034D25}"/>
 								</Reference>
 							</ReferenceList>

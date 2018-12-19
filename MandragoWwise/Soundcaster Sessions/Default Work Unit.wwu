@@ -41,6 +41,10 @@
 							<ObjectRef Name="Planet Orbit" ID="{1074B0D2-9688-407B-B9A2-334A2A236DA3}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="2" Y="2"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Constellation Hits" ID="{4853D512-CF9B-47D5-874C-DD8E3FD05D27}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<Position X="3" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -97,11 +101,11 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Draw" ID="{17CE5216-1CEF-4F65-A497-82F1ED12B213}"/>
-							<Value>67.5757575757576</Value>
+							<Value>100</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{174BBBE7-162B-44A8-97CA-F05AC47DBD95}"/>
+						<CurrentStateRef Name="One" ID="{6B4ACC89-FAEE-46E0-8106-BA93989FBD7F}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

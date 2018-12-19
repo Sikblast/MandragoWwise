@@ -215,6 +215,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Constellation_Hit_Play" ID="{2843C5DC-FBE1-495F-A52E-5E05DE78C5E5}">
+					<ChildrenList>
+						<Action Name="" ID="{B6365962-93DE-4A68-A8DD-7E54A46DBCF0}" ShortID="654270173">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Constellation Hits" ID="{4853D512-CF9B-47D5-874C-DD8E3FD05D27}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
