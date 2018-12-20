@@ -299,6 +299,104 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Wind_Drone_Loop_Play" ID="{857A6328-81F8-41DB-BAAB-2083CF7E3132}">
+					<ChildrenList>
+						<Action Name="" ID="{33CB90FA-185D-4EAE-8A8F-BABD528AB29D}" ShortID="782070413">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind Drone Loop 1" ID="{6898C2D6-D322-4469-B576-6E649C1661C1}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Wind_Drone_Loop_Stop" ID="{3ED613B4-A035-4472-8F2D-74628E1F519A}">
+					<ChildrenList>
+						<Action Name="" ID="{35728C23-8B65-4883-A18B-9B471687C451}" ShortID="970299814">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind Drone Loop 1" ID="{6898C2D6-D322-4469-B576-6E649C1661C1}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Rumbling_Sun_Play" ID="{BBFE9B07-86C1-43A4-9D48-3AA5E394A948}">
+					<ChildrenList>
+						<Action Name="" ID="{DEA2AA8D-6D4F-45F4-A848-F4D6E7B8A95E}" ShortID="314353164">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rumbling Sun" ID="{53D3C42A-825E-4F77-A5A5-4C3368ACD794}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Rumbling_Sun_Stop" ID="{A626EAF9-6516-4E77-AEFE-A71D33A44814}">
+					<ChildrenList>
+						<Action Name="" ID="{EFCBF65A-F51C-452D-B4BE-7110781B54A9}" ShortID="818641675">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rumbling Sun" ID="{53D3C42A-825E-4F77-A5A5-4C3368ACD794}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Bubbles_Play" ID="{357FA606-42ED-45BC-923F-62A7D6982E40}">
+					<ChildrenList>
+						<Action Name="" ID="{B338AA70-0791-4076-865A-86FC00BD7B2D}" ShortID="982648845">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bubbles" ID="{7BAA8A63-4E7E-46C4-8836-3D8D3315BE29}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Drip_Play" ID="{D02DFCEA-AE06-4F3E-9204-2DD6A7033BE5}">
+					<ChildrenList>
+						<Action Name="" ID="{0EF5B33A-C528-49D3-AFC8-D98C35D68B56}" ShortID="360028944">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drip" ID="{3B3DB68A-9D66-4B16-AE1F-91A0D8BACAA3}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Constellations_Successful_Play" ID="{B2B20E4D-179C-42A8-9B9D-C14D8600D4FF}">
+					<ChildrenList>
+						<Action Name="" ID="{261BA204-F471-4540-AE8B-988DEFAF2B56}" ShortID="894565903">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Constellations Successful" ID="{0CD0AD98-D7DE-4859-92A7-B5D0ABB900A6}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
