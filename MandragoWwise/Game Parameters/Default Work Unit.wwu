@@ -9,6 +9,7 @@
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Telekinesis_Speed" ID="{AD80F9B6-0B7F-49A9-81EF-42C0D1150491}"/>
+				<GameParameter Name="Constellation" ID="{200530BE-C2A9-4049-A2A1-2910D9CB833C}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

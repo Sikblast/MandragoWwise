@@ -178,7 +178,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="BusChannelConfig" Type="int32">
 									<ValueList>
-										<Value>516</Value>
+										<Value>528</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
