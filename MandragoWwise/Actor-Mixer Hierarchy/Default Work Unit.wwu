@@ -1224,7 +1224,9 @@
 								<AudioFileSource Name="PM_FN_Spawns_Portals_Teleports_12" ID="{EE9B84B5-3558-4B3E-9752-1E357F04B8CC}" ShortID="296898586">
 									<PropertyList>
 										<Property Name="FadeInDuration" Type="Real64" Value="0.108974638475022"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.104938540753725"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.192387324715162"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.166825372480281"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.858343448729185"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>PM_FN_Spawns_Portals_Teleports_12.wav</AudioFile>
@@ -2665,7 +2667,7 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="5"/>
+												<Property Name="RadiusMax" Type="Real64" Value="7"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -2682,8 +2684,8 @@
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>5</XPos>
-																	<YPos>-200</YPos>
+																	<XPos>7</XPos>
+																	<YPos>-23.03137</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -2710,7 +2712,7 @@
 																	<SegmentShape>Exp3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>5</XPos>
+																	<XPos>7</XPos>
 																	<YPos>33</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -2735,7 +2737,7 @@
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>5</XPos>
+																	<XPos>7</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -2756,7 +2758,7 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>5</XPos>
+																	<XPos>7</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
