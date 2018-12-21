@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Soundbank" ID="{3B951699-D2BA-4D94-9B90-6B3CD5A8867D}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Space_Ship_Ambisonics" ID="{9F0F1041-FE73-4568-B72A-79FFEBC77252}" WorkUnitID="{1562D13C-41E8-4FA1-A341-D4CB726E2AEC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Default Work Unit" ID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

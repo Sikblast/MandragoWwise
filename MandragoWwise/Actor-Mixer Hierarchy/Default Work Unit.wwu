@@ -2780,30 +2780,6 @@
 							<ObjectRef Name="Ambisonic" ID="{7BCABF5E-1E32-4133-A65E-A9AD803F27B9}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 						</Reference>
 					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="Ambisonic Soundscape Loop" ID="{1678F2B0-61D3-444B-B784-FACBEFFB09F1}" ShortID="410135103">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Ambisonic Soundscape Loop" ID="{42F5D736-B64A-486E-A4D2-50934BD2D96D}" ShortID="937694401">
-									<Language>SFX</Language>
-									<AudioFile>Ambisonic Soundscape Loop.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Ambisonic Soundscape Loop" ID="{42F5D736-B64A-486E-A4D2-50934BD2D96D}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
 					<PositioningInfo>
 						<Panner Name="" ID="{48AC5C92-74DD-449F-9918-2982B812B96E}">
 							<PropertyList>
