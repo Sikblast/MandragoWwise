@@ -64,6 +64,7 @@
 						<Action Name="" ID="{CEF10F5B-C4E1-4788-9265-F7D31D255615}" ShortID="948201436">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -196,20 +197,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Teleportation" ID="{0AAF4D7F-FCAE-4B78-A464-5CFC07DFC959}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Clap" ID="{BC04988F-AF1A-4049-8F8A-021EA8C6F977}">
-					<ChildrenList>
-						<Action Name="" ID="{EB5C75A2-FB8E-4931-8668-2F038F867463}" ShortID="712821877">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Premier Clap 01" ID="{1C6BA06C-1697-4163-A83F-0F2684B3B63E}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -364,6 +351,34 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Constellations Successful" ID="{0CD0AD98-D7DE-4859-92A7-B5D0ABB900A6}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Play" ID="{5DFF2D2C-892E-4F10-880E-39A4F9C7EDE9}">
+					<ChildrenList>
+						<Action Name="" ID="{87B7AF58-F98E-4ED7-B578-7081140A4864}" ShortID="671468454">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{D8903AAD-0A69-4F5D-A9A7-DF3031E3FCBC}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Stop" ID="{5F7F6264-A3FA-45EB-8E62-4887C63905AA}">
+					<ChildrenList>
+						<Action Name="" ID="{9960E634-C615-4076-B35C-B2E1CC94B916}" ShortID="241497194">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{D8903AAD-0A69-4F5D-A9A7-DF3031E3FCBC}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

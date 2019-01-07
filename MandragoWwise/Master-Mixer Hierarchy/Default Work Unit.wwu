@@ -30,12 +30,18 @@
 					<ChildrenList>
 						<Bus Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="BusChannelConfig" Type="int32">
 									<ValueList>
 										<Value>528</Value>
 									</ValueList>
 								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>0</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -47,12 +53,12 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="6"/>
+												<Property Name="RadiusMax" Type="Real64" Value="4"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{0C797E73-971C-4E81-B67F-A6C823567F49}">
+														<Curve Name="VolumeDry" ID="{564D94AF-55D5-455E-8C16-E4021101CFC9}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -64,8 +70,8 @@
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>6</XPos>
-																	<YPos>-200</YPos>
+																	<XPos>4</XPos>
+																	<YPos>-14.01552</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -80,26 +86,20 @@
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="LowPassFilter" ID="{B087EC2A-C259-45EE-BFA8-423CCB04F605}">
+														<Curve Name="LowPassFilter" ID="{69820613-C6E1-4A16-B3EC-9D48FFF18365}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="65537"/>
 															</PropertyList>
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>7</YPos>
+																	<YPos>23</YPos>
 																	<Flags>5</Flags>
 																	<SegmentShape>Exp3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>5.999</XPos>
-																	<YPos>33</YPos>
-																	<Flags>0</Flags>
-																	<SegmentShape>Exp3</SegmentShape>
-																</Point>
-																<Point>
-																	<XPos>6</XPos>
-																	<YPos>33</YPos>
+																	<XPos>4</XPos>
+																	<YPos>100</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -111,7 +111,7 @@
 												</HighPassFilterUsage>
 												<SpreadUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="Spread" ID="{E84FD00E-7C13-449B-B609-6E060DAA99CF}">
+														<Curve Name="Spread" ID="{4CBA0B0E-B594-484C-8BA9-7F639D42ABB0}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="1"/>
 															</PropertyList>
@@ -123,8 +123,8 @@
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>6</XPos>
-																	<YPos>0</YPos>
+																	<XPos>4</XPos>
+																	<YPos>20.74689</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -133,7 +133,7 @@
 												</SpreadUsage>
 												<FocusUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="Focus" ID="{8BDDEC81-A3F0-46D7-A52D-DAFC1413CF15}">
+														<Curve Name="Focus" ID="{FDDBC5FD-1007-401A-8638-C02C3C3BD3D5}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="1"/>
 															</PropertyList>
@@ -144,7 +144,7 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>6</XPos>
+																	<XPos>4</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -159,10 +159,13 @@
 								<Reference Name="Effect0" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<ObjectRef Name="Space_Ship_Ambisonics" ID="{9F0F1041-FE73-4568-B72A-79FFEBC77252}" WorkUnitID="{1562D13C-41E8-4FA1-A341-D4CB726E2AEC}"/>
 								</Reference>
-								<Reference Name="Effect1" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
-									<ObjectRef Name="Medium_Room_AHP" ID="{084C1341-345B-44C4-88FE-89EA007AEDB3}" WorkUnitID="{B3C352EE-53F0-4C95-BAA9-B8ECC0034D25}"/>
+								<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Big_Room_AHP" ID="{E9893773-ABD2-4F24-9EEC-71823BFC7B31}" WorkUnitID="{B3C352EE-53F0-4C95-BAA9-B8ECC0034D25}"/>
 								</Reference>
 							</ReferenceList>
+							<PositioningInfo>
+								<Panner Name="" ID="{73D2F031-4137-467D-9FC0-5E9D07B50ED9}"/>
+							</PositioningInfo>
 						</Bus>
 						<Bus Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}">
 							<PropertyList>

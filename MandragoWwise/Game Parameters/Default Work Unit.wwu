@@ -10,6 +10,15 @@
 				</GameParameter>
 				<GameParameter Name="Telekinesis_Speed" ID="{AD80F9B6-0B7F-49A9-81EF-42C0D1150491}"/>
 				<GameParameter Name="Constellation" ID="{200530BE-C2A9-4049-A2A1-2910D9CB833C}"/>
+				<GameParameter Name="Star_Hand" ID="{A9FEA526-42B7-4BBE-80BD-43E1A5497657}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="150"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="150"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

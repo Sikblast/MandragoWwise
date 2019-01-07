@@ -21,6 +21,7 @@
 				<Effect Name="Big_Church_AHP" ID="{21E40BE7-7B3A-4DE4-BC78-FA8EB81736CD}" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
 					<PropertyList>
 						<Property Name="ER_Level" Type="Real32" Value="-9"/>
+						<Property Name="Reverb" Type="bool" Value="False"/>
 						<Property Name="Reverb_alpha" Type="Real32" Value="0.69"/>
 						<Property Name="Reverb_fcut" Type="Real32" Value="4500"/>
 						<Property Name="Reverb_level" Type="Real32" Value="-15"/>
@@ -66,6 +67,7 @@
 				<Effect Name="Big_Room_AHP" ID="{E9893773-ABD2-4F24-9EEC-71823BFC7B31}" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
 					<PropertyList>
 						<Property Name="ER_Level" Type="Real32" Value="-3"/>
+						<Property Name="Reverb" Type="bool" Value="False"/>
 						<Property Name="Reverb_level" Type="Real32" Value="-9"/>
 						<Property Name="Reverb_predelay" Type="Real32" Value="13"/>
 						<Property Name="Reverb_tr60" Type="Real32" Value="1.75"/>
