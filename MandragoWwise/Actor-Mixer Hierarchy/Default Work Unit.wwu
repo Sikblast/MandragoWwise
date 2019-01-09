@@ -2946,8 +2946,8 @@
 				</ActorMixer>
 				<ActorMixer Name="Mix AmbiX" ID="{6DD2527C-FA65-4A6A-BB9F-19E8B5FA3D84}" ShortID="786815029">
 					<PropertyList>
-						<Property Name="3DPosition" Type="int16" Value="2"/>
-						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
@@ -2958,7 +2958,7 @@
 							<ObjectRef Name="High_Pass_60Hz" ID="{F9627628-0B10-4272-BC30-D4C20423CB38}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Ambisonic" ID="{7BCABF5E-1E32-4133-A65E-A9AD803F27B9}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+							<ObjectRef Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -2979,9 +2979,13 @@
 									<Language>SFX</Language>
 									<AudioFile>Short Ambisonic.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="Short Ambisonic Upmix" ID="{D567570E-65F7-4848-8017-5C7436CAC1F2}" ShortID="656993477">
+									<Language>SFX</Language>
+									<AudioFile>Short Ambisonic Upmix.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Short Ambisonic" ID="{900DB193-9C75-4278-961E-835406A2BCA6}" Platform="Linked"/>
+								<ActiveSource Name="Short Ambisonic Upmix" ID="{D567570E-65F7-4848-8017-5C7436CAC1F2}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
