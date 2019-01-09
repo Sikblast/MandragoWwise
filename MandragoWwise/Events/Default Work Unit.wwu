@@ -252,7 +252,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Telekinesis Feedback" ID="{7C16010C-A100-4A7F-A4CD-6CD9EFAC00CC}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="Telekinesis Feedback On" ID="{7C16010C-A100-4A7F-A4CD-6CD9EFAC00CC}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -379,6 +379,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Music" ID="{D8903AAD-0A69-4F5D-A9A7-DF3031E3FCBC}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Telekinesis_Feedback_Off_Play" ID="{1A029D6D-65A7-4733-BCDA-69DAF52505DB}">
+					<ChildrenList>
+						<Action Name="" ID="{F2B96F61-45E7-4B88-AD38-FA33CB7693B6}" ShortID="336790381">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Telekinesis Feedback Off" ID="{7AC12F6C-4C66-47B5-B6B5-6EDA855B3D08}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
