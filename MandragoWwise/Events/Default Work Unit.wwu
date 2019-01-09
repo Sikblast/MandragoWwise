@@ -266,7 +266,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Wind Drone Loop 1" ID="{6898C2D6-D322-4469-B576-6E649C1661C1}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="Dome Wind" ID="{6898C2D6-D322-4469-B576-6E649C1661C1}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -280,7 +280,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Wind Drone Loop 1" ID="{6898C2D6-D322-4469-B576-6E649C1661C1}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="Dome Wind" ID="{6898C2D6-D322-4469-B576-6E649C1661C1}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -393,6 +393,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Telekinesis Feedback Off" ID="{7AC12F6C-4C66-47B5-B6B5-6EDA855B3D08}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Short_Ambisonic" ID="{48C98FCF-1EF3-4E90-9CE8-9AFB20AD5DDF}">
+					<ChildrenList>
+						<Action Name="" ID="{75275C45-05FE-4C0E-A20F-DD322FBC2D8E}" ShortID="703004695">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Short Ambisonic" ID="{C0E46A31-B30F-48B5-8D98-D25819D5B32A}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

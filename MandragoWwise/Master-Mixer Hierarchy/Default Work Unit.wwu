@@ -184,6 +184,11 @@
 										<Value>528</Value>
 									</ValueList>
 								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>0</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<PositioningInfo>
 								<Panner Name="" ID="{FE749D36-A415-4629-9F97-6BC6EE3D9C00}"/>
