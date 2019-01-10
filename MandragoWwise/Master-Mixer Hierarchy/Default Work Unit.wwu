@@ -163,6 +163,26 @@
 									<ObjectRef Name="Big_Room_AHP" ID="{E9893773-ABD2-4F24-9EEC-71823BFC7B31}" WorkUnitID="{B3C352EE-53F0-4C95-BAA9-B8ECC0034D25}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Bus Name="Ambisonic" ID="{7BCABF5E-1E32-4133-A65E-A9AD803F27B9}">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="BusChannelConfig" Type="int32">
+											<ValueList>
+												<Value>528</Value>
+											</ValueList>
+										</Property>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>0</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<PositioningInfo>
+										<Panner Name="" ID="{FE749D36-A415-4629-9F97-6BC6EE3D9C00}"/>
+									</PositioningInfo>
+								</Bus>
+							</ChildrenList>
 							<PositioningInfo>
 								<Panner Name="" ID="{73D2F031-4137-467D-9FC0-5E9D07B50ED9}"/>
 							</PositioningInfo>
@@ -175,24 +195,6 @@
 									</ValueList>
 								</Property>
 							</PropertyList>
-						</Bus>
-						<Bus Name="Ambisonic" ID="{7BCABF5E-1E32-4133-A65E-A9AD803F27B9}">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="BusChannelConfig" Type="int32">
-									<ValueList>
-										<Value>528</Value>
-									</ValueList>
-								</Property>
-								<Property Name="CenterPercentage" Type="int32">
-									<ValueList>
-										<Value>0</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<PositioningInfo>
-								<Panner Name="" ID="{FE749D36-A415-4629-9F97-6BC6EE3D9C00}"/>
-							</PositioningInfo>
 						</Bus>
 					</ChildrenList>
 				</Bus>
