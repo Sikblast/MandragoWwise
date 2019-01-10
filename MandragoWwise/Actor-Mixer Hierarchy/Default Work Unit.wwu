@@ -217,6 +217,7 @@
 						<Sound Name="Music" ID="{D8903AAD-0A69-4F5D-A9A7-DF3031E3FCBC}" ShortID="527346830">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
@@ -1229,7 +1230,7 @@
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																<Curve Name="VolumeDry" ID="{670E387D-CC1B-48BA-B668-1EABC21C192A}">
+																<Curve Name="VolumeDry" ID="{30E408CB-9D2C-4EFB-98B8-768EF0577E32}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="3"/>
 																	</PropertyList>
@@ -1259,7 +1260,7 @@
 														</VolumeWetGameUsage>
 														<VolumeWetUserUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry">
-																<Curve Name="VolumeWetUser" ID="{1382F13E-A5A7-42EC-917B-CE5F80F2CE25}">
+																<Curve Name="VolumeWetUser" ID="{C40AB7A0-A4B5-4F91-8FC2-AF1CF2964E15}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="3"/>
 																	</PropertyList>
@@ -1281,7 +1282,7 @@
 														</VolumeWetUserUsage>
 														<LowPassFilterUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																<Curve Name="LowPassFilter" ID="{06837430-7111-4FE2-8140-D384B4EF4781}">
+																<Curve Name="LowPassFilter" ID="{2A018ED1-40D9-4713-AE41-CCC0B70C5A93}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="65537"/>
 																	</PropertyList>
@@ -1305,7 +1306,7 @@
 														</HighPassFilterUsage>
 														<SpreadUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																<Curve Name="Spread" ID="{EBC2C2DE-9262-4C4D-9978-5C093A4E5EE7}">
+																<Curve Name="Spread" ID="{9C5E0EB7-603E-4CA3-905B-F997BBBA6692}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="1"/>
 																	</PropertyList>
@@ -1326,7 +1327,7 @@
 														</SpreadUsage>
 														<FocusUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																<Curve Name="Focus" ID="{7608A575-4AC4-4CCF-8DB5-4B72017F4CA5}">
+																<Curve Name="Focus" ID="{8F653B1E-C313-4946-8A45-8BE8E00D0906}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="1"/>
 																	</PropertyList>
@@ -1358,14 +1359,6 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Telekinesis Feedback" ID="{735605F9-9680-4581-9E0D-9BD13C25066F}" ShortID="49787962">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.446261683171662"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.535514019805994"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Telekinesis Feedback.wav</AudioFile>
-										</AudioFileSource>
 										<AudioFileSource Name="Fantasy_Notification_3" ID="{9A6A2EF3-6456-4480-B11D-D74061D2ADD1}" ShortID="369682745">
 											<Language>SFX</Language>
 											<AudioFile>Fantasy_Notification_3.wav</AudioFile>
@@ -1412,7 +1405,7 @@
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																<Curve Name="VolumeDry" ID="{B68A974B-923D-4626-8E03-A5CCB7232279}">
+																<Curve Name="VolumeDry" ID="{D94D5AF1-65E4-435A-81A0-5C890B3497FF}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="3"/>
 																	</PropertyList>
@@ -1442,7 +1435,7 @@
 														</VolumeWetGameUsage>
 														<VolumeWetUserUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry">
-																<Curve Name="VolumeWetUser" ID="{55780456-EADB-4BCF-9C1F-F6E50BA1674C}">
+																<Curve Name="VolumeWetUser" ID="{951791DD-6D0B-4158-A8E2-F45149741A6A}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="3"/>
 																	</PropertyList>
@@ -1464,7 +1457,7 @@
 														</VolumeWetUserUsage>
 														<LowPassFilterUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																<Curve Name="LowPassFilter" ID="{8E67EBF3-2776-43DA-A4A5-6E8D29FFAED1}">
+																<Curve Name="LowPassFilter" ID="{27491EF2-EE69-4A92-A088-8DE873F6BB3C}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="65537"/>
 																	</PropertyList>
@@ -1488,7 +1481,7 @@
 														</HighPassFilterUsage>
 														<SpreadUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																<Curve Name="Spread" ID="{6C7C2446-4062-49B4-A5B6-0C9760D21D6F}">
+																<Curve Name="Spread" ID="{F4252803-2CCA-4F2E-AEAC-0031E8D446FC}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="1"/>
 																	</PropertyList>
@@ -1509,7 +1502,7 @@
 														</SpreadUsage>
 														<FocusUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																<Curve Name="Focus" ID="{1B193066-35C4-47CF-9E54-2C21ABF57BF3}">
+																<Curve Name="Focus" ID="{05475C3F-6B1E-46D1-BBFC-8E19AC55CFBB}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="1"/>
 																	</PropertyList>
