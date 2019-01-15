@@ -412,6 +412,62 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Kinder_Creation_Play" ID="{91079A02-C315-42FE-B43C-884C0A81DCCC}">
+					<ChildrenList>
+						<Action Name="" ID="{5629C8B4-71DB-4BA0-B324-70CA2AFEEB9B}" ShortID="1019341152">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Kinder Creation" ID="{9A0F5998-0D9F-4DBA-AB4F-6B9D898FA289}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Kinder_Socle_Play" ID="{D2DD8DE1-D00F-470F-9B0D-A65B4915E242}">
+					<ChildrenList>
+						<Action Name="" ID="{0571320B-A633-4AAF-9F84-F7A31F5996B7}" ShortID="491951215">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Kinder Socle" ID="{59A14FBD-8203-4B73-819E-5769209E36DF}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Socle_Loop_Stop" ID="{19839C2C-1200-4FC9-A485-5D480174F945}">
+					<ChildrenList>
+						<Action Name="" ID="{47DB1D0E-2DEC-44EF-8925-D31746EA1200}" ShortID="150261877">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Socle Loop Stereo" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Socle_Loop_Play" ID="{3E8492F0-2848-4E2B-B721-FF316D584AE5}">
+					<ChildrenList>
+						<Action Name="" ID="{4839CB0D-90C2-454F-8DAA-EC0D4772346F}" ShortID="791576279">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Socle Loop Stereo" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
