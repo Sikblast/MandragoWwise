@@ -837,11 +837,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-2</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -1002,6 +997,11 @@
 								<Sound Name="Telekinesis Object" ID="{D56BE8A9-2398-4C5B-B90A-FECB31AF5DDE}" ShortID="788293277">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="BypassEffect1" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>10</Value>
@@ -1011,6 +1011,11 @@
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -1040,8 +1045,8 @@
 																			<SegmentShape>Log3</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>1.00503</XPos>
-																			<YPos>-2.51769</YPos>
+																			<XPos>0.99247</XPos>
+																			<YPos>-4.15584</YPos>
 																			<Flags>0</Flags>
 																		</Point>
 																		<Point>
@@ -1089,10 +1094,16 @@
 																			<XPos>0</XPos>
 																			<YPos>0</YPos>
 																			<Flags>5</Flags>
+																			<SegmentShape>Exp3</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>1.01759</XPos>
+																			<YPos>31</YPos>
+																			<Flags>0</Flags>
 																		</Point>
 																		<Point>
 																			<XPos>10</XPos>
-																			<YPos>27</YPos>
+																			<YPos>69</YPos>
 																			<Flags>37</Flags>
 																		</Point>
 																	</PointList>
@@ -1162,6 +1173,17 @@
 														<Property Name="FrequencyBand2" Type="Real32" Value="20000"/>
 														<Property Name="OnOffBand2" Type="bool" Value="False"/>
 														<Property Name="OnOffBand3" Type="bool" Value="False"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="Effect1">
+											<Custom CreatedFrom="{865FB36F-8717-4D30-AD05-14E56375CD40}">
+												<Effect Name="Dialog_Leveler_Hard (Custom)" ID="{50C88E83-83DD-45EF-BAB1-F19EB5BEF54C}" ShortID="84365605" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+													<PropertyList>
+														<Property Name="Ratio" Type="Real32" Value="6"/>
+														<Property Name="ReleaseTime" Type="Real32" Value="2"/>
+														<Property Name="Threshold" Type="Real32" Value="-20.8"/>
 													</PropertyList>
 												</Effect>
 											</Custom>
@@ -1922,9 +1944,13 @@
 									<Language>SFX</Language>
 									<AudioFile>TP BOUNCE.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="Teleportation Glass Stereo" ID="{63C4C35D-8E1B-407C-A334-9C71560E2D13}" ShortID="78147638">
+									<Language>SFX</Language>
+									<AudioFile>Teleportation Glass Stereo.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Teleportation feedback" ID="{E17BE68B-AE79-4B63-A8C8-41D5614B5FBC}" Platform="Linked"/>
+								<ActiveSource Name="Teleportation Glass Stereo" ID="{63C4C35D-8E1B-407C-A334-9C71560E2D13}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Planet Orbit" ID="{1074B0D2-9688-407B-B9A2-334A2A236DA3}" ShortID="692150780">
