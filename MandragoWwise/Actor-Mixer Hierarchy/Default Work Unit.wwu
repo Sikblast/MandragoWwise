@@ -221,6 +221,35 @@
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{BD98235E-EC4B-4FD2-990E-8C435DBF4482}" ShortID="955058698">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Diegetic" ID="{74471369-2198-47F8-B4C3-9EAC3B3DFED8}" WorkUnitID="{0D722370-0E00-46EF-B000-EC471E7F4B00}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{34440AA1-4869-4F6C-9878-8927FE5CA39D}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>100</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-1</Value>
@@ -3286,7 +3315,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Builder_Game_Stone_Break_Large_2" ID="{91543714-B6E5-4C23-B79E-4285BDB58E2F}" ShortID="248837020">
+										<Sound Name="Stone_Break_Large_2" ID="{91543714-B6E5-4C23-B79E-4285BDB58E2F}" ShortID="248837020">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="CenterPercentage" Type="int32">
@@ -3441,7 +3470,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Builder_Game_Stone_Break_Large_2" ID="{8D14323E-E0D9-429B-BBB1-5B04177C1528}" ShortID="227546806">
+												<AudioFileSource Name="Stone_Break_Large_2" ID="{8D14323E-E0D9-429B-BBB1-5B04177C1528}" ShortID="227546806">
 													<Language>SFX</Language>
 													<AudioFile>Builder_Game_Stone_Break_Large_2.wav</AudioFile>
 												</AudioFileSource>
@@ -3450,10 +3479,10 @@
 												<Panner Name="" ID="{831BB023-EA0C-4C72-874A-0548746A4DAB}"/>
 											</PositioningInfo>
 											<ActiveSourceList>
-												<ActiveSource Name="Builder_Game_Stone_Break_Large_2" ID="{8D14323E-E0D9-429B-BBB1-5B04177C1528}" Platform="Linked"/>
+												<ActiveSource Name="Stone_Break_Large_2" ID="{8D14323E-E0D9-429B-BBB1-5B04177C1528}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Builder_Game_Stone_Break_Large_3" ID="{36DCF808-E1F4-48FB-B131-348802B5C210}" ShortID="447283576">
+										<Sound Name="Stone_Break_Large_3" ID="{36DCF808-E1F4-48FB-B131-348802B5C210}" ShortID="447283576">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="CenterPercentage" Type="int32">
@@ -3608,7 +3637,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Builder_Game_Stone_Break_Large_3" ID="{8824CCFD-CA65-4DA9-BB05-13E191C0829F}" ShortID="891787217">
+												<AudioFileSource Name="Stone_Break_Large_3" ID="{8824CCFD-CA65-4DA9-BB05-13E191C0829F}" ShortID="891787217">
 													<Language>SFX</Language>
 													<AudioFile>Builder_Game_Stone_Break_Large_3.wav</AudioFile>
 												</AudioFileSource>
@@ -3617,10 +3646,10 @@
 												<Panner Name="" ID="{10C56A38-9051-4ABF-8EA9-96F396F35743}"/>
 											</PositioningInfo>
 											<ActiveSourceList>
-												<ActiveSource Name="Builder_Game_Stone_Break_Large_3" ID="{8824CCFD-CA65-4DA9-BB05-13E191C0829F}" Platform="Linked"/>
+												<ActiveSource Name="Stone_Break_Large_3" ID="{8824CCFD-CA65-4DA9-BB05-13E191C0829F}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Builder_Game_Stone_Break_Large_1" ID="{AA13EDB4-1CEA-4800-9E25-4E40B60FBD62}" ShortID="326738972">
+										<Sound Name="Stone_Break_Large_1" ID="{AA13EDB4-1CEA-4800-9E25-4E40B60FBD62}" ShortID="326738972">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="CenterPercentage" Type="int32">
@@ -3775,7 +3804,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Builder_Game_Stone_Break_Large_1" ID="{0C6E3986-1269-4F8E-9524-C0DDA41EA867}" ShortID="139562285">
+												<AudioFileSource Name="Stone_Break_Large_1" ID="{0C6E3986-1269-4F8E-9524-C0DDA41EA867}" ShortID="139562285">
 													<Language>SFX</Language>
 													<AudioFile>Builder_Game_Stone_Break_Large_1.wav</AudioFile>
 												</AudioFileSource>
@@ -3784,10 +3813,10 @@
 												<Panner Name="" ID="{F6F3F4BE-86F4-4699-B406-D40BB8706D15}"/>
 											</PositioningInfo>
 											<ActiveSourceList>
-												<ActiveSource Name="Builder_Game_Stone_Break_Large_1" ID="{0C6E3986-1269-4F8E-9524-C0DDA41EA867}" Platform="Linked"/>
+												<ActiveSource Name="Stone_Break_Large_1" ID="{0C6E3986-1269-4F8E-9524-C0DDA41EA867}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Builder_Game_Stone_Break_Large_4" ID="{7646C955-B512-4964-AB76-27B74AE356A2}" ShortID="465869966">
+										<Sound Name="Stone_Break_Large_4" ID="{7646C955-B512-4964-AB76-27B74AE356A2}" ShortID="465869966">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="CenterPercentage" Type="int32">
@@ -3942,7 +3971,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Builder_Game_Stone_Break_Large_4" ID="{12BEFC81-BEF1-4C28-A89D-3AC83DF8AC0D}" ShortID="45618063">
+												<AudioFileSource Name="Stone_Break_Large_4" ID="{12BEFC81-BEF1-4C28-A89D-3AC83DF8AC0D}" ShortID="45618063">
 													<Language>SFX</Language>
 													<AudioFile>Builder_Game_Stone_Break_Large_4.wav</AudioFile>
 												</AudioFileSource>
@@ -3951,7 +3980,7 @@
 												<Panner Name="" ID="{DC23280C-17EC-4745-B064-25D1A12E1466}"/>
 											</PositioningInfo>
 											<ActiveSourceList>
-												<ActiveSource Name="Builder_Game_Stone_Break_Large_4" ID="{12BEFC81-BEF1-4C28-A89D-3AC83DF8AC0D}" Platform="Linked"/>
+												<ActiveSource Name="Stone_Break_Large_4" ID="{12BEFC81-BEF1-4C28-A89D-3AC83DF8AC0D}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

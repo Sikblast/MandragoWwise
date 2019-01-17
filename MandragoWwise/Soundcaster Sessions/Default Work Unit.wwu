@@ -116,6 +116,10 @@
 							<Value>75</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Diegetic" ID="{74471369-2198-47F8-B4C3-9EAC3B3DFED8}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
 							<Value>75</Value>
 						</RTPCValue>
@@ -145,7 +149,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="One" ID="{6B4ACC89-FAEE-46E0-8106-BA93989FBD7F}"/>
+						<CurrentStateRef Name="Four" ID="{16546B11-C9B6-4C90-B7D4-776B4EFEFF3A}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
