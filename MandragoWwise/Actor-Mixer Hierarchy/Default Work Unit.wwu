@@ -825,6 +825,11 @@
 								<Sound Name="Telekinesis Hand" ID="{9B6BFA89-37A6-4FE4-8AA9-388D2C6D0555}" ShortID="570896830">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+										</Property>
 										<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
@@ -848,7 +853,7 @@
 											<Custom>
 												<Attenuation Name="Attenuation (Custom)" ID="{41B3429D-36D2-475E-92A0-CEAAE484AD6E}" ShortID="296772332">
 													<PropertyList>
-														<Property Name="RadiusMax" Type="Real64" Value="1"/>
+														<Property Name="RadiusMax" Type="Real64" Value="2"/>
 													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
@@ -865,7 +870,7 @@
 																			<SegmentShape>Log3</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>1</XPos>
+																			<XPos>2</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -893,7 +898,7 @@
 																			<SegmentShape>Exp3</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>1</XPos>
+																			<XPos>2</XPos>
 																			<YPos>33</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -917,7 +922,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>1</XPos>
+																			<XPos>2</XPos>
 																			<YPos>0</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -938,7 +943,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>1</XPos>
+																			<XPos>2</XPos>
 																			<YPos>0</YPos>
 																			<Flags>37</Flags>
 																		</Point>
