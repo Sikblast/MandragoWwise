@@ -383,7 +383,12 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<PositioningInfo>
-								<Panner Name="" ID="{B7A9B57F-5DE2-495F-B574-A520F3C77277}"/>
+								<Panner Name="" ID="{B7A9B57F-5DE2-495F-B574-A520F3C77277}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-100"/>
+										<Property Name="PanY" Type="Real64" Value="-100"/>
+									</PropertyList>
+								</Panner>
 							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="Comet" ID="{3DCF3032-800C-4091-8DD2-E9253E7AF20A}" Platform="Linked"/>

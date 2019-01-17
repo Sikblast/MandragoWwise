@@ -117,7 +117,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Diegetic" ID="{74471369-2198-47F8-B4C3-9EAC3B3DFED8}"/>
-							<Value>0</Value>
+							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>

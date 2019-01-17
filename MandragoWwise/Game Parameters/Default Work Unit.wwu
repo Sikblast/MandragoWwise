@@ -22,6 +22,7 @@
 				</GameParameter>
 				<GameParameter Name="Diegetic" ID="{74471369-2198-47F8-B4C3-9EAC3B3DFED8}">
 					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
 						<Property Name="RTPCRamping" Type="int16" Value="1"/>
 					</PropertyList>
 				</GameParameter>
