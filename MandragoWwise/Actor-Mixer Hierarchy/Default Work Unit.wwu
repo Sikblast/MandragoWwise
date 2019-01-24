@@ -391,8 +391,14 @@
 						</Sound>
 						<Sound Name="Dome Wind" ID="{6898C2D6-D322-4469-B576-6E649C1661C1}" ShortID="36139407">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -404,7 +410,7 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="6"/>
+												<Property Name="RadiusMax" Type="Real64" Value="10"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -421,7 +427,7 @@
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>6</XPos>
+																	<XPos>10</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -449,13 +455,13 @@
 																	<SegmentShape>Exp3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>5.999</XPos>
+																	<XPos>9.99833333333333</XPos>
 																	<YPos>33</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Exp3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>6</XPos>
+																	<XPos>10</XPos>
 																	<YPos>33</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -479,7 +485,7 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>6</XPos>
+																	<XPos>10</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -507,6 +513,9 @@
 									<AudioFile>Wind Drone Loop 1.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{7BB3A40E-6292-4BEA-9085-AB5CF46DEB4B}"/>
+							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="Wind Drone Loop 1" ID="{F3E6ED0B-0F22-4CDF-B053-AF2017263E1C}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -2538,6 +2547,36 @@
 										<ActiveSource Name="GG" ID="{4A22E945-A88E-465A-8D55-C9C0AA98A1A8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Wrong Constellation" ID="{43759CD0-798A-4CE6-9673-A81CF2666F7A}" ShortID="223573872">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wrong Constellation" ID="{D03939FD-6432-47B5-8BC9-A3B4A33AC5E6}" ShortID="603831257">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="5.88957055214724E-02"/>
+												<Property Name="TrimBegin" Type="Real64" Value="4.12269938650307E-02"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Wrong Constellation.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wrong Constellation" ID="{D03939FD-6432-47B5-8BC9-A3B4A33AC5E6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Potion" ID="{9B40249A-5156-4EE9-8F51-AE9B2E27F82F}" ShortID="436489659">
@@ -3288,705 +3327,6 @@
 								<Panner Name="" ID="{0B1DE4E7-1B75-4038-8196-C1997865C28C}"/>
 							</PositioningInfo>
 						</RandomSequenceContainer>
-						<Folder Name="Builder" ID="{55548D7C-F467-40A9-B897-F78B19A1A2E6}" ShortID="420759920">
-							<ChildrenList>
-								<RandomSequenceContainer Name="Kinder Break" ID="{C7DBB3A7-E599-4E82-9294-E9541C824E28}" ShortID="596890388">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{23F919BC-36E2-4B2F-A2B9-8DAED45B017D}">
-														<PropertyList>
-															<Property Name="Max" Type="Real64" Value="429"/>
-															<Property Name="Min" Type="Real64" Value="-556"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Stone_Break_Large_2" ID="{91543714-B6E5-4C23-B79E-4285BDB58E2F}" ShortID="248837020">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="CenterPercentage" Type="int32">
-													<ValueList>
-														<Value>50</Value>
-													</ValueList>
-												</Property>
-												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<Custom>
-														<Attenuation Name="Attenuation (Custom)" ID="{913300E9-6B72-4D03-81EE-91841AA0E9A0}" ShortID="901486199">
-															<PropertyList>
-																<Property Name="ConeInnerAngle" Type="int32" Value="45"/>
-																<Property Name="ConeUse" Type="bool">
-																	<ValueList>
-																		<Value>True</Value>
-																	</ValueList>
-																</Property>
-																<Property Name="RadiusMax" Type="Real64" Value="10"/>
-															</PropertyList>
-															<CurveUsageInfoList>
-																<VolumeDryUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																		<Curve Name="VolumeDry" ID="{5671E128-0420-4902-8675-0C5113B55DC5}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="3"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>0</YPos>
-																					<Flags>5</Flags>
-																					<SegmentShape>Log3</SegmentShape>
-																				</Point>
-																				<Point>
-																					<XPos>1.00503</XPos>
-																					<YPos>-2.51769</YPos>
-																					<Flags>0</Flags>
-																				</Point>
-																				<Point>
-																					<XPos>10</XPos>
-																					<YPos>-200</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</VolumeDryUsage>
-																<VolumeWetGameUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																</VolumeWetGameUsage>
-																<VolumeWetUserUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry">
-																		<Curve Name="VolumeWetUser" ID="{891B4F96-2F5A-4458-B914-11A05939677E}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="3"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>0</YPos>
-																					<Flags>5</Flags>
-																					<SegmentShape>Log3</SegmentShape>
-																				</Point>
-																				<Point>
-																					<XPos>10</XPos>
-																					<YPos>-14.01552</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</VolumeWetUserUsage>
-																<LowPassFilterUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																		<Curve Name="LowPassFilter" ID="{399B9826-3AD0-4EC6-B5D5-8E7467A1A77B}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="65537"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>0</YPos>
-																					<Flags>5</Flags>
-																				</Point>
-																				<Point>
-																					<XPos>10</XPos>
-																					<YPos>27</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</LowPassFilterUsage>
-																<HighPassFilterUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																</HighPassFilterUsage>
-																<SpreadUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																		<Curve Name="Spread" ID="{D181446C-03F2-465C-A711-B1B65E409B78}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="1"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>50.20747</YPos>
-																					<Flags>5</Flags>
-																				</Point>
-																				<Point>
-																					<XPos>10</XPos>
-																					<YPos>0</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</SpreadUsage>
-																<FocusUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																		<Curve Name="Focus" ID="{9D1628CD-86CF-47C9-ABE8-90D5DE101E99}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="1"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>100</YPos>
-																					<Flags>5</Flags>
-																					<SegmentShape>Log3</SegmentShape>
-																				</Point>
-																				<Point>
-																					<XPos>10</XPos>
-																					<YPos>0</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</FocusUsage>
-															</CurveUsageInfoList>
-														</Attenuation>
-													</Custom>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Stone_Break_Large_2" ID="{8D14323E-E0D9-429B-BBB1-5B04177C1528}" ShortID="227546806">
-													<Language>SFX</Language>
-													<AudioFile>Builder_Game_Stone_Break_Large_2.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<PositioningInfo>
-												<Panner Name="" ID="{831BB023-EA0C-4C72-874A-0548746A4DAB}"/>
-											</PositioningInfo>
-											<ActiveSourceList>
-												<ActiveSource Name="Stone_Break_Large_2" ID="{8D14323E-E0D9-429B-BBB1-5B04177C1528}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Stone_Break_Large_3" ID="{36DCF808-E1F4-48FB-B131-348802B5C210}" ShortID="447283576">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="CenterPercentage" Type="int32">
-													<ValueList>
-														<Value>50</Value>
-													</ValueList>
-												</Property>
-												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<Custom>
-														<Attenuation Name="Attenuation (Custom)" ID="{3400A746-3C4C-4E6D-9739-919791DD0743}" ShortID="505497958">
-															<PropertyList>
-																<Property Name="ConeInnerAngle" Type="int32" Value="45"/>
-																<Property Name="ConeUse" Type="bool">
-																	<ValueList>
-																		<Value>True</Value>
-																	</ValueList>
-																</Property>
-																<Property Name="RadiusMax" Type="Real64" Value="10"/>
-															</PropertyList>
-															<CurveUsageInfoList>
-																<VolumeDryUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																		<Curve Name="VolumeDry" ID="{DAC15449-A8EC-42C5-8DF5-BF06AEFC924D}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="3"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>0</YPos>
-																					<Flags>5</Flags>
-																					<SegmentShape>Log3</SegmentShape>
-																				</Point>
-																				<Point>
-																					<XPos>1.00503</XPos>
-																					<YPos>-2.51769</YPos>
-																					<Flags>0</Flags>
-																				</Point>
-																				<Point>
-																					<XPos>10</XPos>
-																					<YPos>-200</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</VolumeDryUsage>
-																<VolumeWetGameUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																</VolumeWetGameUsage>
-																<VolumeWetUserUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry">
-																		<Curve Name="VolumeWetUser" ID="{DA30E5A9-5FD4-418A-92DE-BA7C75143F00}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="3"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>0</YPos>
-																					<Flags>5</Flags>
-																					<SegmentShape>Log3</SegmentShape>
-																				</Point>
-																				<Point>
-																					<XPos>10</XPos>
-																					<YPos>-14.01552</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</VolumeWetUserUsage>
-																<LowPassFilterUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																		<Curve Name="LowPassFilter" ID="{99696DE8-B618-4A63-9098-B088975FEE67}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="65537"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>0</YPos>
-																					<Flags>5</Flags>
-																				</Point>
-																				<Point>
-																					<XPos>10</XPos>
-																					<YPos>27</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</LowPassFilterUsage>
-																<HighPassFilterUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																</HighPassFilterUsage>
-																<SpreadUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																		<Curve Name="Spread" ID="{384BC5D0-8B48-46ED-93E7-8AE9A9C548D5}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="1"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>50.20747</YPos>
-																					<Flags>5</Flags>
-																				</Point>
-																				<Point>
-																					<XPos>10</XPos>
-																					<YPos>0</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</SpreadUsage>
-																<FocusUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																		<Curve Name="Focus" ID="{F3B3A91B-E44F-47D3-860D-96062607D417}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="1"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>100</YPos>
-																					<Flags>5</Flags>
-																					<SegmentShape>Log3</SegmentShape>
-																				</Point>
-																				<Point>
-																					<XPos>10</XPos>
-																					<YPos>0</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</FocusUsage>
-															</CurveUsageInfoList>
-														</Attenuation>
-													</Custom>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Stone_Break_Large_3" ID="{8824CCFD-CA65-4DA9-BB05-13E191C0829F}" ShortID="891787217">
-													<Language>SFX</Language>
-													<AudioFile>Builder_Game_Stone_Break_Large_3.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<PositioningInfo>
-												<Panner Name="" ID="{10C56A38-9051-4ABF-8EA9-96F396F35743}"/>
-											</PositioningInfo>
-											<ActiveSourceList>
-												<ActiveSource Name="Stone_Break_Large_3" ID="{8824CCFD-CA65-4DA9-BB05-13E191C0829F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Stone_Break_Large_1" ID="{AA13EDB4-1CEA-4800-9E25-4E40B60FBD62}" ShortID="326738972">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="CenterPercentage" Type="int32">
-													<ValueList>
-														<Value>50</Value>
-													</ValueList>
-												</Property>
-												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<Custom>
-														<Attenuation Name="Attenuation (Custom)" ID="{F6F4AAB7-DA30-4EEC-85E4-6BCE18867241}" ShortID="734667920">
-															<PropertyList>
-																<Property Name="ConeInnerAngle" Type="int32" Value="45"/>
-																<Property Name="ConeUse" Type="bool">
-																	<ValueList>
-																		<Value>True</Value>
-																	</ValueList>
-																</Property>
-																<Property Name="RadiusMax" Type="Real64" Value="10"/>
-															</PropertyList>
-															<CurveUsageInfoList>
-																<VolumeDryUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																		<Curve Name="VolumeDry" ID="{DE01EDE9-E184-4142-A64C-2BD41776DAD2}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="3"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>0</YPos>
-																					<Flags>5</Flags>
-																					<SegmentShape>Log3</SegmentShape>
-																				</Point>
-																				<Point>
-																					<XPos>1.00503</XPos>
-																					<YPos>-2.51769</YPos>
-																					<Flags>0</Flags>
-																				</Point>
-																				<Point>
-																					<XPos>10</XPos>
-																					<YPos>-200</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</VolumeDryUsage>
-																<VolumeWetGameUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																</VolumeWetGameUsage>
-																<VolumeWetUserUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry">
-																		<Curve Name="VolumeWetUser" ID="{5C602A87-AA0E-4C9B-B7C7-E485FD01AF91}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="3"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>0</YPos>
-																					<Flags>5</Flags>
-																					<SegmentShape>Log3</SegmentShape>
-																				</Point>
-																				<Point>
-																					<XPos>10</XPos>
-																					<YPos>-14.01552</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</VolumeWetUserUsage>
-																<LowPassFilterUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																		<Curve Name="LowPassFilter" ID="{340C3E6F-B534-412C-AAD0-855D5192B286}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="65537"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>0</YPos>
-																					<Flags>5</Flags>
-																				</Point>
-																				<Point>
-																					<XPos>10</XPos>
-																					<YPos>27</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</LowPassFilterUsage>
-																<HighPassFilterUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																</HighPassFilterUsage>
-																<SpreadUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																		<Curve Name="Spread" ID="{243389E6-BF51-4CB6-8C44-3988348BE43E}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="1"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>50.20747</YPos>
-																					<Flags>5</Flags>
-																				</Point>
-																				<Point>
-																					<XPos>10</XPos>
-																					<YPos>0</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</SpreadUsage>
-																<FocusUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																		<Curve Name="Focus" ID="{8672D6FA-12FA-4231-8985-7E066EA25252}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="1"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>100</YPos>
-																					<Flags>5</Flags>
-																					<SegmentShape>Log3</SegmentShape>
-																				</Point>
-																				<Point>
-																					<XPos>10</XPos>
-																					<YPos>0</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</FocusUsage>
-															</CurveUsageInfoList>
-														</Attenuation>
-													</Custom>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Stone_Break_Large_1" ID="{0C6E3986-1269-4F8E-9524-C0DDA41EA867}" ShortID="139562285">
-													<Language>SFX</Language>
-													<AudioFile>Builder_Game_Stone_Break_Large_1.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<PositioningInfo>
-												<Panner Name="" ID="{F6F3F4BE-86F4-4699-B406-D40BB8706D15}"/>
-											</PositioningInfo>
-											<ActiveSourceList>
-												<ActiveSource Name="Stone_Break_Large_1" ID="{0C6E3986-1269-4F8E-9524-C0DDA41EA867}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Stone_Break_Large_4" ID="{7646C955-B512-4964-AB76-27B74AE356A2}" ShortID="465869966">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="CenterPercentage" Type="int32">
-													<ValueList>
-														<Value>50</Value>
-													</ValueList>
-												</Property>
-												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<Custom>
-														<Attenuation Name="Attenuation (Custom)" ID="{7E63F082-99B0-4C59-AFED-6D63BABED7F8}" ShortID="839803091">
-															<PropertyList>
-																<Property Name="ConeInnerAngle" Type="int32" Value="45"/>
-																<Property Name="ConeUse" Type="bool">
-																	<ValueList>
-																		<Value>True</Value>
-																	</ValueList>
-																</Property>
-																<Property Name="RadiusMax" Type="Real64" Value="10"/>
-															</PropertyList>
-															<CurveUsageInfoList>
-																<VolumeDryUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																		<Curve Name="VolumeDry" ID="{2B4D9F3B-F66A-4232-94C5-7B040E5AABD3}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="3"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>0</YPos>
-																					<Flags>5</Flags>
-																					<SegmentShape>Log3</SegmentShape>
-																				</Point>
-																				<Point>
-																					<XPos>1.00503</XPos>
-																					<YPos>-2.51769</YPos>
-																					<Flags>0</Flags>
-																				</Point>
-																				<Point>
-																					<XPos>10</XPos>
-																					<YPos>-200</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</VolumeDryUsage>
-																<VolumeWetGameUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																</VolumeWetGameUsage>
-																<VolumeWetUserUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry">
-																		<Curve Name="VolumeWetUser" ID="{B15D32F7-2AF9-4198-96DF-85B0D26530F1}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="3"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>0</YPos>
-																					<Flags>5</Flags>
-																					<SegmentShape>Log3</SegmentShape>
-																				</Point>
-																				<Point>
-																					<XPos>10</XPos>
-																					<YPos>-14.01552</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</VolumeWetUserUsage>
-																<LowPassFilterUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																		<Curve Name="LowPassFilter" ID="{A8350A6D-40D2-4300-A329-DB904E88B959}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="65537"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>0</YPos>
-																					<Flags>5</Flags>
-																				</Point>
-																				<Point>
-																					<XPos>10</XPos>
-																					<YPos>27</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</LowPassFilterUsage>
-																<HighPassFilterUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																</HighPassFilterUsage>
-																<SpreadUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																		<Curve Name="Spread" ID="{F447862D-EC34-4BA0-BA15-8AB9AC34F2B0}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="1"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>50.20747</YPos>
-																					<Flags>5</Flags>
-																				</Point>
-																				<Point>
-																					<XPos>10</XPos>
-																					<YPos>0</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</SpreadUsage>
-																<FocusUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																		<Curve Name="Focus" ID="{CBC98A4F-D8F5-475E-8F18-55186C35AECC}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="1"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>100</YPos>
-																					<Flags>5</Flags>
-																					<SegmentShape>Log3</SegmentShape>
-																				</Point>
-																				<Point>
-																					<XPos>10</XPos>
-																					<YPos>0</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</FocusUsage>
-															</CurveUsageInfoList>
-														</Attenuation>
-													</Custom>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Stone_Break_Large_4" ID="{12BEFC81-BEF1-4C28-A89D-3AC83DF8AC0D}" ShortID="45618063">
-													<Language>SFX</Language>
-													<AudioFile>Builder_Game_Stone_Break_Large_4.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<PositioningInfo>
-												<Panner Name="" ID="{DC23280C-17EC-4745-B064-25D1A12E1466}"/>
-											</PositioningInfo>
-											<ActiveSourceList>
-												<ActiveSource Name="Stone_Break_Large_4" ID="{12BEFC81-BEF1-4C28-A89D-3AC83DF8AC0D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-							</ChildrenList>
-						</Folder>
 						<Folder Name="Kinder" ID="{0B4C17D4-61C0-4139-8E05-6FA915085B4D}" ShortID="651639473">
 							<ChildrenList>
 								<Sound Name="Kinder Creation" ID="{9A0F5998-0D9F-4DBA-AB4F-6B9D898FA289}" ShortID="1023435305">
@@ -4200,17 +3540,378 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Fantasy_Game_Achievement" ID="{3051B20B-E837-474E-A776-50F62B00B8DD}" ShortID="32439250">
+										<AudioFileSource Name="Kinder_Socle" ID="{3051B20B-E837-474E-A776-50F62B00B8DD}" ShortID="32439250">
 											<Language>SFX</Language>
 											<AudioFile>Fantasy_Game_Achievement.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Fantasy_Game_Achievement" ID="{3051B20B-E837-474E-A776-50F62B00B8DD}" Platform="Linked"/>
+										<ActiveSource Name="Kinder_Socle" ID="{3051B20B-E837-474E-A776-50F62B00B8DD}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Socle activated" ID="{1550DCF1-0C48-4B3E-9E34-2537AAA83410}" ShortID="57503868">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Socle activated" ID="{F1026837-F3C0-40C5-AD0E-CDC0CFB2AB9A}" ShortID="1057793232">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.007837971078"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Socle activated.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Socle activated" ID="{F1026837-F3C0-40C5-AD0E-CDC0CFB2AB9A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Kinder Break" ID="{C7DBB3A7-E599-4E82-9294-E9541C824E28}" ShortID="596890388">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{23F919BC-36E2-4B2F-A2B9-8DAED45B017D}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="429"/>
+															<Property Name="Min" Type="Real64" Value="-556"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{9BDCABA8-12F3-4AF2-89A7-A462B4C83018}" ShortID="345341222">
+													<PropertyList>
+														<Property Name="ConeHighPassFilterValue" Type="int32">
+															<ValueList>
+																<Value>49</Value>
+															</ValueList>
+														</Property>
+														<Property Name="ConeInnerAngle" Type="int32" Value="45"/>
+														<Property Name="ConeLowPassFilterValue" Type="int32">
+															<ValueList>
+																<Value>50</Value>
+															</ValueList>
+														</Property>
+														<Property Name="ConeUse" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="RadiusMax" Type="Real64" Value="10"/>
+													</PropertyList>
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{93283472-CB4C-4675-821C-64B908BCDFB2}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>Log3</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>10</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry">
+																<Curve Name="VolumeWetUser" ID="{5BE5EF55-F97E-46EA-AA0C-62C2820BB823}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>Log3</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>10</XPos>
+																			<YPos>-14.01552</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="LowPassFilter" ID="{EEE2CA3E-AE80-4363-9F4E-FFCF9D01D366}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="65537"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>10</XPos>
+																			<YPos>27</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="Spread" ID="{32B173AB-AA34-49B3-9051-5367689E8B3C}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="1"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>50.20747</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>10</XPos>
+																			<YPos>0</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="Focus" ID="{50F63B44-4D5B-4CC7-9DD4-441310D3681C}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="1"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>100</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>Log3</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>10</XPos>
+																			<YPos>0</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Kinder Break 1" ID="{FE4123EC-9A2E-4A6B-B549-4533D24AD64F}" ShortID="902411485">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Kinder Break 1" ID="{2799D35B-045C-4602-9CFC-D0F2C7E4C2AF}" ShortID="654904870">
+													<Language>SFX</Language>
+													<AudioFile>Kinder Break 1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Kinder Break 1" ID="{2799D35B-045C-4602-9CFC-D0F2C7E4C2AF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Kinder Break 2" ID="{4C34C885-0622-4F65-B7E2-0FD25D1DA870}" ShortID="645696666">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Kinder Break 2" ID="{B1617D2B-1068-4BEE-B9AE-934F1B7E52E5}" ShortID="132267004">
+													<Language>SFX</Language>
+													<AudioFile>Kinder Break 2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Kinder Break 2" ID="{B1617D2B-1068-4BEE-B9AE-934F1B7E52E5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Kinder Break 3" ID="{856596E9-B914-4F0C-939C-B00563C91D33}" ShortID="168074077">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Kinder Break 3" ID="{B7B99666-336C-4B13-A862-8862058E54FB}" ShortID="760817801">
+													<Language>SFX</Language>
+													<AudioFile>Kinder Break 3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Kinder Break 3" ID="{B7B99666-336C-4B13-A862-8862058E54FB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Kinder Break 4" ID="{36490A3D-ED73-4C58-A511-11F3D163CB0B}" ShortID="978802718">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Kinder Break 4" ID="{5DEF1281-90CF-4E8E-9E1D-1BB64B3320B0}" ShortID="533212428">
+													<Language>SFX</Language>
+													<AudioFile>Kinder Break 4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Kinder Break 4" ID="{5DEF1281-90CF-4E8E-9E1D-1BB64B3320B0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Kinder Break 5" ID="{F50F5CA3-83DB-4798-AA9A-76158E82C518}" ShortID="862101150">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Kinder Break 5" ID="{A735FD93-92E3-4955-AA2C-C701DB3EE3EB}" ShortID="971507471">
+													<Language>SFX</Language>
+													<AudioFile>Kinder Break 5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Kinder Break 5" ID="{A735FD93-92E3-4955-AA2C-C701DB3EE3EB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Kinder Break 6" ID="{9AF7281C-BCEF-45E8-B586-61C48DF37794}" ShortID="934851377">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Kinder Break 6" ID="{36C56109-C3B8-4C0A-9AE8-D6F7494296AB}" ShortID="560400267">
+													<Language>SFX</Language>
+													<AudioFile>Kinder Break 6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Kinder Break 6" ID="{36C56109-C3B8-4C0A-9AE8-D6F7494296AB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Kinder Break 7" ID="{9744DC81-5171-4D04-98C6-86DCD3204A3C}" ShortID="425504402">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Kinder Break 7" ID="{6F9D93A4-DC85-4DF4-8D8B-AB460D2D8A5C}" ShortID="970428548">
+													<Language>SFX</Language>
+													<AudioFile>Kinder Break 7.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Kinder Break 7" ID="{6F9D93A4-DC85-4DF4-8D8B-AB460D2D8A5C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{06A5867A-063A-484A-B106-B9223BD539DB}"/>
+									</PositioningInfo>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
+						<Sound Name="Button" ID="{0150D5CB-11D1-4BB5-B258-FB9F17A78118}" ShortID="471885303">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Button" ID="{0719D726-0E10-461B-A360-9366553A8629}" ShortID="306126470">
+									<Language>SFX</Language>
+									<AudioFile>Button.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Button" ID="{0719D726-0E10-461B-A360-9366553A8629}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<PositioningInfo>
 						<Panner Name="" ID="{88FBDBC7-495E-47C0-9BAC-BF3B2D46B229}"/>

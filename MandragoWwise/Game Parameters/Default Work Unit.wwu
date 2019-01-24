@@ -26,6 +26,7 @@
 						<Property Name="RTPCRamping" Type="int16" Value="1"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Scale" ID="{10B566F7-9703-434F-97B2-8BF8BC747849}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

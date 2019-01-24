@@ -26,6 +26,10 @@
 							<Position X="0" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Constellation Hits" ID="{4853D512-CF9B-47D5-874C-DD8E3FD05D27}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Draw" ID="{75531130-AB7E-4A45-AA39-5ED16DF571DF}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -44,6 +48,10 @@
 						<Module>
 							<ObjectRef Name="Kinder Socle" ID="{59A14FBD-8203-4B73-819E-5769209E36DF}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Wrong Constellation" ID="{43759CD0-798A-4CE6-9673-A81CF2666F7A}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<Position X="1" Y="5"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Teleportation" ID="{0AAF4D7F-FCAE-4B78-A464-5CFC07DFC959}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
@@ -90,6 +98,10 @@
 						<RTPCValue>
 							<GameParameterRef Name="Playback_Rate" ID="{28387EE3-C13A-4316-B9C3-DB5C521624AF}"/>
 							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Scale" ID="{10B566F7-9703-434F-97B2-8BF8BC747849}"/>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>

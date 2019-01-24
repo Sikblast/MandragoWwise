@@ -36,6 +36,11 @@
 										<Value>528</Value>
 									</ValueList>
 								</Property>
+								<Property Name="BypassEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
 										<Value>0</Value>
@@ -194,7 +199,16 @@
 										<Value>6353158</Value>
 									</ValueList>
 								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>0</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 							</PropertyList>
+							<PositioningInfo>
+								<Panner Name="" ID="{554BE1B7-57DD-47A0-96E7-CA52F1580522}"/>
+							</PositioningInfo>
 						</Bus>
 					</ChildrenList>
 				</Bus>

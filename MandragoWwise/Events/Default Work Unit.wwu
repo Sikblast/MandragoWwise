@@ -469,6 +469,62 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Constellation_Wrong_Play" ID="{132C03C8-29EF-402E-8EB1-E8626037B798}">
+					<ChildrenList>
+						<Action Name="" ID="{31180F06-14D9-4615-BAB1-0DC9C3BD18C3}" ShortID="545439550">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wrong Constellation" ID="{43759CD0-798A-4CE6-9673-A81CF2666F7A}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Socle_Activated_Play" ID="{CC602252-5C1C-4DF8-AC23-D384F17EE12F}">
+					<ChildrenList>
+						<Action Name="" ID="{5EAC2365-B329-497D-A31D-7322633CA8CC}" ShortID="38089856">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Socle activated" ID="{1550DCF1-0C48-4B3E-9E34-2537AAA83410}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Button_Play" ID="{FA9E563D-123A-4118-9CE2-D7BCC00B901A}">
+					<ChildrenList>
+						<Action Name="" ID="{6D06B193-7EA4-485E-BEC4-63A6103FA0E2}" ShortID="1014083691">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Button" ID="{0150D5CB-11D1-4BB5-B258-FB9F17A78118}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Constellation_Hits_Stop" ID="{FEA6AC4F-7F7C-415E-BF2B-6DBEF1C01546}">
+					<ChildrenList>
+						<Action Name="" ID="{4435FFC4-ED76-420C-BD74-CA634897A4ED}" ShortID="125013483">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Constellation Hits" ID="{4853D512-CF9B-47D5-874C-DD8E3FD05D27}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
