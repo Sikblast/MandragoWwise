@@ -50,7 +50,7 @@
 							<Position X="1" Y="4"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Wrong Constellation" ID="{43759CD0-798A-4CE6-9673-A81CF2666F7A}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<ObjectRef Name="Constellation_Hits_Stop" ID="{FEA6AC4F-7F7C-415E-BF2B-6DBEF1C01546}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
 							<Position X="1" Y="5"/>
 						</Module>
 						<Module>
@@ -66,8 +66,12 @@
 							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Socle Loop Stereo" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<ObjectRef Name="TP Zone" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Wrong Constellation" ID="{43759CD0-798A-4CE6-9673-A81CF2666F7A}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<Position X="2" Y="5"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Constellation Hits" ID="{4853D512-CF9B-47D5-874C-DD8E3FD05D27}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
@@ -84,6 +88,10 @@
 						<Module>
 							<ObjectRef Name="Drip" ID="{3B3DB68A-9D66-4B16-AE1F-91A0D8BACAA3}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Soundseed" ID="{F36C4F35-814A-4121-89C9-AF4D10414C28}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<Position X="3" Y="4"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -106,6 +114,10 @@
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
 							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Wind" ID="{29DB60C0-D6EE-44C4-9DED-E17E7AD20C61}"/>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RPM" ID="{9112AA05-F577-44FD-9F4E-4424158129E6}"/>
@@ -142,6 +154,10 @@
 						<RTPCValue>
 							<GameParameterRef Name="Star_Hand" ID="{A9FEA526-42B7-4BBE-80BD-43E1A5497657}"/>
 							<Value>11</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Force" ID="{10244699-1FFE-4C21-A644-A655AA34A86A}"/>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>

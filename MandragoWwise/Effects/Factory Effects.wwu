@@ -1590,7 +1590,9 @@
 										<Property Name="DelayTime" Type="Real32" Value="10"/>
 										<Property Name="ModDepth" Type="Real32" Value="60"/>
 										<Property Name="ModFrequency" Type="Real32" Value="0.85"/>
-										<Property Name="ModPWM" Type="Real32" Value="0"/>
+										<Property Name="ModPWM" Type="Real32" Value="100"/>
+										<Property Name="ModPhaseMode" Type="int32" Value="3"/>
+										<Property Name="ModSmoothing" Type="Real32" Value="81"/>
 									</PropertyList>
 								</Effect>
 							</ChildrenList>

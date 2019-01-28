@@ -449,7 +449,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Socle Loop Stereo" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="TP Zone" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -463,7 +463,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Socle Loop Stereo" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="TP Zone" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -516,10 +516,67 @@
 						<Action Name="" ID="{4435FFC4-ED76-420C-BD74-CA634897A4ED}" ShortID="125013483">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.4"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Constellation Hits" ID="{4853D512-CF9B-47D5-874C-DD8E3FD05D27}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stone_Up_Play" ID="{F409A10C-753F-4C6C-B080-68F3A736F4D3}">
+					<ChildrenList>
+						<Action Name="" ID="{9CC2024D-C579-446B-89A0-CC60D6AFCA12}" ShortID="863032501">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stone Up" ID="{87FDA704-BD00-42B0-AD03-00AAC25833C2}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stone_Down_Play" ID="{834BE525-1301-42E9-830B-B74EB8C868F9}">
+					<ChildrenList>
+						<Action Name="" ID="{E2248C43-A7E5-4E39-B4E0-C975EF2A28FB}" ShortID="786773853">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stone Down" ID="{0D6BCDAE-66D5-4C2E-B386-9B8B6CE91C6D}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Water_Play" ID="{CDD6D3B3-F96C-4B34-8422-5365A374524F}">
+					<ChildrenList>
+						<Action Name="" ID="{5A222C10-0DB0-40AF-ABCF-72C66E1EC7DA}" ShortID="856710585">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Water" ID="{28E44403-9FD1-4CF7-B7F9-A6F5A96A65C2}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pick_Up_Kinder_Play" ID="{26E621F3-9285-4B75-96F4-376A846C7C35}">
+					<ChildrenList>
+						<Action Name="" ID="{2196FE94-FD12-440A-BCCF-E4EF5B570E83}" ShortID="1037567813">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pick Up Kinder" ID="{2A08DC40-6E90-437D-9836-3F842A97A8C6}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
