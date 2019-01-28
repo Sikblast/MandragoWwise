@@ -157,7 +157,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Force" ID="{10244699-1FFE-4C21-A644-A655AA34A86A}"/>
-							<Value>0</Value>
+							<Value>74.3623570800352</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>

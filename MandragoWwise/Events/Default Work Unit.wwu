@@ -582,6 +582,48 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Kinder_Break_Play" ID="{E0CBA45B-AE08-4215-80F5-DD8696691C9F}">
+					<ChildrenList>
+						<Action Name="" ID="{3154F7DC-CD16-4AD8-A2F0-D3337451EDA6}" ShortID="935262560">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Kinder Break" ID="{C7DBB3A7-E599-4E82-9294-E9541C824E28}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Soundseed_Play" ID="{9245C823-13A1-4673-97FA-8648939D852B}">
+					<ChildrenList>
+						<Action Name="" ID="{9C5E8D1E-D2C0-4A78-B154-4FFA0D6D0923}" ShortID="153349834">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soundseed" ID="{F36C4F35-814A-4121-89C9-AF4D10414C28}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Soundseed_Stop" ID="{60D4BF77-6C96-41E8-A729-1025EF7EF961}">
+					<ChildrenList>
+						<Action Name="" ID="{D375A4E3-18BC-4AE5-B494-85B35DC8E70E}" ShortID="38980706">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soundseed" ID="{F36C4F35-814A-4121-89C9-AF4D10414C28}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
