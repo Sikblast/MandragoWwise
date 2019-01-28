@@ -273,7 +273,7 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="11"/>
+												<Property Name="RadiusMax" Type="Real64" Value="15"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -290,7 +290,7 @@
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>11</XPos>
+																	<XPos>15</XPos>
 																	<YPos>-14.01552</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -318,7 +318,7 @@
 																	<SegmentShape>Exp3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>11</XPos>
+																	<XPos>15</XPos>
 																	<YPos>100</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -343,7 +343,7 @@
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>11</XPos>
+																	<XPos>15</XPos>
 																	<YPos>20.74689</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -364,7 +364,7 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>11</XPos>
+																	<XPos>15</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -2617,7 +2617,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-15</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -3187,7 +3187,7 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="11"/>
+												<Property Name="RadiusMax" Type="Real64" Value="15"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -3204,7 +3204,7 @@
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>11</XPos>
+																	<XPos>15</XPos>
 																	<YPos>-23.03137</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -3232,7 +3232,7 @@
 																	<SegmentShape>Exp3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>11</XPos>
+																	<XPos>15</XPos>
 																	<YPos>33</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -3257,7 +3257,7 @@
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>11</XPos>
+																	<XPos>15</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -3278,7 +3278,7 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>11</XPos>
+																	<XPos>15</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
