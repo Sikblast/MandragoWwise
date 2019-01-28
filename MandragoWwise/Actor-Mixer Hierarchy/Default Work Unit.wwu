@@ -4024,6 +4024,7 @@
 								</RandomSequenceContainer>
 								<Sound Name="Stone Down" ID="{0D6BCDAE-66D5-4C2E-B386-9B8B6CE91C6D}" ShortID="856747820">
 									<PropertyList>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
 												<Value>1</Value>
@@ -4060,6 +4061,7 @@
 								</Sound>
 								<Sound Name="Stone Up" ID="{87FDA704-BD00-42B0-AD03-00AAC25833C2}" ShortID="101641078">
 									<PropertyList>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
 												<Value>1</Value>
@@ -4096,6 +4098,7 @@
 								</Sound>
 								<RandomSequenceContainer Name="Water" ID="{28E44403-9FD1-4CF7-B7F9-A6F5A96A65C2}" ShortID="737523333">
 									<PropertyList>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
 												<Value>1</Value>
