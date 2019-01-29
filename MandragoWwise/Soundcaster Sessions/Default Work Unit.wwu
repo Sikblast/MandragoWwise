@@ -117,7 +117,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Wind" ID="{29DB60C0-D6EE-44C4-9DED-E17E7AD20C61}"/>
-							<Value>0</Value>
+							<Value>19.7889182058048</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RPM" ID="{9112AA05-F577-44FD-9F4E-4424158129E6}"/>

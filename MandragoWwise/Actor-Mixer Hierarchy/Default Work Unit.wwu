@@ -4703,8 +4703,8 @@
 														<SegmentShape>Log3</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>1.85874</XPos>
-														<YPos>-3.59675</YPos>
+														<XPos>1.94669</XPos>
+														<YPos>-7.21594</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Log3</SegmentShape>
 													</Point>
@@ -4759,7 +4759,7 @@
 											</RTPCList>
 										</Property>
 										<Property Name="ChannelMask" Type="int16" Value="0"/>
-										<Property Name="FrequencyScale" Type="Real32" Value="-0.76"/>
+										<Property Name="FrequencyScale" Type="Real32" Value="-1.47"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<PluginData/>
