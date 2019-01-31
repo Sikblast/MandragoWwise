@@ -69,7 +69,39 @@
 					<Comment>Good with underwater loops to help simulate sonar pulses. Change the speed by adjusting the LFO Period.</Comment>
 					<PropertyList>
 						<Property Name="Filter1Frequency" Type="Real32" Value="500"/>
-						<Property Name="Filter1Gain" Type="Real32" Value="25"/>
+						<Property Name="Filter1Gain" Type="Real32" Value="25">
+							<RTPCList>
+								<RTPC Name="" ID="{85153763-9567-47E2-9BEB-CE7627C04779}" ShortID="540577843">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Scale_Rate" ID="{8DBF4C35-0079-4C8A-86B1-83117220A407}" WorkUnitID="{0D722370-0E00-46EF-B000-EC471E7F4B00}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{C3CCB8AD-F2FC-4113-963D-3E91184EAE0B}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>30</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>-30</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 						<Property Name="Filter1LFOPeriod" Type="Real32" Value="4000"/>
 						<Property Name="Filter1LFOTargetFreq" Type="Real32" Value="500"/>
 						<Property Name="Filter1LFOTargetGain" Type="Real32" Value="6"/>
@@ -77,7 +109,73 @@
 						<Property Name="Filter1Resonance" Type="Real32" Value="1"/>
 						<Property Name="Filter1Trigger" Type="int32" Value="1"/>
 						<Property Name="Filter1Type" Type="int32" Value="6"/>
+						<Property Name="Filter2Gain" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{437EE003-5F72-4CFB-B2D9-67C7160B3301}" ShortID="835968201">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Scale_Rate" ID="{8DBF4C35-0079-4C8A-86B1-83117220A407}" WorkUnitID="{0D722370-0E00-46EF-B000-EC471E7F4B00}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{B762F87F-3716-46C8-9312-50A47FECC95F}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>30</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>-0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>-30</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 						<Property Name="Filter2Type" Type="int32" Value="0"/>
+						<Property Name="Filter3Gain" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{D38B93ED-7B3D-413C-8758-A1F4EE2999C1}" ShortID="732169816">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Scale_Rate" ID="{8DBF4C35-0079-4C8A-86B1-83117220A407}" WorkUnitID="{0D722370-0E00-46EF-B000-EC471E7F4B00}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{8B895DE9-DFA7-4669-8194-21A7F30A95C0}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>30</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>-0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>-30</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 						<Property Name="Filter3Type" Type="int32" Value="0"/>
 					</PropertyList>
 				</Effect>
@@ -112,7 +210,34 @@
 				<Effect Name="Crazy_Copter" ID="{B9679233-0A33-4076-9C30-8AC7FD6951F2}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
 					<PropertyList>
 						<Property Name="Filter1LFOTargetRes" Type="Real32" Value="0.3"/>
-						<Property Name="Filter2Frequency" Type="Real32" Value="760"/>
+						<Property Name="Filter2Frequency" Type="Real32" Value="760">
+							<RTPCList>
+								<RTPC Name="" ID="{4306E5EF-6D7E-4FA0-ACF0-553501DE37D0}" ShortID="218035253">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Scale_Rate" ID="{8DBF4C35-0079-4C8A-86B1-83117220A407}" WorkUnitID="{0D722370-0E00-46EF-B000-EC471E7F4B00}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{7D584473-ECB9-47B3-A88C-700748034269}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>20</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>1453.99052</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 						<Property Name="Filter2LFOPeriod" Type="Real32" Value="120"/>
 						<Property Name="Filter2Res" Type="Real32" Value="0"/>
 						<Property Name="Filter2TargetFreq" Type="Real32" Value="50"/>

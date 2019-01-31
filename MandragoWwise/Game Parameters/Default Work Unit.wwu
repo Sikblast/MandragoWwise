@@ -38,6 +38,11 @@
 						<Property Name="SlewRateUp" Type="Real64" Value="25"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Scale_Rate" ID="{8DBF4C35-0079-4C8A-86B1-83117220A407}">
+					<PropertyList>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

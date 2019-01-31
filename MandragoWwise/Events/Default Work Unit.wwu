@@ -449,7 +449,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="TP Zone" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="Guide" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -463,7 +463,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="TP Zone" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="Guide" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -619,6 +619,90 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Soundseed" ID="{F36C4F35-814A-4121-89C9-AF4D10414C28}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Guide_Play" ID="{4D47B5ED-AC99-4260-8DEA-B90BF725A5E3}">
+					<ChildrenList>
+						<Action Name="" ID="{42BD4AEC-C3F7-488F-8EB6-49351370E94B}" ShortID="1070365067">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Guide" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Guide_Stop" ID="{AF1F0171-3C01-422A-A353-590984272392}">
+					<ChildrenList>
+						<Action Name="" ID="{19727099-3DB2-43CA-B94E-9F187C4EA637}" ShortID="90909177">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Guide" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LFO_Scale_Play" ID="{7E81BB69-FD2C-41CA-AEA9-B49ACC59DA85}">
+					<ChildrenList>
+						<Action Name="" ID="{336028AA-E514-43F2-98DB-A120BAD5FF20}" ShortID="346147783">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LFO Scale" ID="{AA98DB3B-CF9E-4CF6-847C-D4B9D437E9E0}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LFO_Scale_Stop" ID="{73B04CF6-78B4-4DC7-B288-8568574D85A8}">
+					<ChildrenList>
+						<Action Name="" ID="{051F5050-542F-44A5-8810-55B756366782}" ShortID="83172943">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LFO Scale" ID="{AA98DB3B-CF9E-4CF6-847C-D4B9D437E9E0}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="First_Star_Play" ID="{961898C2-4833-4F11-A2E6-B4017E466490}">
+					<ChildrenList>
+						<Action Name="" ID="{751594BE-B688-430F-B733-CE4A922EE51E}" ShortID="1040441463">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="First Star" ID="{4E1F546A-C228-4BC8-854F-D2FFDE9D70D4}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="First_Star_Stop" ID="{F4B7935B-E5E1-4304-94B7-2E573067072B}">
+					<ChildrenList>
+						<Action Name="" ID="{E7E2F17F-FB6C-45D7-A52E-17698F5F15B2}" ShortID="526893422">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="First Star" ID="{4E1F546A-C228-4BC8-854F-D2FFDE9D70D4}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -26,6 +26,11 @@
 								</Effect>
 							</Custom>
 						</Reference>
+						<Reference Name="Effect1">
+							<Custom>
+								<Effect Name="Wwise Recorder (Custom)" ID="{FA5B4408-5249-48A9-A144-B4561B8B8153}" ShortID="667457466" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3"/>
+							</Custom>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}">
@@ -165,7 +170,7 @@
 									<ObjectRef Name="Space_Ship_Ambisonics" ID="{9F0F1041-FE73-4568-B72A-79FFEBC77252}" WorkUnitID="{1562D13C-41E8-4FA1-A341-D4CB726E2AEC}"/>
 								</Reference>
 								<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
-									<ObjectRef Name="Big_Room_AHP" ID="{E9893773-ABD2-4F24-9EEC-71823BFC7B31}" WorkUnitID="{B3C352EE-53F0-4C95-BAA9-B8ECC0034D25}"/>
+									<ObjectRef Name="Large_Hall_AHP" ID="{1F253E66-2739-4432-8EAF-37CC14E8A754}" WorkUnitID="{B3C352EE-53F0-4C95-BAA9-B8ECC0034D25}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -210,6 +215,199 @@
 								<Panner Name="" ID="{554BE1B7-57DD-47A0-96E7-CA52F1580522}"/>
 							</PositioningInfo>
 						</Bus>
+						<AuxBus Name="Wwise_Reflecrt" ID="{E495F25E-44B9-4A79-A741-2745CBE82206}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Reflect (Custom)" ID="{D51D0968-3EEA-4728-82C3-E5EAA649C1C1}" ShortID="90253383" PluginName="Wwise Reflect" CompanyID="0" PluginID="171" PluginType="3">											<PluginData>
+	<ReflectData>
+		<CurveList Version="4">
+			<CurveInfo Name="Diffraction Attenuation">
+				<Curve Name="" ID="{8E2E1656-1D5E-4A07-AD10-56332440CC8B}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="3"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>0</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>-3</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Diffraction HPF">
+				<Curve Name="" ID="{D82BC7E2-305F-4939-BD13-2CD70ACB57E9}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>20</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Diffraction LPF">
+				<Curve Name="" ID="{D0BF3AD4-7D3E-4F0A-93FB-87E71A26E94E}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20000</YPos>
+							<Flags>5</Flags>
+							<SegmentShape>Log3</SegmentShape>
+						</Point>
+						<Point>
+							<XPos>8.33333333333333</XPos>
+							<YPos>1000</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>100</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance Attenuation (Emitter vs. Listener)">
+				<Curve Name="" ID="{43CA2D55-2184-44BB-BA32-1184675B848C}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="3"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>1000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance Attenuation (Image Source vs. Listener)">
+				<Curve Name="" ID="{D8859415-00E1-45A4-A081-35E7F48AC6E5}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="3"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>150</XPos>
+							<YPos>-6</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>300</XPos>
+							<YPos>-12</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>600</XPos>
+							<YPos>-18</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>1000</XPos>
+							<YPos>-200</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance High-pass Filter (Image Source vs. Listener)">
+				<Curve Name="" ID="{17BE2974-6595-400E-9A7B-3202B029F38C}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>1000</XPos>
+							<YPos>20</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance Low-pass Filter (Image Source vs. Listener)">
+				<Curve Name="" ID="{24385330-9D60-4AF3-B220-B72AA137A82E}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20000</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>1000</XPos>
+							<YPos>20</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance Spread (Image Source vs. Listener)">
+				<Curve Name="" ID="{0B273BE3-A487-4ED8-9746-9AB3D99D0770}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>1000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ReflectData>
+</PluginData>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
 					</ChildrenList>
 				</Bus>
 				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">

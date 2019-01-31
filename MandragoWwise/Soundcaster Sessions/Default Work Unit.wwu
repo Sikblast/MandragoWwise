@@ -54,6 +54,10 @@
 							<Position X="1" Y="5"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Wrong Constellation" ID="{43759CD0-798A-4CE6-9673-A81CF2666F7A}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Teleportation" ID="{0AAF4D7F-FCAE-4B78-A464-5CFC07DFC959}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="2" Y="1"/>
 						</Module>
@@ -66,11 +70,11 @@
 							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="TP Zone" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<ObjectRef Name="Guide" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="2" Y="4"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Wrong Constellation" ID="{43759CD0-798A-4CE6-9673-A81CF2666F7A}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<ObjectRef Name="Rumbling Sun" ID="{53D3C42A-825E-4F77-A5A5-4C3368ACD794}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="2" Y="5"/>
 						</Module>
 						<Module>
@@ -92,6 +96,10 @@
 						<Module>
 							<ObjectRef Name="Soundseed" ID="{F36C4F35-814A-4121-89C9-AF4D10414C28}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Deep Space Rumble_01" ID="{62D6591D-56C0-4298-B5EE-EC9B72AB3EE0}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<Position X="3" Y="5"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -117,7 +125,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Wind" ID="{29DB60C0-D6EE-44C4-9DED-E17E7AD20C61}"/>
-							<Value>19.7889182058048</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RPM" ID="{9112AA05-F577-44FD-9F4E-4424158129E6}"/>
@@ -157,7 +165,11 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Force" ID="{10244699-1FFE-4C21-A644-A655AA34A86A}"/>
-							<Value>74.3623570800352</Value>
+							<Value>29.1842510852481</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Scale_Rate" ID="{8DBF4C35-0079-4C8A-86B1-83117220A407}"/>
+							<Value>27.3737373737374</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>

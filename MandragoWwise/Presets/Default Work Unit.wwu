@@ -688,6 +688,45 @@
 						</FocusUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
+				<Effect Name="Crazy_Copter" ID="{07FD6452-FC45-40CE-BB11-F9526FA45EF0}" PluginName="iZotope Trash Filters" CompanyID="259" PluginID="6" PluginType="3">
+					<PropertyList>
+						<Property Name="Filter1LFOTargetRes" Type="Real32" Value="0.3"/>
+						<Property Name="Filter2Frequency" Type="Real32" Value="760">
+							<RTPCList>
+								<RTPC Name="" ID="{57B0DD31-43D2-4BDC-A0F1-8D6D96990271}" ShortID="520817098">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Scale_Rate" ID="{8DBF4C35-0079-4C8A-86B1-83117220A407}" WorkUnitID="{0D722370-0E00-46EF-B000-EC471E7F4B00}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{B69699F4-A29F-408C-99C0-ED40A54933FF}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>760</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>1453.99052</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="Filter2LFOPeriod" Type="Real32" Value="120"/>
+						<Property Name="Filter2Res" Type="Real32" Value="0"/>
+						<Property Name="Filter2TargetFreq" Type="Real32" Value="50"/>
+						<Property Name="Filter2Trigger" Type="int32" Value="1"/>
+						<Property Name="Filter2Type" Type="int32" Value="9"/>
+						<Property Name="Filter3Type" Type="int32" Value="0"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Presets>
