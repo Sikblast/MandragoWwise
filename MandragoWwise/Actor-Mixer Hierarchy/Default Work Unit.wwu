@@ -2065,6 +2065,11 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -2197,10 +2202,6 @@
 									<Language>SFX</Language>
 									<AudioFile>Orbit loop mono.wav</AudioFile>
 								</AudioFileSource>
-								<AudioFileSource Name="QP02 0251 Wind desert rock boulder space" ID="{4EB4EEBD-113D-45A2-ADA4-AC15B929DDE3}" ShortID="443111995">
-									<Language>SFX</Language>
-									<AudioFile>QP02 0251 Wind desert rock boulder space.wav</AudioFile>
-								</AudioFileSource>
 								<AudioFileSource Name="Wind Fire Texture Loop" ID="{32270F54-90FC-4A54-95DE-307DD9C218E1}" ShortID="1053456891">
 									<Language>SFX</Language>
 									<AudioFile>Wind Fire Texture Loop.wav</AudioFile>
@@ -2238,7 +2239,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-8</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2319,25 +2320,6 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="1" ID="{31FF14C8-0FDA-4D67-ADFF-4113B4DC0EAB}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="2" ID="{F81DE35B-2E53-415A-B121-826114447161}" ShortID="91703060">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="2" ID="{26CDA460-B082-4AC3-A754-29790C640BCA}" ShortID="865573225">
-													<Language>SFX</Language>
-													<AudioFile>2.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="2" ID="{26CDA460-B082-4AC3-A754-29790C640BCA}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="3" ID="{64067392-7255-442B-A678-AC736F06C1F4}" ShortID="92525478">
@@ -2607,6 +2589,8 @@
 								</Sound>
 								<Sound Name="Wrong Constellation" ID="{43759CD0-798A-4CE6-9673-A81CF2666F7A}" ShortID="223573872">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -2616,11 +2600,61 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-15</Value>
+												<Value>-20</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{974BC804-99C8-4D22-A229-31C389564B5A}" ShortID="579922102">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="15"/>
+													</PropertyList>
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{08F76849-8CE9-4076-A643-E6808CC27744}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>15</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 										</Reference>
@@ -2648,7 +2682,7 @@
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-13</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -3084,7 +3118,7 @@
 						</Folder>
 						<Sound Name="Rumbling Sun" ID="{53D3C42A-825E-4F77-A5A5-4C3368ACD794}" ShortID="1053839644">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -3721,6 +3755,11 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -3750,13 +3789,13 @@
 											<Language>SFX</Language>
 											<AudioFile>Socle activated.wav</AudioFile>
 										</AudioFileSource>
-										<AudioFileSource Name="Futuristic_Unlock_Game_Tone" ID="{F2B9A80E-80BE-48A0-9635-C80C6DFAB257}" ShortID="586551975">
+										<AudioFileSource Name="Socle" ID="{F2B9A80E-80BE-48A0-9635-C80C6DFAB257}" ShortID="586551975">
 											<Language>SFX</Language>
 											<AudioFile>Futuristic_Unlock_Game_Tone.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Futuristic_Unlock_Game_Tone" ID="{F2B9A80E-80BE-48A0-9635-C80C6DFAB257}" Platform="Linked"/>
+										<ActiveSource Name="Socle" ID="{F2B9A80E-80BE-48A0-9635-C80C6DFAB257}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<RandomSequenceContainer Name="Kinder Break" ID="{C7DBB3A7-E599-4E82-9294-E9541C824E28}" ShortID="596890388">
@@ -4881,6 +4920,7 @@
 						</Sound>
 						<Sound Name="Scale" ID="{412F10F3-A04F-47FE-96E1-BF68F8CEC76A}" ShortID="288916535">
 							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -4967,7 +5007,7 @@
 										<Effect Name="Wwise Parametric EQ (Custom)" ID="{93CB8EBF-61E8-4BBC-88EF-6B92999524F7}" ShortID="920950080" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 											<PropertyList>
 												<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
-												<Property Name="FrequencyBand1" Type="Real32" Value="821"/>
+												<Property Name="FrequencyBand1" Type="Real32" Value="462"/>
 												<Property Name="OnOffBand2" Type="bool" Value="False"/>
 												<Property Name="OnOffBand3" Type="bool" Value="False"/>
 											</PropertyList>
@@ -4992,7 +5032,7 @@
 									<Language>SFX</Language>
 									<AudioFile>2.wav</AudioFile>
 									<ConvertedFileIDList>
-										<File ID="865573225"/>
+										<File ID="478307438"/>
 									</ConvertedFileIDList>
 								</AudioFileSource>
 							</ChildrenList>
@@ -5025,7 +5065,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="2" ID="{62D3DF0B-F958-4602-AFD5-28A522065F80}" ShortID="929262283">
+								<Sound Name="No LFO" ID="{62D3DF0B-F958-4602-AFD5-28A522065F80}" ShortID="929262283">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
@@ -5087,7 +5127,7 @@
 									</ReferenceList>
 									<BlendTrackAssocList>
 										<BlendTrackAssoc>
-											<ItemRef Name="2" ID="{62D3DF0B-F958-4602-AFD5-28A522065F80}"/>
+											<ItemRef Name="No LFO" ID="{62D3DF0B-F958-4602-AFD5-28A522065F80}"/>
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
@@ -5112,20 +5152,16 @@
 							<PropertyList>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Stereo" ID="{9A93FA99-EE64-4133-9733-8AC82A50807C}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+									<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -5164,11 +5200,6 @@
 						<Sound Name="Short Ambisonic" ID="{C0E46A31-B30F-48B5-8D98-D25819D5B32A}" ShortID="184616494">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>12</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
