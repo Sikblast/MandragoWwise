@@ -53,7 +53,7 @@
 						<Property Name="ER_Level" Type="Real32" Value="-9"/>
 						<Property Name="Reverb_alpha" Type="Real32" Value="0.64"/>
 						<Property Name="Reverb_fcut" Type="Real32" Value="6000"/>
-						<Property Name="Reverb_level" Type="Real32" Value="-18"/>
+						<Property Name="Reverb_level" Type="Real32" Value="-13.85"/>
 						<Property Name="Reverb_predelay" Type="Real32" Value="20"/>
 						<Property Name="Reverb_tr60" Type="Real32" Value="2"/>
 						<Property Name="Src_distance" Type="Real32" Value="2"/>
