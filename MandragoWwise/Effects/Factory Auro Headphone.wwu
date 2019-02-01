@@ -50,18 +50,10 @@
 				</Effect>
 				<Effect Name="Large_Hall_AHP" ID="{1F253E66-2739-4432-8EAF-37CC14E8A754}" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
 					<PropertyList>
-						<Property Name="ER_Level" Type="Real32" Value="-9"/>
-						<Property Name="Reverb_alpha" Type="Real32" Value="0.64"/>
-						<Property Name="Reverb_fcut" Type="Real32" Value="6000"/>
-						<Property Name="Reverb_level" Type="Real32" Value="-13.85"/>
-						<Property Name="Reverb_predelay" Type="Real32" Value="20"/>
-						<Property Name="Reverb_tr60" Type="Real32" Value="2"/>
+						<Property Name="ER_Level" Type="Real32" Value="-3"/>
+						<Property Name="Reverb_level" Type="Real32" Value="-16"/>
+						<Property Name="Reverb_predelay" Type="Real32" Value="5"/>
 						<Property Name="Src_distance" Type="Real32" Value="2"/>
-						<Property Name="Wall_back" Type="Real32" Value="4.44"/>
-						<Property Name="Wall_bottom" Type="Real32" Value="1"/>
-						<Property Name="Wall_front" Type="Real32" Value="3.95"/>
-						<Property Name="Wall_left" Type="Real32" Value="3.25"/>
-						<Property Name="Wall_right" Type="Real32" Value="3.75"/>
 					</PropertyList>
 				</Effect>
 				<Effect Name="Big_Room_AHP" ID="{E9893773-ABD2-4F24-9EEC-71823BFC7B31}" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">

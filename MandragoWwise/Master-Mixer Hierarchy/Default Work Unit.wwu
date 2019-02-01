@@ -170,7 +170,7 @@
 									<ObjectRef Name="Space_Ship_Ambisonics" ID="{9F0F1041-FE73-4568-B72A-79FFEBC77252}" WorkUnitID="{1562D13C-41E8-4FA1-A341-D4CB726E2AEC}"/>
 								</Reference>
 								<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
-									<ObjectRef Name="Large_Hall_AHP" ID="{1F253E66-2739-4432-8EAF-37CC14E8A754}" WorkUnitID="{B3C352EE-53F0-4C95-BAA9-B8ECC0034D25}"/>
+									<ObjectRef Name="Church_AHP" ID="{4421C0DA-3918-4BEA-944B-F70544E89F39}" WorkUnitID="{B3C352EE-53F0-4C95-BAA9-B8ECC0034D25}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
