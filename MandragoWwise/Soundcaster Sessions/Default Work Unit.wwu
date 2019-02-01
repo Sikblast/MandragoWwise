@@ -169,7 +169,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Scale_Rate" ID="{8DBF4C35-0079-4C8A-86B1-83117220A407}"/>
-							<Value>13.030303030303</Value>
+							<Value>45.3359683794466</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
