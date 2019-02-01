@@ -3647,7 +3647,7 @@
 											<Custom>
 												<Effect Name="Wwise Gain (Custom)" ID="{FD26993B-8B21-40B4-8983-E14664A41865}" ShortID="494408532" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
 													<PropertyList>
-														<Property Name="FullBandGain" Type="Real32" Value="6"/>
+														<Property Name="FullBandGain" Type="Real32" Value="12.5"/>
 													</PropertyList>
 												</Effect>
 											</Custom>
@@ -3657,7 +3657,7 @@
 												<Effect Name="Wwise Parametric EQ (Custom)" ID="{2A320667-01BD-47B4-B53B-45AC453A23AF}" ShortID="169177557" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<PropertyList>
 														<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
-														<Property Name="FrequencyBand1" Type="Real32" Value="3512"/>
+														<Property Name="FrequencyBand1" Type="Real32" Value="4660"/>
 														<Property Name="OnOffBand2" Type="bool" Value="False"/>
 														<Property Name="OnOffBand3" Type="bool" Value="False"/>
 													</PropertyList>
@@ -5108,6 +5108,36 @@
 								</BlendTrack>
 							</BlendTrackList>
 						</BlendContainer>
+						<Sound Name="Sun Light" ID="{52B1C299-92F4-40C3-95DE-436609673406}" ShortID="767546353">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Stereo" ID="{9A93FA99-EE64-4133-9733-8AC82A50807C}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sun Light" ID="{68768CEC-130F-4618-8479-7865751E2B6A}" ShortID="562030891">
+									<Language>SFX</Language>
+									<AudioFile>Sun Light.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sun Light" ID="{68768CEC-130F-4618-8479-7865751E2B6A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<PositioningInfo>
 						<Panner Name="" ID="{88FBDBC7-495E-47C0-9BAC-BF3B2D46B229}"/>

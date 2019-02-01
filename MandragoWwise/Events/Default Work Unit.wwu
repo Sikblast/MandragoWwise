@@ -708,6 +708,62 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Sun_Lighting_Play" ID="{88BE61EC-A7EB-423C-AD22-6C362522E06B}">
+					<ChildrenList>
+						<Action Name="" ID="{1AB94D88-DEBC-4AB6-84FC-F0BFFB9673D4}" ShortID="686254468">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sun Lighting" ID="{3D5C1402-43E1-42AF-A575-FA466AB32FA2}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Sun_Light_Play" ID="{B921F90F-8BCD-4FC6-85B8-8B61CC54DBB9}">
+					<ChildrenList>
+						<Action Name="" ID="{101FFB72-CC54-42D0-BBC2-BAE88C41D8FA}" ShortID="40651132">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sun Light" ID="{B91B21DF-C1DA-4381-814A-AC673CC8431D}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Sun_Light_Stop" ID="{01256381-F2D9-43EE-9B8A-48E8E3F5557A}">
+					<ChildrenList>
+						<Action Name="" ID="{2CBD3F06-20D9-439B-98A2-16D339DA6F49}" ShortID="421215750">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sun Light" ID="{B91B21DF-C1DA-4381-814A-AC673CC8431D}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sun_Light" ID="{CFF23EDA-4F74-445C-8963-B188301C01D7}">
+					<ChildrenList>
+						<Action Name="" ID="{7741ECBB-50F6-4A2B-8BD5-4C6245077ED7}" ShortID="676496425">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sun Light" ID="{52B1C299-92F4-40C3-95DE-436609673406}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
