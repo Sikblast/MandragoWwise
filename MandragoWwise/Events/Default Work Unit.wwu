@@ -730,7 +730,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Sun Light" ID="{B91B21DF-C1DA-4381-814A-AC673CC8431D}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="Sun Light" ID="{52B1C299-92F4-40C3-95DE-436609673406}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
