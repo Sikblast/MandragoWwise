@@ -12,7 +12,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+							<ObjectRef Name="Binauralizer" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -90,7 +90,7 @@
 									<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+									<ObjectRef Name="Binauralizer" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -511,7 +511,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+									<ObjectRef Name="Binauralizer" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -682,7 +682,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+							<ObjectRef Name="Binauralizer" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1014,7 +1014,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+											<ObjectRef Name="Binauralizer" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -1949,7 +1949,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+									<ObjectRef Name="Binauralizer" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -3624,7 +3624,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+											<ObjectRef Name="Binauralizer" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -4047,7 +4047,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+											<ObjectRef Name="Binauralizer" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -4414,7 +4414,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+													<ObjectRef Name="Binauralizer" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -4581,7 +4581,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+													<ObjectRef Name="Binauralizer" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -4750,7 +4750,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+											<ObjectRef Name="Binauralizer" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -5024,7 +5024,7 @@
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+									<ObjectRef Name="Binauralizer" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -5193,7 +5193,7 @@
 							<ObjectRef Name="High_Pass_60Hz" ID="{F9627628-0B10-4272-BC30-D4C20423CB38}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Ambisonic" ID="{7BCABF5E-1E32-4133-A65E-A9AD803F27B9}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+							<ObjectRef Name="Ambisonics" ID="{7BCABF5E-1E32-4133-A65E-A9AD803F27B9}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

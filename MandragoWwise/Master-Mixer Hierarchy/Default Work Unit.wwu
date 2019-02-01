@@ -33,7 +33,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="Auro 3D" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}">
+						<Bus Name="Binauralizer" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="BusChannelConfig" Type="int32">
@@ -174,7 +174,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Bus Name="Ambisonic" ID="{7BCABF5E-1E32-4133-A65E-A9AD803F27B9}">
+								<Bus Name="Ambisonics" ID="{7BCABF5E-1E32-4133-A65E-A9AD803F27B9}">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="BusChannelConfig" Type="int32">
@@ -189,7 +189,11 @@
 										</Property>
 									</PropertyList>
 									<PositioningInfo>
-										<Panner Name="" ID="{FE749D36-A415-4629-9F97-6BC6EE3D9C00}"/>
+										<Panner Name="" ID="{FE749D36-A415-4629-9F97-6BC6EE3D9C00}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-1.11022302462516E-16"/>
+											</PropertyList>
+										</Panner>
 									</PositioningInfo>
 								</Bus>
 							</ChildrenList>
