@@ -1593,6 +1593,39 @@
 										<Property Name="ModPWM" Type="Real32" Value="100"/>
 										<Property Name="ModPhaseMode" Type="int32" Value="3"/>
 										<Property Name="ModSmoothing" Type="Real32" Value="81"/>
+										<Property Name="WetDryMix" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{23D94444-2AEB-40D6-90BE-8D75117F4657}" ShortID="146004787">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Scale_Rate" ID="{8DBF4C35-0079-4C8A-86B1-83117220A407}" WorkUnitID="{0D722370-0E00-46EF-B000-EC471E7F4B00}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{FEFF6E9F-F8E6-40F8-9E08-5CA8A3C09177}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-100</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>49.70356</XPos>
+																<YPos>-100</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 									</PropertyList>
 								</Effect>
 							</ChildrenList>

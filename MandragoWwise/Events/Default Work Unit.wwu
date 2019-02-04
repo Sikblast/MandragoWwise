@@ -736,6 +736,48 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Tests" ID="{343F1A49-AB43-4F94-8729-34F1659006A3}">
+					<ChildrenList>
+						<Action Name="" ID="{3D742461-5C50-494C-9504-74F32BB8B8DC}" ShortID="162535868">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tests" ID="{30DCECD8-FC81-47A4-8F68-249411199A69}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Wind" ID="{AF14352A-0BBA-4AC5-BC96-591A5D09BF12}">
+					<ChildrenList>
+						<Action Name="" ID="{D28AA83D-6678-4D0E-8CE6-F5BDFFD1D42E}" ShortID="323988870">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind" ID="{C72EBB0F-0503-44FC-B8BF-D9E20133C0FF}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Wind" ID="{FDF36FCE-67E0-4091-9FA8-F630441A9272}">
+					<ChildrenList>
+						<Action Name="" ID="{D4DA6519-428F-407E-AB73-3F8710C600E1}" ShortID="257136798">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind" ID="{C72EBB0F-0503-44FC-B8BF-D9E20133C0FF}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

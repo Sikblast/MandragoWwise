@@ -238,6 +238,34 @@
 								</RTPC>
 							</RTPCList>
 						</Property>
+						<Property Name="Filter2Gain" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{445017DB-9B34-443A-8798-1A19D0F7433E}" ShortID="214448855">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}" WorkUnitID="{3B167755-FB42-458B-98BF-96F557AFB3B9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{598F9D5A-3ACE-46BB-9339-AFC095CD9532}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-30</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 						<Property Name="Filter2LFOPeriod" Type="Real32" Value="120"/>
 						<Property Name="Filter2Res" Type="Real32" Value="0"/>
 						<Property Name="Filter2TargetFreq" Type="Real32" Value="50"/>

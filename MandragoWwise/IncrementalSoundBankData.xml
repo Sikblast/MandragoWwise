@@ -3,8 +3,8 @@
 	<Platform GUID="{B801203B-E4DE-4600-B9F6-8C0BE0E4F531}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="3992195227" Timestamp="1549030694"/>
-				<File Name="Soundbank" Hash="1516182919" Timestamp="1549030694"/>
+				<File Name="Init" Hash="155343724" Timestamp="1549233480"/>
+				<File Name="Soundbank" Hash="1135884925" Timestamp="1549233480"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
