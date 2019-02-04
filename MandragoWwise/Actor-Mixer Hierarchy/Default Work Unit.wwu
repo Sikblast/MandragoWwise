@@ -2629,6 +2629,12 @@
 								<Sound Name="Wrong Constellation" ID="{43759CD0-798A-4CE6-9673-A81CF2666F7A}" ShortID="223573872">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -2638,6 +2644,11 @@
 											</ModifierList>
 										</Property>
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-30</Value>
@@ -2663,6 +2674,7 @@
 																			<XPos>0</XPos>
 																			<YPos>0</YPos>
 																			<Flags>5</Flags>
+																			<SegmentShape>Log3</SegmentShape>
 																		</Point>
 																		<Point>
 																			<XPos>15</XPos>
