@@ -4211,7 +4211,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4250,7 +4250,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -5348,6 +5348,60 @@
 							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="Wind fucker" ID="{47DF8E8C-009A-4BD4-B340-CA47D9A605C9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI Terra" ID="{5F0D29EE-58DA-4837-B95C-5AE1F605102E}" ShortID="988112173">
+							<PropertyList>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{AABDA317-6111-474E-8DBF-9DC3A1DD20DD}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="177"/>
+													<Property Name="Min" Type="Real64" Value="-177"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI Terra" ID="{73446709-A6EB-42D0-B2DD-F7794FBB0188}" ShortID="696953688">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="4.2177533664068E-04"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="2.55408398299079E-03"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.81652197023388E-02"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.036553862508859"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>UI Terra.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI Terra" ID="{73446709-A6EB-42D0-B2DD-F7794FBB0188}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
