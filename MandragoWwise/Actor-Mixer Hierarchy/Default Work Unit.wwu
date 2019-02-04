@@ -1940,7 +1940,7 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>1</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2637,9 +2637,10 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-20</Value>
+												<Value>-30</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2711,6 +2712,9 @@
 											<AudioFile>Wrong Constellation.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{649D17DD-B7CE-4D33-8785-CAB22AC80C90}"/>
+									</PositioningInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="Wrong Constellation" ID="{D03939FD-6432-47B5-8BC9-A3B4A33AC5E6}" Platform="Linked"/>
 									</ActiveSourceList>
