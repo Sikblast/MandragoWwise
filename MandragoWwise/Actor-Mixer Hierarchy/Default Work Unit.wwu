@@ -5404,6 +5404,32 @@
 								<ActiveSource Name="UI Terra" ID="{73446709-A6EB-42D0-B2DD-F7794FBB0188}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Look_TP" ID="{39745501-B1C2-4BF6-B4F7-20FDF95BAA02}" ShortID="202212511">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Magic_Game_Notification_2" ID="{80FD21C7-9E0C-49BC-A059-0F191C66A71B}" ShortID="162608147">
+									<Language>SFX</Language>
+									<AudioFile>Magic_Game_Notification_2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Magic_Game_Notification_2" ID="{80FD21C7-9E0C-49BC-A059-0F191C66A71B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<PositioningInfo>
 						<Panner Name="" ID="{88FBDBC7-495E-47C0-9BAC-BF3B2D46B229}"/>
