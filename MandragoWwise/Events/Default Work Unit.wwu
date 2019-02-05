@@ -449,7 +449,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Guide" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="TP Activated" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -463,7 +463,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Guide" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="TP Activated" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -629,10 +629,34 @@
 						<Action Name="" ID="{42BD4AEC-C3F7-488F-8EB6-49351370E94B}" ShortID="1070365067">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.7"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Guide" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="TP Activated" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8E995E64-8DD9-4B08-A062-D8242C348D59}" ShortID="580291501">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64" Value="50">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6711BD84-5D19-4E68-8F37-085910DBE083}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="45"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TP Activated" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -643,10 +667,11 @@
 						<Action Name="" ID="{19727099-3DB2-43CA-B94E-9F187C4EA637}" ShortID="90909177">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Guide" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="TP Activated" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -758,7 +783,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Guide" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="TP Activated" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -772,7 +797,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Wind" ID="{C72EBB0F-0503-44FC-B8BF-D9E20133C0FF}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="Test" ID="{C72EBB0F-0503-44FC-B8BF-D9E20133C0FF}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -786,7 +811,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Guide" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="TP Activated" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -800,7 +825,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Guide" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="TP Activated" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -815,6 +840,230 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Look_TP" ID="{39745501-B1C2-4BF6-B4F7-20FDF95BAA02}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Socle_Scale" ID="{084053FE-D610-45F6-8387-F465A2EBC063}">
+					<ChildrenList>
+						<Action Name="" ID="{6D7FC27A-987C-4AE8-8CF6-D2C63A374C50}" ShortID="1041547982">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Socle Scale" ID="{9657C430-4280-4522-AF51-D3D4AA8554EF}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Socle_Tuile" ID="{E0000FBC-E352-498F-A1AC-ADAB51394C8E}">
+					<ChildrenList>
+						<Action Name="" ID="{2454AAA7-7DDE-449C-A48E-9EDE1A13E447}" ShortID="158618933">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Socle Tuile" ID="{B176D2F0-41EB-45BD-95A3-0AB02CB19B6E}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Socle_Extrud" ID="{E652BBE6-131C-4703-B755-5F9B75B7869F}">
+					<ChildrenList>
+						<Action Name="" ID="{71401A44-AFB3-49BA-A22E-8D0E91EB6D75}" ShortID="684662201">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Socle Extrud" ID="{4242CC87-6D66-471C-9C0E-FC5E0E34C44E}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Socle_Scale" ID="{A39D9DD8-1956-4385-BE2F-990332A204B6}">
+					<ChildrenList>
+						<Action Name="" ID="{7339889F-3FFE-469D-8F62-1002621F396B}" ShortID="94399305">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Socle Scale" ID="{9657C430-4280-4522-AF51-D3D4AA8554EF}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Socle_Tuile" ID="{EF0109BB-70D9-45E8-A0C9-7AA4C342D636}">
+					<ChildrenList>
+						<Action Name="" ID="{EE5D4CEC-0803-421D-B49B-CEC063BEB2E6}" ShortID="69163004">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Socle Tuile" ID="{B176D2F0-41EB-45BD-95A3-0AB02CB19B6E}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Socles_Extrud" ID="{1064907C-A880-4524-B43A-5573F02FF1F3}">
+					<ChildrenList>
+						<Action Name="" ID="{312C59A3-004A-4D2B-B010-0CA9D1F914FE}" ShortID="883588114">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Socle Extrud" ID="{4242CC87-6D66-471C-9C0E-FC5E0E34C44E}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sun_Explosion" ID="{CA60E4F1-779F-454D-98D3-9BB12980E256}">
+					<ChildrenList>
+						<Action Name="" ID="{D77F3508-26FA-4272-871F-B1D7CA4659F4}" ShortID="165224154">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sun Explosion" ID="{E561B19A-1478-4F51-9DFC-B49FC4995C55}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Turn_Off_Extrud" ID="{04FF8101-6837-41A3-BDB8-81EBC5ADD3E4}">
+					<ChildrenList>
+						<Action Name="" ID="{4BE91E28-CF8F-4A31-B7C4-CA2A85F016EF}" ShortID="196635957">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Turn Off Extrud" ID="{F5C18B55-B3D3-464D-9A2A-7F836A557926}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Turn_Off_Scale" ID="{6A07DBCB-4C35-4F31-989F-2E0820B202C2}">
+					<ChildrenList>
+						<Action Name="" ID="{A9F94239-2C20-49B4-9858-6EB5A89C400B}" ShortID="719397367">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Turn Off Scale" ID="{C68636AB-94B9-479F-B722-DCA7CA886381}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Turn_Off_Tuile" ID="{59B3B5EF-7D95-42BF-933E-9946B33A5E24}">
+					<ChildrenList>
+						<Action Name="" ID="{29556CDE-5CF1-4D15-A11F-6B47E62F0722}" ShortID="810637017">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Turn Off Tuile" ID="{6B6D03B3-2A7B-4276-BB60-3966B5CE2E2A}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Turn_On_Extrud" ID="{7B326B4F-E4E4-4AA4-A59A-E14271691626}">
+					<ChildrenList>
+						<Action Name="" ID="{B7A9DE5C-A6F1-4DDD-9602-D9EC8AD5048F}" ShortID="871153123">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Turn On Extrud" ID="{D2D98C92-2AC6-415E-BE46-78FDA6168B31}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Turn_On_Scale" ID="{5212FE9B-0BA6-424A-B364-EC20222EFEC8}">
+					<ChildrenList>
+						<Action Name="" ID="{CAEA9CBB-7EA0-45B5-BD7A-226DE395ED94}" ShortID="723842553">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Turn On Scale" ID="{FCBC179E-A575-4573-AABD-7F88B286B406}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Turn_On_Tuile" ID="{16FCA7BB-E8C5-40D7-BDCA-B0264E30FAE5}">
+					<ChildrenList>
+						<Action Name="" ID="{85F761DA-5DF9-4668-AE7B-97F6F402D8C3}" ShortID="169308388">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Turn On Tuile" ID="{7F70FFF9-C845-4CAE-8FDC-2461C971B8B7}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Signal_Socle" ID="{C3F00C90-1E51-4ABB-9FE3-456A8DAECA46}">
+					<ChildrenList>
+						<Action Name="" ID="{4EEE0D10-0CE3-4A32-B868-A45117D99095}" ShortID="300151277">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Signal Socle" ID="{08BFF15A-B1CD-40F2-A568-85603DA87D2A}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Signal_Socle" ID="{3644BD76-5577-471E-B60E-3279DC5EB852}">
+					<ChildrenList>
+						<Action Name="" ID="{A9CE6AD0-E1B8-455F-A84D-52B598D03EFB}" ShortID="718339673">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Signal Socle" ID="{08BFF15A-B1CD-40F2-A568-85603DA87D2A}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Formation_Constellation" ID="{D6D10C4F-CE66-48EB-A698-8C43DEF147BA}">
+					<ChildrenList>
+						<Action Name="" ID="{A7F91AFF-D788-44EC-B10F-F03CB67D05D8}" ShortID="608179552">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Formation Constellation" ID="{D9FA3DF2-0006-403C-8026-0AFCE5DF52CB}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

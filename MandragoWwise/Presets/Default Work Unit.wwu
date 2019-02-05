@@ -693,7 +693,7 @@
 						<Property Name="Filter1LFOTargetRes" Type="Real32" Value="0.3"/>
 						<Property Name="Filter2Frequency" Type="Real32" Value="760">
 							<RTPCList>
-								<RTPC Name="" ID="{57B0DD31-43D2-4BDC-A0F1-8D6D96990271}" ShortID="520817098">
+								<RTPC Name="" ID="{57B0DD31-43D2-4BDC-A0F1-8D6D96990271}">
 									<ReferenceList>
 										<Reference Name="ControlInput">
 											<ObjectRef Name="Scale_Rate" ID="{8DBF4C35-0079-4C8A-86B1-83117220A407}" WorkUnitID="{0D722370-0E00-46EF-B000-EC471E7F4B00}"/>
@@ -727,6 +727,53 @@
 						<Property Name="Filter3Type" Type="int32" Value="0"/>
 					</PropertyList>
 				</Effect>
+				<Attenuation Name="Socle" ID="{51C62712-FB10-40DE-81C5-63E9DEB6EDD6}">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="2"/>
+					</PropertyList>
+					<CurveUsageInfoList>
+						<VolumeDryUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="VolumeDry" ID="{901516A9-03E7-433D-AE8A-84306A350361}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="3"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+											<SegmentShape>Log3</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>2</XPos>
+											<YPos>-200</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
+						</VolumeDryUsage>
+						<VolumeWetGameUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetGameUsage>
+						<VolumeWetUserUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetUserUsage>
+						<LowPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</LowPassFilterUsage>
+						<HighPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</HighPassFilterUsage>
+						<SpreadUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</SpreadUsage>
+						<FocusUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</FocusUsage>
+					</CurveUsageInfoList>
+				</Attenuation>
 			</ChildrenList>
 		</WorkUnit>
 	</Presets>
