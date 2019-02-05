@@ -30,8 +30,8 @@
 				<GameParameter Name="Force" ID="{10244699-1FFE-4C21-A644-A655AA34A86A}"/>
 				<GameParameter Name="Wind" ID="{29DB60C0-D6EE-44C4-9DED-E17E7AD20C61}">
 					<PropertyList>
-						<Property Name="FilterTimeDown" Type="Real64" Value="0.5"/>
-						<Property Name="FilterTimeUp" Type="Real64" Value="0.5"/>
+						<Property Name="FilterTimeDown" Type="Real64" Value="0.2"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="0.2"/>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="RTPCRamping" Type="int16" Value="2"/>
 						<Property Name="SlewRateDown" Type="Real64" Value="25"/>
