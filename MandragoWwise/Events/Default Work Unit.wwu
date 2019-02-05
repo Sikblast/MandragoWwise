@@ -1111,6 +1111,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Way" ID="{90669AF2-B726-4D47-87BB-563C38857B43}">
+					<ChildrenList>
+						<Action Name="" ID="{D27C9313-C86E-4A3D-9993-68947873DC6E}" ShortID="693309272">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Way" ID="{89C09CE4-1B78-4270-AF8A-B78673B26982}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
