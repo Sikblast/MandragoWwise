@@ -5086,7 +5086,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-13</Value>
+										<Value>1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -5103,9 +5103,13 @@
 									<Language>SFX</Language>
 									<AudioFile>Button.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="Button Off" ID="{F691CEBD-7E67-424C-A0C5-3D158BBBB03E}" ShortID="146917290">
+									<Language>SFX</Language>
+									<AudioFile>Button Off.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Button" ID="{0719D726-0E10-461B-A360-9366553A8629}" Platform="Linked"/>
+								<ActiveSource Name="Button Off" ID="{F691CEBD-7E67-424C-A0C5-3D158BBBB03E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Scale" ID="{412F10F3-A04F-47FE-96E1-BF68F8CEC76A}" ShortID="288916535">
@@ -6053,6 +6057,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Turn Off Extrud" ID="{F5C18B55-B3D3-464D-9A2A-7F836A557926}" ShortID="910024780">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
@@ -6123,6 +6134,25 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Galactic Dust" ID="{3C991806-16D1-4223-ABA2-547BA326B5BC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Load Button Off" ID="{754E5DA3-4F16-4F6A-AC0D-530270B6532E}" ShortID="938234587">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Load Button Off" ID="{D3E3501C-15F8-4297-A488-336689426317}" ShortID="487076259">
+									<Language>SFX</Language>
+									<AudioFile>Load Button Off.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Load Button Off" ID="{D3E3501C-15F8-4297-A488-336689426317}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

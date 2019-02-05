@@ -1069,6 +1069,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Load_Button_Off" ID="{CB56D3C2-C85D-4B20-9B3E-139B9D614AE5}">
+					<ChildrenList>
+						<Action Name="" ID="{28B80CF8-9E30-4688-96BC-1B0F968E3F7C}" ShortID="299754033">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Load Button Off" ID="{754E5DA3-4F16-4F6A-AC0D-530270B6532E}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Load_Button_Off" ID="{96DED5D8-6819-402C-A801-0D2A6DFED2D5}">
+					<ChildrenList>
+						<Action Name="" ID="{C3B4F48C-21C8-4EA8-AF88-786366270A7C}" ShortID="704910154">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Load Button Off" ID="{754E5DA3-4F16-4F6A-AC0D-530270B6532E}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
