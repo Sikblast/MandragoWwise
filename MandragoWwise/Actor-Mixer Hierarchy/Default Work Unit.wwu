@@ -5237,6 +5237,11 @@
 						<BlendContainer Name="LFO Scale" ID="{AA98DB3B-CF9E-4CF6-847C-D4B9D437E9E0}" ShortID="810746767">
 							<PropertyList>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-96</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
