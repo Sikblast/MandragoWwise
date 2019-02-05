@@ -1097,6 +1097,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Button_ON" ID="{3484D82C-C72F-474B-8817-F43F4625CFD5}">
+					<ChildrenList>
+						<Action Name="" ID="{903A3961-7F16-49AC-8C04-AAE1730DD5D6}" ShortID="509902664">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Button ON" ID="{4A3479DE-0BA6-4794-9AE3-8E25A4AC8FE3}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

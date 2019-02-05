@@ -6155,6 +6155,32 @@
 								<ActiveSource Name="Load Button Off" ID="{D3E3501C-15F8-4297-A488-336689426317}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Button ON" ID="{4A3479DE-0BA6-4794-9AE3-8E25A4AC8FE3}" ShortID="865240935">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Button ON" ID="{1A3E12DF-22FF-481A-9850-8C7FCF310AEB}" ShortID="712067083">
+									<Language>SFX</Language>
+									<AudioFile>Button ON.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Button ON" ID="{1A3E12DF-22FF-481A-9850-8C7FCF310AEB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<PositioningInfo>
 						<Panner Name="" ID="{88FBDBC7-495E-47C0-9BAC-BF3B2D46B229}"/>
