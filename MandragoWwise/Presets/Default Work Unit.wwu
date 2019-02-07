@@ -893,6 +893,96 @@
 						</FocusUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
+				<Effect Name="Space_Ship_Ambisonics" ID="{46DCB7DD-218A-4565-B15A-885AB87ADED9}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+					<PropertyList>
+						<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+						<Property Name="DryLevel" Type="Real32" Value="0"/>
+						<Property Name="IRConvolutionStop" Type="Real64" Value="4.73652083333333"/>
+						<Property Name="IRConvolutionThreshold" Type="Real32" Value="-72"/>
+						<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
+						<Property Name="IRLevel" Type="Real32" Value="-23.8"/>
+						<Property Name="IRStretch" Type="Real32" Value="56"/>
+						<Property Name="PreDelay" Type="Real32" Value="7"/>
+						<Property Name="WetLevel" Type="Real32" Value="-2"/>
+					</PropertyList>
+					<PluginData>
+	<ConvolutionData>
+		<CurveList Version="1">
+			<CurveInfo Name="IRGraphicEQ">
+				<Curve Name="" ID="{2A51F42C-5D8A-434F-AD1F-CC2F45EA2A24}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="19"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>20000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLPF">
+				<Curve Name="" ID="{4947692F-95D2-4C59-B501-8F454DF38177}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>15488.3871</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>4.73654166666667</XPos>
+							<YPos>15560</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLevel">
+				<Curve Name="" ID="{B237E359-45D2-472A-93FD-10CE927E9626}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>4.73654166666667</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ConvolutionData>
+</PluginData>
+				</Effect>
+				<Effect Name="Church_AHP" ID="{D9AA44D8-9F1A-4A48-88ED-A93EDF7629CD}" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
+					<PropertyList>
+						<Property Name="ER_Delay" Type="Real32" Value="1"/>
+						<Property Name="ER_Level" Type="Real32" Value="-3"/>
+						<Property Name="Reverb" Type="bool" Value="False"/>
+						<Property Name="Reverb_fcut" Type="Real32" Value="6000"/>
+						<Property Name="Reverb_level" Type="Real32" Value="-18"/>
+						<Property Name="Reverb_predelay" Type="Real32" Value="40"/>
+						<Property Name="Reverb_tr60" Type="Real32" Value="2"/>
+						<Property Name="Wall_bottom" Type="Real32" Value="1.75"/>
+						<Property Name="Wall_left" Type="Real32" Value="3.25"/>
+						<Property Name="Wall_right" Type="Real32" Value="3.75"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Presets>

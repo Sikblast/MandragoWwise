@@ -41,11 +41,6 @@
 										<Value>528</Value>
 									</ValueList>
 								</Property>
-								<Property Name="BypassEffect0" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
 										<Value>0</Value>
@@ -218,6 +213,28 @@
 							<PositioningInfo>
 								<Panner Name="" ID="{554BE1B7-57DD-47A0-96E7-CA52F1580522}"/>
 							</PositioningInfo>
+						</Bus>
+						<Bus Name="Binaural No Reverb" ID="{4DBE20F6-EF1C-4CA1-9A3F-1B6A01C6AB45}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Auro Headphone (Custom)" ID="{630711CA-F9B1-4FEC-B258-9049203EC344}" ShortID="980990150" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
+											<PropertyList>
+												<Property Name="ER_Delay" Type="Real32" Value="1"/>
+												<Property Name="ER_Level" Type="Real32" Value="-3"/>
+												<Property Name="Reverb" Type="bool" Value="False"/>
+												<Property Name="Reverb_fcut" Type="Real32" Value="6000"/>
+												<Property Name="Reverb_level" Type="Real32" Value="-18"/>
+												<Property Name="Reverb_predelay" Type="Real32" Value="40"/>
+												<Property Name="Reverb_tr60" Type="Real32" Value="2"/>
+												<Property Name="Wall_bottom" Type="Real32" Value="1.75"/>
+												<Property Name="Wall_left" Type="Real32" Value="3.25"/>
+												<Property Name="Wall_right" Type="Real32" Value="3.75"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
 						</Bus>
 					</ChildrenList>
 				</Bus>

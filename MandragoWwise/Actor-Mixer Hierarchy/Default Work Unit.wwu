@@ -347,7 +347,7 @@
 									<ObjectRef Name="Stereo" ID="{9A93FA99-EE64-4133-9733-8AC82A50807C}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+									<ObjectRef Name="Binaural No Reverb" ID="{4DBE20F6-EF1C-4CA1-9A3F-1B6A01C6AB45}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -651,6 +651,7 @@
 											</ValueList>
 										</Property>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
@@ -969,7 +970,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+											<ObjectRef Name="Binaural No Reverb" ID="{4DBE20F6-EF1C-4CA1-9A3F-1B6A01C6AB45}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -1022,6 +1023,11 @@
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
 											<ValueList>
 												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1215,7 +1221,7 @@
 											</Custom>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+											<ObjectRef Name="Binaural No Reverb" ID="{4DBE20F6-EF1C-4CA1-9A3F-1B6A01C6AB45}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
