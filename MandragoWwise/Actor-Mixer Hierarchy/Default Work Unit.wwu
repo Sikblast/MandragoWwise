@@ -1030,6 +1030,11 @@
 												<Value>True</Value>
 											</ValueList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -1064,8 +1069,14 @@
 																			<SegmentShape>Log3</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>0.578726666666667</XPos>
-																			<YPos>-15.59625</YPos>
+																			<XPos>0.5</XPos>
+																			<YPos>0</YPos>
+																			<Flags>0</Flags>
+																			<SegmentShape>Log3</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>1</XPos>
+																			<YPos>-6.05575</YPos>
 																			<Flags>0</Flags>
 																		</Point>
 																		<Point>
