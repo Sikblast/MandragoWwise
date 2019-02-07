@@ -229,40 +229,6 @@
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
-								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32">
-									<RTPCList>
-										<RTPC Name="" ID="{BD98235E-EC4B-4FD2-990E-8C435DBF4482}" ShortID="955058698">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="Diegetic" ID="{74471369-2198-47F8-B4C3-9EAC3B3DFED8}" WorkUnitID="{0D722370-0E00-46EF-B000-EC471E7F4B00}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{34440AA1-4869-4F6C-9878-8927FE5CA39D}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="65537"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>100</YPos>
-														<Flags>5</Flags>
-														<SegmentShape>Log3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>1</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -1058,7 +1024,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1095,14 +1061,13 @@
 																			<SegmentShape>Log3</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>1.54154</XPos>
-																			<YPos>-8.26944</YPos>
+																			<XPos>1</XPos>
+																			<YPos>-8.36333</YPos>
 																			<Flags>0</Flags>
-																			<SegmentShape>Log3</SegmentShape>
 																		</Point>
 																		<Point>
 																			<XPos>15</XPos>
-																			<YPos>-18.39238</YPos>
+																			<YPos>-23.55794</YPos>
 																			<Flags>37</Flags>
 																		</Point>
 																	</PointList>
@@ -1148,10 +1113,9 @@
 																			<SegmentShape>Exp3</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>1.3906</XPos>
-																			<YPos>22</YPos>
+																			<XPos>1</XPos>
+																			<YPos>24</YPos>
 																			<Flags>0</Flags>
-																			<SegmentShape>Exp3</SegmentShape>
 																		</Point>
 																		<Point>
 																			<XPos>15</XPos>
@@ -1245,7 +1209,7 @@
 													<PropertyList>
 														<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
 														<Property Name="FilterTypeBand2" Type="int32" Value="0"/>
-														<Property Name="FrequencyBand1" Type="Real32" Value="993"/>
+														<Property Name="FrequencyBand1" Type="Real32" Value="500"/>
 														<Property Name="FrequencyBand2" Type="Real32" Value="20000"/>
 														<Property Name="OnOffBand2" Type="bool" Value="False"/>
 														<Property Name="OnOffBand3" Type="bool" Value="False"/>
@@ -4277,7 +4241,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4291,6 +4255,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Stone 1" ID="{149869A7-8963-451B-875B-EF3494041B1E}" ShortID="866516577">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.53877383171028E-03"/>
+												<Property Name="TrimBegin" Type="Real64" Value="8.11353474901786E-03"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Stone 1.wav</AudioFile>
 										</AudioFileSource>
@@ -4316,7 +4284,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-13</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4330,6 +4298,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Stone 2" ID="{246AC19E-FF7E-415A-8320-BFD1AC5B8A48}" ShortID="707004769">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.45684699582644E-03"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.69472585330429E-02"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Stone 2.wav</AudioFile>
 										</AudioFileSource>
@@ -4355,7 +4327,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4903,7 +4875,7 @@
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-8</Value>
+												<Value>-10</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{792ECA14-4834-4061-9E52-6F2E161281E4}" ShortID="1020269973">
