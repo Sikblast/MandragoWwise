@@ -229,6 +229,11 @@
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -661,7 +666,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>6</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -800,7 +805,7 @@
 											</Custom>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+											<ObjectRef Name="Binaural No Reverb" ID="{4DBE20F6-EF1C-4CA1-9A3F-1B6A01C6AB45}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -1064,8 +1069,8 @@
 																			<SegmentShape>Log3</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>1</XPos>
-																			<YPos>-13.83406</YPos>
+																			<XPos>0.96231</XPos>
+																			<YPos>-8.45824</YPos>
 																			<Flags>0</Flags>
 																		</Point>
 																		<Point>
@@ -1078,10 +1083,10 @@
 															</CurveUsageInfo>
 														</VolumeDryUsage>
 														<VolumeWetGameUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 														</VolumeWetGameUsage>
 														<VolumeWetUserUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry">
+															<CurveUsageInfo Platform="Linked" CurveToUse="None">
 																<Curve Name="VolumeWetUser" ID="{CABBADDA-66E4-41BE-8D36-1F4D93949613}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="3"/>
