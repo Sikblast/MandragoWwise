@@ -6,7 +6,7 @@
 				<SoundcasterSession Name="Soundcaster" ID="{9250AAFA-73AC-4DB4-BC19-445060B5CA2B}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Short Ambisonic" ID="{C0E46A31-B30F-48B5-8D98-D25819D5B32A}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<ObjectRef Name="Intro" ID="{C0E46A31-B30F-48B5-8D98-D25819D5B32A}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
@@ -18,16 +18,24 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Wind" ID="{AF14352A-0BBA-4AC5-BC96-591A5D09BF12}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="First Star" ID="{4E1F546A-C228-4BC8-854F-D2FFDE9D70D4}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="UI Terra" ID="{5F0D29EE-58DA-4837-B95C-5AE1F605102E}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<ObjectRef Name="Terra" ID="{5F0D29EE-58DA-4837-B95C-5AE1F605102E}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Guide_Stop" ID="{AF1F0171-3C01-422A-A353-590984272392}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
 							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Wind" ID="{FDF36FCE-67E0-4091-9FA8-F630441A9272}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
+							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Sun Light" ID="{52B1C299-92F4-40C3-95DE-436609673406}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
@@ -42,6 +50,14 @@
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Guide_Play" ID="{4D47B5ED-AC99-4260-8DEA-B90BF725A5E3}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Constellation Hits" ID="{4853D512-CF9B-47D5-874C-DD8E3FD05D27}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Stone Up" ID="{87FDA704-BD00-42B0-AD03-00AAC25833C2}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="3" Y="1"/>
 						</Module>
@@ -49,11 +65,15 @@
 							<ObjectRef Name="Stop_Wind" ID="{FDF36FCE-67E0-4091-9FA8-F630441A9272}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
 							<Position X="3" Y="2"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Guide_Stop" ID="{AF1F0171-3C01-422A-A353-590984272392}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
+							<Position X="3" Y="3"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Constellation" ID="{200530BE-C2A9-4049-A2A1-2910D9CB833C}"/>
-							<Value>0</Value>
+							<Value>1.2</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
@@ -97,7 +117,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Diegetic" ID="{74471369-2198-47F8-B4C3-9EAC3B3DFED8}"/>
-							<Value>100</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
@@ -117,7 +137,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Scale_Rate" ID="{8DBF4C35-0079-4C8A-86B1-83117220A407}"/>
-							<Value>0</Value>
+							<Value>14.5454545454545</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>

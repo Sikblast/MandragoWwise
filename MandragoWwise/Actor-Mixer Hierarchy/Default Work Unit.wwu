@@ -225,6 +225,7 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
@@ -259,7 +260,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-1</Value>
+										<Value>1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -377,7 +378,7 @@
 									</Custom>
 								</Reference>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+									<ObjectRef Name="Stereo" ID="{9A93FA99-EE64-4133-9733-8AC82A50807C}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
@@ -1454,6 +1455,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Fantasy_Notification_3" ID="{9A6A2EF3-6456-4480-B11D-D74061D2ADD1}" ShortID="369682745">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.06145168910938E-03"/>
+												<Property Name="TrimBegin" Type="Real64" Value="5.44258078063889E-03"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Fantasy_Notification_3.wav</AudioFile>
 										</AudioFileSource>
@@ -1940,7 +1945,7 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>4</Value>
+										<Value>3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3560,6 +3565,7 @@
 								<Sound Name="Draw Loop 1" ID="{33B2CB39-44A9-48BE-BF43-83BA9FB8224C}" ShortID="700707738">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-4</Value>
@@ -3569,6 +3575,18 @@
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise Parametric EQ (Custom)" ID="{F6E16229-DC7B-40BB-8A58-3DD1008D09B5}" ShortID="976545959" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<PropertyList>
+														<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+														<Property Name="FrequencyBand1" Type="Real32" Value="720"/>
+														<Property Name="OnOffBand2" Type="bool" Value="False"/>
+														<Property Name="OnOffBand3" Type="bool" Value="False"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
@@ -5245,11 +5263,6 @@
 						<BlendContainer Name="LFO Scale" ID="{AA98DB3B-CF9E-4CF6-847C-D4B9D437E9E0}" ShortID="810746767">
 							<PropertyList>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-96</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -5531,7 +5544,7 @@
 								<ActiveSource Name="TP Actif" ID="{8C1DEBF0-B206-478C-A2E8-8728F7A71323}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="UI Terra" ID="{5F0D29EE-58DA-4837-B95C-5AE1F605102E}" ShortID="988112173">
+						<Sound Name="Terra" ID="{5F0D29EE-58DA-4837-B95C-5AE1F605102E}" ShortID="988112173">
 							<PropertyList>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
@@ -5613,6 +5626,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Magic_Game_Notification_2" ID="{80FD21C7-9E0C-49BC-A059-0F191C66A71B}" ShortID="162608147">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.38930352248986E-03"/>
+										<Property Name="TrimBegin" Type="Real64" Value="3.57249477211679E-03"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Magic_Game_Notification_2.wav</AudioFile>
 								</AudioFileSource>
@@ -5967,6 +5984,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Turn Off 2 tuile" ID="{8767ACED-291D-4DF2-B44B-BFBB78D100A5}" ShortID="1066882081">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="6.67375383888495E-03"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.133475076777699"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.83528230569336E-02"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.59169029057406"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Turn Off 2 tuile.wav</AudioFile>
 										</AudioFileSource>
@@ -5977,6 +6000,11 @@
 								</Sound>
 								<Sound Name="Turn Off Scale" ID="{C68636AB-94B9-479F-B722-DCA7CA886381}" ShortID="528559390">
 									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>0.3</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-14</Value>
@@ -6071,6 +6099,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Turn On tuile" ID="{7BACDF47-7212-4618-8B4D-E1BDC0C09F8E}" ShortID="451007787">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.146822584455469"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.170180722891566"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Turn On tuile.wav</AudioFile>
 										</AudioFileSource>
@@ -6204,6 +6236,715 @@
 								<ActiveSource Name="Button ON" ID="{1A3E12DF-22FF-481A-9850-8C7FCF310AEB}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Folder Name="Objects" ID="{856266D0-AA38-4958-A089-4F4B5B2E9089}" ShortID="944122281">
+							<ChildrenList>
+								<Sound Name="Mountain" ID="{0D7EB934-2785-456C-A20B-3C4AA6859276}" ShortID="557972837">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Game_Inventory_Material_Stone_UI_3" ID="{37861FFF-DB62-4209-8045-1C237BF0E35C}" ShortID="165821373">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Game_Inventory_Material_Stone_UI_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fantasy_Game_Inventory_Material_Stone_UI_3" ID="{37861FFF-DB62-4209-8045-1C237BF0E35C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ice Mountain" ID="{3A312077-1E1A-4FFA-8D3B-B1824EC5BF4A}" ShortID="893383604">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Game_UI_Ice_Select" ID="{3DD2EFC0-FABA-4348-AB1D-76CF3233E1F2}" ShortID="817870234">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Game_UI_Ice_Select.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fantasy_Game_UI_Ice_Select" ID="{3DD2EFC0-FABA-4348-AB1D-76CF3233E1F2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Volcano" ID="{A1B775B7-CE14-4822-B228-2554E329E19A}" ShortID="858535570">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Game_Magic_Molten_Lave_Hit" ID="{8742832C-19AC-4491-8482-62B875D88971}" ShortID="157643431">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.190025380935507"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.428775218521143"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Game_Magic_Molten_Lave_Hit.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fantasy_Game_Magic_Molten_Lave_Hit" ID="{8742832C-19AC-4491-8482-62B875D88971}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Bush" ID="{FD07E835-ACF2-4566-98B7-A6A621894F51}" ShortID="653867581">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Game_Craft_Gather_Herb_A" ID="{2AEC798B-3EC3-482C-AFFD-2DDD0B507A9A}" ShortID="493644842">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.98440822111977E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.323706591070163"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.163713678242381"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.590361445783133"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Game_Craft_Gather_Herb_A.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fantasy_Game_Craft_Gather_Herb_A" ID="{2AEC798B-3EC3-482C-AFFD-2DDD0B507A9A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Flower" ID="{5DD96A5F-4BD7-4B80-9129-02E0A03B0426}" ShortID="814585417">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Game_Item_Collect_Herbs" ID="{FD2BB3BD-A970-4A6E-B9BA-C9837A09F25E}" ShortID="1045604196">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="4.50849131821403E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="5.00943479801559E-02"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.208726449917316"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.662080299137727"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Game_Item_Collect_Herbs.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fantasy_Game_Item_Collect_Herbs" ID="{FD2BB3BD-A970-4A6E-B9BA-C9837A09F25E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Little Rock" ID="{2CC9585F-7701-45B9-B5E8-BA5B9E9CF42B}" ShortID="817478423">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Game_Material_Stone_Light_Hit_1" ID="{EACD47B1-71E0-4EA1-B24E-9CBDBF8634F1}" ShortID="463595435">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Game_Material_Stone_Light_Hit_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fantasy_Game_Material_Stone_Light_Hit_1" ID="{EACD47B1-71E0-4EA1-B24E-9CBDBF8634F1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Book" ID="{5A04DD31-1E46-42FE-AACA-491126B4D8CE}" ShortID="576070029">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pick Up Book" ID="{C9636684-7AB5-41B2-BE1B-D01154FB5BF9}" ShortID="1010761822">
+											<Language>SFX</Language>
+											<AudioFile>Pick Up Book.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Pick Up Book" ID="{C9636684-7AB5-41B2-BE1B-D01154FB5BF9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Parchment" ID="{7864D77E-BE95-449E-BB87-CDA6152F096F}" ShortID="686608041">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Planet Pick Up" ID="{D33BB2B7-1C83-4CC6-86E3-E113A192BDCA}" ShortID="579895674">
+											<Language>SFX</Language>
+											<AudioFile>Planet Pick Up.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Planet Pick Up" ID="{D33BB2B7-1C83-4CC6-86E3-E113A192BDCA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Planet" ID="{4AA3631B-6D27-4EAE-95F6-B93086C73BAA}" ShortID="852844400">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Planet" ID="{C979B1EA-610F-488D-8B0A-E1B35D8F22F5}" ShortID="828221694">
+											<Language>SFX</Language>
+											<AudioFile>Planet.wav</AudioFile>
+										</AudioFileSource>
+										<AudioFileSource Name="BT BOING Rubber Band Up" ID="{83BBAD4B-6372-4C75-9A53-D3B4B45CFDC3}" ShortID="799930282">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.21427774764028E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.524207713205764"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.194366728229792"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.57262313961729"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>BT BOING Rubber Band Up.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Planet" ID="{C979B1EA-610F-488D-8B0A-E1B35D8F22F5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Shroom" ID="{F9F31285-3C93-4CF1-9B7E-5ED8B399928B}" ShortID="481662834">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Shroom" ID="{E27FE255-28CD-4D81-AC78-E42B1255D56C}" ShortID="418473817">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="5.78635866997404E-03"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Shroom.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Shroom" ID="{E27FE255-28CD-4D81-AC78-E42B1255D56C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="House" ID="{A0830D2A-092E-4A1C-AB5A-82CFB1DD83E4}" ShortID="60192818">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{25D6EA71-D612-44B3-9371-470C9F664DFD}" ShortID="957202511">
+													<PropertyList>
+														<Property Name="ConeHighPassFilterValue" Type="int32">
+															<ValueList>
+																<Value>49</Value>
+															</ValueList>
+														</Property>
+														<Property Name="ConeInnerAngle" Type="int32" Value="45"/>
+														<Property Name="ConeLowPassFilterValue" Type="int32">
+															<ValueList>
+																<Value>50</Value>
+															</ValueList>
+														</Property>
+														<Property Name="RadiusMax" Type="Real64" Value="15"/>
+													</PropertyList>
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{4E586B69-1399-440D-93F6-C81C52E19343}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>Log3</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>15</XPos>
+																			<YPos>-6</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry">
+																<Curve Name="VolumeWetUser" ID="{4220CFCE-0238-405A-946B-A77B19FE3D7A}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>Log3</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>15</XPos>
+																			<YPos>-14.01552</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="LowPassFilter" ID="{6FD8FD49-7B60-41BD-B571-9787BA935E34}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="65537"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>15</XPos>
+																			<YPos>27</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="Spread" ID="{AB4EF04D-55FC-4AE5-BE1D-8A9319E13D7F}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="1"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>50.20747</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>15</XPos>
+																			<YPos>0</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="Focus" ID="{DF8CA491-306D-40D3-AF03-EFA0F6EFA1DD}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="1"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>100</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>Log3</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>15</XPos>
+																			<YPos>0</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Grab Planet Pick Up" ID="{5F9D57E5-9DCC-45DC-990C-A693D12651F9}" ShortID="1056920476">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="6.83299447791165E-02"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.309216616465863"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Grab Planet Pick Up.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{7EAAFC64-E2EE-483E-95E4-4107DDA8E585}"/>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Grab Planet Pick Up" ID="{5F9D57E5-9DCC-45DC-990C-A693D12651F9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Pose d'objet" ID="{A555948E-F900-4C06-9E0B-EB6CF4F95B4C}" ShortID="824782406">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{B353DF0B-0D45-43FE-99A8-C3D440661566}" ShortID="617150926">
+													<PropertyList>
+														<Property Name="ConeHighPassFilterValue" Type="int32">
+															<ValueList>
+																<Value>49</Value>
+															</ValueList>
+														</Property>
+														<Property Name="ConeInnerAngle" Type="int32" Value="45"/>
+														<Property Name="ConeLowPassFilterValue" Type="int32">
+															<ValueList>
+																<Value>50</Value>
+															</ValueList>
+														</Property>
+														<Property Name="RadiusMax" Type="Real64" Value="15"/>
+													</PropertyList>
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{8740A34F-7172-4639-95D5-2128D30224B4}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>Log3</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>15</XPos>
+																			<YPos>-6</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry">
+																<Curve Name="VolumeWetUser" ID="{2DB8FB33-2B1A-4E2F-ACEF-177D1D607045}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>Log3</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>15</XPos>
+																			<YPos>-14.01552</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="LowPassFilter" ID="{60507D8B-FEB2-4CD7-B3B9-AC910907057C}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="65537"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>15</XPos>
+																			<YPos>27</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="Spread" ID="{082C4D14-6BEA-4274-8816-7C361AEC9C7E}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="1"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>50.20747</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>15</XPos>
+																			<YPos>0</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="Focus" ID="{4535BFDE-7364-4632-94F6-8FB882659CCB}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="1"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>100</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>Log3</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>15</XPos>
+																			<YPos>0</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Puzzle_Game_Lock_Magic_A_01" ID="{4B24BE84-F6CA-4B17-8105-55A0247064CA}" ShortID="1056045627">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="9.59501018781007E-02"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.320568922749823"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Puzzle_Game_Lock_Magic_A_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{7BE57A4D-7ED3-4067-A962-E7EC27ECFEFA}"/>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Puzzle_Game_Lock_Magic_A_01" ID="{4B24BE84-F6CA-4B17-8105-55A0247064CA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Planet 2" ID="{4E963AC9-C96A-4FCA-9150-EE22F59D2201}" ShortID="333204592">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Builder_Game_Construction_UI_Button_1" ID="{1563FFC2-5AB8-44FE-94C0-ED401E1D958B}" ShortID="161607412">
+											<Language>SFX</Language>
+											<AudioFile>Builder_Game_Construction_UI_Button_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Builder_Game_Construction_UI_Button_1" ID="{1563FFC2-5AB8-44FE-94C0-ED401E1D958B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Sound Name="Pipe" ID="{55017426-FB4C-45FD-AF74-F9B7071B20F8}" ShortID="726044622">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Parametric EQ (Custom)" ID="{DFDCEA27-5228-45AC-82ED-18429641ABCE}" ShortID="171123162" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<PropertyList>
+												<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+												<Property Name="FrequencyBand1" Type="Real32" Value="4517"/>
+												<Property Name="OnOffBand2" Type="bool" Value="False"/>
+												<Property Name="OnOffBand3" Type="bool" Value="False"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect1">
+									<Custom>
+										<Effect Name="Wwise Compressor (Custom)" ID="{06CD0EEF-F9A5-4C9F-AC31-B6EC276241B5}" ShortID="285223806" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+											<PropertyList>
+												<Property Name="Ratio" Type="Real32" Value="39.7"/>
+												<Property Name="Threshold" Type="Real32" Value="-30.4"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Test Tuyau Loop" ID="{6A0A9124-C9AF-46EC-BDAF-E451DA7E2FDA}" ShortID="42452719">
+									<Language>SFX</Language>
+									<AudioFile>Test Tuyau Loop.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Test Tuyau Loop" ID="{6A0A9124-C9AF-46EC-BDAF-E451DA7E2FDA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<PositioningInfo>
 						<Panner Name="" ID="{88FBDBC7-495E-47C0-9BAC-BF3B2D46B229}"/>
@@ -6219,21 +6960,25 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 						</Reference>
-						<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
-							<ObjectRef Name="High_Pass_60Hz" ID="{F9627628-0B10-4272-BC30-D4C20423CB38}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Ambisonics" ID="{7BCABF5E-1E32-4133-A65E-A9AD803F27B9}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Short Ambisonic" ID="{C0E46A31-B30F-48B5-8D98-D25819D5B32A}" ShortID="184616494">
+						<Sound Name="Intro" ID="{C0E46A31-B30F-48B5-8D98-D25819D5B32A}" ShortID="184616494">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+									<ObjectRef Name="Stereo" ID="{9A93FA99-EE64-4133-9733-8AC82A50807C}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
