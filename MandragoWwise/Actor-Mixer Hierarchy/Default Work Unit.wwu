@@ -1030,11 +1030,6 @@
 												<Value>True</Value>
 											</ValueList>
 										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>6</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -1052,7 +1047,7 @@
 																<Value>50</Value>
 															</ValueList>
 														</Property>
-														<Property Name="RadiusMax" Type="Real64" Value="15"/>
+														<Property Name="RadiusMax" Type="Real64" Value="10"/>
 													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
@@ -1069,12 +1064,12 @@
 																			<SegmentShape>Log3</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>0.96231</XPos>
-																			<YPos>-8.45824</YPos>
+																			<XPos>0.578726666666667</XPos>
+																			<YPos>-15.59625</YPos>
 																			<Flags>0</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>15</XPos>
+																			<XPos>10</XPos>
 																			<YPos>-23.55794</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -1099,7 +1094,7 @@
 																			<SegmentShape>Log3</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>15</XPos>
+																			<XPos>10</XPos>
 																			<YPos>-14.01552</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -1121,12 +1116,12 @@
 																			<SegmentShape>Exp3</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>1</XPos>
+																			<XPos>0.666666666666667</XPos>
 																			<YPos>24</YPos>
 																			<Flags>0</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>15</XPos>
+																			<XPos>10</XPos>
 																			<YPos>36</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -1148,12 +1143,12 @@
 																			<SegmentShape>Exp3</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>1</XPos>
+																			<XPos>0.666666666666667</XPos>
 																			<YPos>48</YPos>
 																			<Flags>0</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>15</XPos>
+																			<XPos>10</XPos>
 																			<YPos>58</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -1174,7 +1169,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>15</XPos>
+																			<XPos>10</XPos>
 																			<YPos>0</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -1196,7 +1191,7 @@
 																			<SegmentShape>Log3</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>15</XPos>
+																			<XPos>10</XPos>
 																			<YPos>0</YPos>
 																			<Flags>37</Flags>
 																		</Point>

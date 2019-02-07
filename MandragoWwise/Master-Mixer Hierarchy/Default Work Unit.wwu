@@ -26,11 +26,6 @@
 								</Effect>
 							</Custom>
 						</Reference>
-						<Reference Name="Effect1">
-							<Custom>
-								<Effect Name="Wwise Recorder (Custom)" ID="{FA5B4408-5249-48A9-A144-B4561B8B8153}" ShortID="667457466" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3"/>
-							</Custom>
-						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Binauralizer" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}">
@@ -215,6 +210,15 @@
 							</PositioningInfo>
 						</Bus>
 						<Bus Name="Binaural No Reverb" ID="{4DBE20F6-EF1C-4CA1-9A3F-1B6A01C6AB45}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>0</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0">
 									<Custom>
@@ -235,6 +239,9 @@
 									</Custom>
 								</Reference>
 							</ReferenceList>
+							<PositioningInfo>
+								<Panner Name="" ID="{08CEA055-09C3-49B2-B5C7-B880E9DBCCE1}"/>
+							</PositioningInfo>
 						</Bus>
 					</ChildrenList>
 				</Bus>
