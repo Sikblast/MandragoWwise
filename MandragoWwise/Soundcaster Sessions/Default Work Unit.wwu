@@ -108,6 +108,10 @@
 							<Value>50</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Grab_Distance" ID="{4E2E3C8E-5A3D-470B-9F80-10A12CC14F6A}"/>
+							<Value>2.17782217782218</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
 							<Value>50</Value>
 						</RTPCValue>

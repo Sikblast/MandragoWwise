@@ -1044,6 +1044,76 @@
 												<Value>1</Value>
 											</ValueList>
 										</Property>
+										<Property Name="OutputBusLowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{BE38CDB0-639F-475B-AED2-34F7967E149D}" ShortID="730608608">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Grab_Distance" ID="{4E2E3C8E-5A3D-470B-9F80-10A12CC14F6A}" WorkUnitID="{0D722370-0E00-46EF-B000-EC471E7F4B00}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{EE08730A-5E55-4E9C-851F-B2C00F00C58E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Log3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.999</XPos>
+																<YPos>-55</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>-100</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{0FD05116-0574-4123-8C54-9F45CAAC6F62}" ShortID="45139613">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Grab_Distance" ID="{4E2E3C8E-5A3D-470B-9F80-10A12CC14F6A}" WorkUnitID="{0D722370-0E00-46EF-B000-EC471E7F4B00}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{61FDF428-E373-4E47-9657-37FD458FC9E4}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-0.21448</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Log3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>1.01998</XPos>
+																<YPos>-9.02438</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>-23.94561</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
@@ -1092,19 +1162,8 @@
 																			<SegmentShape>Log3</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>0.5</XPos>
-																			<YPos>0</YPos>
-																			<Flags>0</Flags>
-																			<SegmentShape>Log3</SegmentShape>
-																		</Point>
-																		<Point>
-																			<XPos>1</XPos>
-																			<YPos>-6.05575</YPos>
-																			<Flags>0</Flags>
-																		</Point>
-																		<Point>
 																			<XPos>10</XPos>
-																			<YPos>-23.55794</YPos>
+																			<YPos>-0</YPos>
 																			<Flags>37</Flags>
 																		</Point>
 																	</PointList>
@@ -1137,7 +1196,7 @@
 															</CurveUsageInfo>
 														</VolumeWetUserUsage>
 														<LowPassFilterUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+															<CurveUsageInfo Platform="Linked" CurveToUse="None">
 																<Curve Name="LowPassFilter" ID="{4A00308D-4CB3-4ED0-AE2C-1E311BB462E1}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="65537"/>
@@ -1191,7 +1250,7 @@
 															</CurveUsageInfo>
 														</HighPassFilterUsage>
 														<SpreadUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+															<CurveUsageInfo Platform="Linked" CurveToUse="None">
 																<Curve Name="Spread" ID="{7A87BB69-D371-4257-B26A-AE1B6A41FBCB}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="1"/>
@@ -1212,7 +1271,7 @@
 															</CurveUsageInfo>
 														</SpreadUsage>
 														<FocusUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+															<CurveUsageInfo Platform="Linked" CurveToUse="None">
 																<Curve Name="Focus" ID="{3A59E1D6-C10A-4E40-B1D6-7A177666F73A}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="1"/>
