@@ -2640,6 +2640,24 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="First Star" ID="{4ED2621C-FA8C-4AD1-BCAC-8D6CFA93CE18}" ShortID="885846301">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.30574806629479"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.94106314011548"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+												</Reference>
+											</ReferenceList>
+											<Language>SFX</Language>
+											<AudioFile>S2_Shimmer_Loop_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="First Star" ID="{4ED2621C-FA8C-4AD1-BCAC-8D6CFA93CE18}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Formation Constellation" ID="{D9FA3DF2-0006-403C-8026-0AFCE5DF52CB}" ShortID="213528397">
 									<PropertyList>
@@ -2724,19 +2742,6 @@
 										<AudioFileSource Name="7" ID="{5087E51F-BA0B-4D98-84A7-4AEF7C2A3461}" ShortID="412953632">
 											<Language>SFX</Language>
 											<AudioFile>7.wav</AudioFile>
-										</AudioFileSource>
-										<AudioFileSource Name="First Star" ID="{4ED2621C-FA8C-4AD1-BCAC-8D6CFA93CE18}" ShortID="885846301">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="1.30574806629479"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.94106314011548"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
-												</Reference>
-											</ReferenceList>
-											<Language>SFX</Language>
-											<AudioFile>S2_Shimmer_Loop_1.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
