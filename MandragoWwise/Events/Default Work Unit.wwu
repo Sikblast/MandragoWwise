@@ -1461,6 +1461,132 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Tree" ID="{6CDD497D-430B-4333-AE83-D583E0116673}">
+					<ChildrenList>
+						<Action Name="" ID="{3024AEB4-B08D-45CF-BFEF-05D13193C38E}" ShortID="435189883">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tree" ID="{1F30EB13-AA60-4584-BE8A-7FF146973825}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Book_Drop" ID="{C3FF3FBE-95D0-4CAC-8A4C-C2FF0C3AA6E4}">
+					<ChildrenList>
+						<Action Name="" ID="{F0A80426-F2DC-4036-AED4-0765580DEF0A}" ShortID="334728847">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Book Drop" ID="{D5810376-21BD-462B-8D11-D21E98D51C15}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Paper_Drop" ID="{AFDF8AC4-E3D5-4D6E-9DAB-F1E967347F94}">
+					<ChildrenList>
+						<Action Name="" ID="{C27F85D2-41D8-4E1C-9DE3-84667EB481A5}" ShortID="846757590">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Paper Drop" ID="{DCF4758A-2CF0-4FAF-8B02-DE9C6A9AAABA}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Shroom_Drop" ID="{E15DD90D-AC01-4898-B72E-C91F67AE1CF1}">
+					<ChildrenList>
+						<Action Name="" ID="{1ED35111-D1E1-469A-95AF-3F46C298AF1D}" ShortID="896063167">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shroom Drop" ID="{212EB7A1-6870-4855-B377-BA00A760F70D}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Stone_Drop" ID="{2E645655-F437-420D-9F91-4CEDC1DA5186}">
+					<ChildrenList>
+						<Action Name="" ID="{07F294A6-F1BD-4143-9EBD-6D9BA2E77E25}" ShortID="118489169">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stone Drop" ID="{EFF522B3-C46C-4746-9B25-50E71D1D398A}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Vegetal_Drop" ID="{E4938686-BCD2-42B2-856B-0A2E21DB5867}">
+					<ChildrenList>
+						<Action Name="" ID="{0D644E35-B334-4F7D-B094-5A49D9022DF1}" ShortID="636807448">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vegetal Drop" ID="{6989AEF4-6DB4-4FFE-9B25-A56D04F0290E}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Impact" ID="{C988838C-9C5D-4F8C-986A-5F2A72CC35C2}">
+					<ChildrenList>
+						<Action Name="" ID="{39499E6E-EC03-4FCD-BEAD-9C3AE9502959}" ShortID="397159975">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Impact" ID="{51D16D34-0C01-4B91-AB86-A6270F6AE74A}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Amb_TP" ID="{41CB825F-6C6C-4EEA-A0BB-D6E91FBEECA9}">
+					<ChildrenList>
+						<Action Name="" ID="{A26B8BA3-1BAE-49BC-80A2-967E3188EECC}" ShortID="627001060">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb TP" ID="{7F189478-D988-4EB1-9CB2-9350C8252DC2}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Amb_TP" ID="{12F7F43F-F6B3-49E4-BD72-2E388D9BF118}">
+					<ChildrenList>
+						<Action Name="" ID="{D9AC825A-7103-43F7-917D-22A3630FB3F3}" ShortID="1048396865">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb TP" ID="{7F189478-D988-4EB1-9CB2-9350C8252DC2}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
