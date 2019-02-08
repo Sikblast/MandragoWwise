@@ -5759,7 +5759,6 @@
 								<Sound Name="Socle Scale" ID="{9657C430-4280-4522-AF51-D3D4AA8554EF}" ShortID="317401280">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
@@ -5843,7 +5842,6 @@
 								<Sound Name="Socle Tuile" ID="{B176D2F0-41EB-45BD-95A3-0AB02CB19B6E}" ShortID="70101133">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
@@ -5927,7 +5925,6 @@
 								<Sound Name="Socle Extrud" ID="{4242CC87-6D66-471C-9C0E-FC5E0E34C44E}" ShortID="743448073">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
