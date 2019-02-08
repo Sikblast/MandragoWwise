@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4AFD3F26-31B6-4837-9714-95623BCD18E9}" SchemaVersion="89">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{4AFD3F26-31B6-4837-9714-95623BCD18E9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4AFD3F26-31B6-4837-9714-95623BCD18E9}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Drop_Material" ID="{2E753E76-24CF-4D4E-B38A-075838142D62}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Vegetal" ID="{D28589EC-D7B2-4C19-A813-A33A49D9D98E}"/>
+						<Switch Name="Rock" ID="{3E5633F3-6D55-4BEF-8622-4578311C898E}"/>
+						<Switch Name="Shroom" ID="{DB675AA7-1FFF-4677-90BD-F1B49225B740}"/>
+						<Switch Name="Book" ID="{0FA22F9C-671F-41B1-9BE5-7DAFED30AAF2}"/>
+						<Switch Name="Paper" ID="{DD605735-7828-4D09-AE14-4CAC75B91F98}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

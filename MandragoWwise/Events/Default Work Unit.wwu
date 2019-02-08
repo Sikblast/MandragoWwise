@@ -1587,6 +1587,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Take_Object" ID="{55161351-9BBF-4F2F-95DE-58B1598DE1D2}">
+					<ChildrenList>
+						<Action Name="" ID="{226F3743-81B8-4BF3-BB88-44D23B7CB69D}" ShortID="413949284">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Take Object" ID="{817B32D6-A9FE-43EC-A533-FF6CB23A5417}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Drop_Object" ID="{F6493DB5-A50B-466F-9E61-EB0B16C6AEB7}">
+					<ChildrenList>
+						<Action Name="" ID="{A6958598-D0D5-4FF3-9C35-CE18919603FA}" ShortID="538587900">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drop Object" ID="{CA749A72-5B1D-4810-B6BB-788258FC9C24}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

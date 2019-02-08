@@ -159,7 +159,9 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Four" ID="{16546B11-C9B6-4C90-B7D4-776B4EFEFF3A}"/>
 					</CurrentStateList>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Vegetal" ID="{D28589EC-D7B2-4C19-A813-A33A49D9D98E}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
