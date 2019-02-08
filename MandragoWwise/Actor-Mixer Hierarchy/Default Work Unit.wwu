@@ -7696,6 +7696,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Drop Vege 1" ID="{8A085CF5-ECE0-4FB6-98A5-E046581B7BAD}" ShortID="638403565">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.053818214032601"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.100859319631467"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Drop Vege 1.wav</AudioFile>
 														</AudioFileSource>
@@ -7715,6 +7719,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Drop Vege 2" ID="{8FD90200-33D6-45BF-B602-74C0CFFE6F70}" ShortID="763653159">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="4.29659815733522E-02"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.124468462083629"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Drop Vege 2.wav</AudioFile>
 														</AudioFileSource>
@@ -7734,6 +7742,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Drop Vege 3" ID="{D53F15BC-4545-4E45-9A9E-2F257D1C6B84}" ShortID="149232783">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="4.86947791164659E-02"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.139056224899598"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Drop Vege 3.wav</AudioFile>
 														</AudioFileSource>
@@ -7753,6 +7765,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Drop Vege 4" ID="{A7AEB262-899C-48EB-B29D-5846F8A3E9DC}" ShortID="310978381">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.015946137491141"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.208894401133948"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Drop Vege 4.wav</AudioFile>
 														</AudioFileSource>
@@ -7772,6 +7788,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Drop Vege 5" ID="{7C6316BA-7490-4E03-8077-B37647D183AC}" ShortID="51832254">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="6.81623553035671E-03"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="5.11217664776754E-02"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.191341468816442"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Drop Vege 5.wav</AudioFile>
 														</AudioFileSource>
@@ -8505,7 +8526,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="Designed Fire - Impacts - Complex 02" ID="{0B9F59E1-5900-4CC2-B5C7-081E6F82F55E}" ShortID="605797852">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="1.10219223954642"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.772214933262461"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.12260320694543"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Designed Fire - Impacts - Complex 02.wav</AudioFile>
@@ -8651,6 +8673,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Designed Fire - Impacts - Complex 01" ID="{623CB46B-AACC-4FF7-9C7B-7235DC8B8B85}" ShortID="87526825">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.908513997165131"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.14714267363572"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Designed Fire - Impacts - Complex 01.wav</AudioFile>
 										</AudioFileSource>
@@ -8795,6 +8821,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Designed Fire - Impacts - Complex 03" ID="{3FE6486C-F9F2-48BB-A084-679C8372F238}" ShortID="524580723">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.640389469643279"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.04095180722892"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Designed Fire - Impacts - Complex 03.wav</AudioFile>
 										</AudioFileSource>
@@ -8817,6 +8847,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Designed Fire - Impacts - Complex 04" ID="{0F0D8F71-F3F8-48FA-8260-381937AB03FC}" ShortID="984612182">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.592828667611623"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.970083274273565"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Designed Fire - Impacts - Complex 04.wav</AudioFile>
 										</AudioFileSource>
@@ -8836,6 +8870,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Designed Fire - Impacts - Complex 05" ID="{C1716643-EECC-4B5C-BBF1-EEFD51D1FC0D}" ShortID="441738359">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.64942309679896"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.917482843137255"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Designed Fire - Impacts - Complex 05.wav</AudioFile>
 										</AudioFileSource>
@@ -8855,6 +8893,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Designed Fire - Impacts - Complex 06" ID="{DD948217-04F3-43A3-A282-BED2D922D4A4}" ShortID="1012791737">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.520481174698795"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.923598947259627"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Designed Fire - Impacts - Complex 06.wav</AudioFile>
 										</AudioFileSource>
@@ -8874,6 +8916,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Designed Fire - Impacts - Complex 07" ID="{3652BEA6-19F6-40A1-9E78-216F8A1EAC81}" ShortID="511845002">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.377813917434444"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.914419191471769"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Designed Fire - Impacts - Complex 07.wav</AudioFile>
 										</AudioFileSource>
@@ -8893,6 +8939,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Designed Fire - Impacts - Complex 09" ID="{014167D6-76F2-47C0-AB7B-256840D8748F}" ShortID="832235710">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.0834868887314"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.26208362863218"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Designed Fire - Impacts - Complex 09.wav</AudioFile>
 										</AudioFileSource>
@@ -8912,6 +8962,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Designed Fire - Impacts - Complex 10" ID="{8B0221EB-C058-4A7E-8F48-109EA8394A6E}" ShortID="251149823">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.79392970411056"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.19089455616584"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Designed Fire - Impacts - Complex 10.wav</AudioFile>
 										</AudioFileSource>
@@ -8931,6 +8985,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Designed Fire - Impacts - Complex 12" ID="{67C2C2ED-9EDA-48B7-BBEA-0D3A07FB847A}" ShortID="237968494">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.484762579730687"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.11835577604536"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Designed Fire - Impacts - Complex 12.wav</AudioFile>
 										</AudioFileSource>
