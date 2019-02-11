@@ -1427,7 +1427,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Pose d'objet" ID="{A555948E-F900-4C06-9E0B-EB6CF4F95B4C}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="Pose" ID="{A555948E-F900-4C06-9E0B-EB6CF4F95B4C}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
