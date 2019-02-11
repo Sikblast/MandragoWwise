@@ -11062,7 +11062,7 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -11086,9 +11086,13 @@
 									<Language>SFX</Language>
 									<AudioFile>Short Ambisonic Upmix.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="39_ Traveler's Rest" ID="{7FFAEF30-1E76-4949-95BA-57894A09D306}" ShortID="983935747">
+									<Language>SFX</Language>
+									<AudioFile>39. Traveler's Rest.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Short Ambisonic Upmix" ID="{D567570E-65F7-4848-8017-5C7436CAC1F2}" Platform="Linked"/>
+								<ActiveSource Name="39_ Traveler's Rest" ID="{7FFAEF30-1E76-4949-95BA-57894A09D306}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
