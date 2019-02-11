@@ -58,7 +58,7 @@
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Stone Up" ID="{87FDA704-BD00-42B0-AD03-00AAC25833C2}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<ObjectRef Name="Extrud Up Stone" ID="{87FDA704-BD00-42B0-AD03-00AAC25833C2}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="3" Y="1"/>
 						</Module>
 						<Module>
@@ -109,7 +109,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Grab_Distance" ID="{4E2E3C8E-5A3D-470B-9F80-10A12CC14F6A}"/>
-							<Value>2.17782217782218</Value>
+							<Value>0.749250749250751</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>

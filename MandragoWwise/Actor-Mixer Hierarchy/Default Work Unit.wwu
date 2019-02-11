@@ -231,7 +231,7 @@
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>2</Value>
+										<Value>-3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -541,15 +541,15 @@
 							<Custom>
 								<Attenuation Name="Attenuation (Custom)" ID="{BAA68F35-106B-406E-8D6D-81B5319A9F48}" ShortID="1066115971">
 									<PropertyList>
-										<Property Name="ConeHighPassFilterValue" Type="int32">
-											<ValueList>
-												<Value>50</Value>
-											</ValueList>
-										</Property>
 										<Property Name="ConeInnerAngle" Type="int32" Value="35"/>
 										<Property Name="ConeLowPassFilterValue" Type="int32">
 											<ValueList>
 												<Value>18</Value>
+											</ValueList>
+										</Property>
+										<Property Name="ConeUse" Type="bool">
+											<ValueList>
+												<Value>True</Value>
 											</ValueList>
 										</Property>
 										<Property Name="RadiusMax" Type="Real64" Value="15"/>
@@ -557,7 +557,7 @@
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-												<Curve Name="VolumeDry" ID="{A9650CC8-859C-4B42-9E00-5F87476929C1}">
+												<Curve Name="VolumeDry" ID="{49B9B6E7-E34E-4399-8E53-D26CE0148804}">
 													<PropertyList>
 														<Property Name="Flags" Type="int32" Value="3"/>
 													</PropertyList>
@@ -570,7 +570,7 @@
 														</Point>
 														<Point>
 															<XPos>15</XPos>
-															<YPos>-200</YPos>
+															<YPos>-23.03137</YPos>
 															<Flags>37</Flags>
 														</Point>
 													</PointList>
@@ -585,7 +585,7 @@
 										</VolumeWetUserUsage>
 										<LowPassFilterUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-												<Curve Name="LowPassFilter" ID="{E4062D30-6D66-4DB3-BEFF-F1B738D8D5C5}">
+												<Curve Name="LowPassFilter" ID="{F24A1627-F228-431F-9850-CC2C2837A149}">
 													<PropertyList>
 														<Property Name="Flags" Type="int32" Value="65537"/>
 													</PropertyList>
@@ -610,7 +610,7 @@
 										</HighPassFilterUsage>
 										<SpreadUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-												<Curve Name="Spread" ID="{A6CD27AD-8B70-4039-BAA8-E06CAE6C935A}">
+												<Curve Name="Spread" ID="{5BA118FE-9289-4EFD-B1A8-75275EA7E3F3}">
 													<PropertyList>
 														<Property Name="Flags" Type="int32" Value="1"/>
 													</PropertyList>
@@ -632,7 +632,7 @@
 										</SpreadUsage>
 										<FocusUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-												<Curve Name="Focus" ID="{250E45D1-32C8-4FC7-8203-FC6E6FD6055F}">
+												<Curve Name="Focus" ID="{9187522E-4E18-4391-ABCA-2FD4FD520DA2}">
 													<PropertyList>
 														<Property Name="Flags" Type="int32" Value="1"/>
 													</PropertyList>
@@ -1094,19 +1094,19 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-0.21448</YPos>
+																<YPos>-8.00209</YPos>
 																<Flags>5</Flags>
 																<SegmentShape>Log3</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>1.00999</XPos>
-																<YPos>-2.77782</YPos>
+																<XPos>0.46054</XPos>
+																<YPos>-13.98059</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Log3</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>10</XPos>
-																<YPos>-36.53099</YPos>
+																<YPos>-40</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -1845,7 +1845,7 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>-6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1854,7 +1854,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+									<ObjectRef Name="Binaural No Reverb" ID="{4DBE20F6-EF1C-4CA1-9A3F-1B6A01C6AB45}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2145,7 +2145,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-15</Value>
+												<Value>-25</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2530,7 +2530,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-30</Value>
+												<Value>-39</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2616,7 +2616,7 @@
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-21</Value>
+												<Value>-17</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2665,7 +2665,7 @@
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-15</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -3762,7 +3762,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-8</Value>
+												<Value>-12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4201,12 +4201,20 @@
 											<Language>SFX</Language>
 											<AudioFile>Stone 1.wav</AudioFile>
 										</AudioFileSource>
+										<AudioFileSource Name="Extrud Down Stone" ID="{1FD2A4E5-F37D-4DD0-894B-2B073F8F4776}" ShortID="513255713">
+											<Language>SFX</Language>
+											<AudioFile>Extrud Down Stone.wav</AudioFile>
+										</AudioFileSource>
+										<AudioFileSource Name="Extrud Up Stone" ID="{FBB5027B-B075-4013-868F-8211317EBB5B}" ShortID="42844391">
+											<Language>SFX</Language>
+											<AudioFile>Extrud Up Stone.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Stone 1" ID="{149869A7-8963-451B-875B-EF3494041B1E}" Platform="Linked"/>
+										<ActiveSource Name="Extrud Up Stone" ID="{FBB5027B-B075-4013-868F-8211317EBB5B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Stone Up" ID="{87FDA704-BD00-42B0-AD03-00AAC25833C2}" ShortID="101641078">
+								<Sound Name="Extrud Up Stone" ID="{87FDA704-BD00-42B0-AD03-00AAC25833C2}" ShortID="101641078">
 									<PropertyList>
 										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
@@ -4236,7 +4244,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Stone 2" ID="{246AC19E-FF7E-415A-8320-BFD1AC5B8A48}" ShortID="707004769">
+										<AudioFileSource Name="Extrud Up Stone" ID="{246AC19E-FF7E-415A-8320-BFD1AC5B8A48}" ShortID="707004769">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="1.45684699582644E-03"/>
 												<Property Name="TrimBegin" Type="Real64" Value="3.69472585330429E-02"/>
@@ -4246,7 +4254,7 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Stone 2" ID="{246AC19E-FF7E-415A-8320-BFD1AC5B8A48}" Platform="Linked"/>
+										<ActiveSource Name="Extrud Up Stone" ID="{246AC19E-FF7E-415A-8320-BFD1AC5B8A48}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<RandomSequenceContainer Name="Water" ID="{28E44403-9FD1-4CF7-B7F9-A6F5A96A65C2}" ShortID="737523333">
@@ -5207,6 +5215,11 @@
 						<BlendContainer Name="LFO Scale" ID="{AA98DB3B-CF9E-4CF6-847C-D4B9D437E9E0}" ShortID="810746767">
 							<PropertyList>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-75</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -5514,7 +5527,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-20</Value>
+										<Value>-96</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -5544,11 +5557,14 @@
 						</Sound>
 						<Sound Name="Look_TP" ID="{39745501-B1C2-4BF6-B4F7-20FDF95BAA02}" ShortID="202212511">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
 										<Value>1</Value>
 									</ValueList>
 								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
@@ -5556,7 +5572,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-15</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -5578,6 +5594,9 @@
 									<AudioFile>Magic_Game_Notification_2.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{C89CBB9D-691A-445E-B6FB-9B3542684D88}"/>
+							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="Magic_Game_Notification_2" ID="{80FD21C7-9E0C-49BC-A059-0F191C66A71B}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -5674,7 +5693,7 @@
 											<Custom>
 												<Attenuation Name="Attenuation (Custom)" ID="{EDB8A86D-C6FF-47A2-82ED-02416FC23E56}" ShortID="101580207">
 													<PropertyList>
-														<Property Name="RadiusMax" Type="Real64" Value="2"/>
+														<Property Name="RadiusMax" Type="Real64" Value="4"/>
 													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
@@ -5691,7 +5710,7 @@
 																			<SegmentShape>Log3</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>2</XPos>
+																			<XPos>4</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -5757,7 +5776,7 @@
 											<Custom>
 												<Attenuation Name="Attenuation (Custom)" ID="{0DB2F88F-9B42-4AAD-AEF6-FFCAA6AF3A67}" ShortID="95719033">
 													<PropertyList>
-														<Property Name="RadiusMax" Type="Real64" Value="2"/>
+														<Property Name="RadiusMax" Type="Real64" Value="4"/>
 													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
@@ -5774,7 +5793,7 @@
 																			<SegmentShape>Log3</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>2</XPos>
+																			<XPos>4</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -5840,7 +5859,7 @@
 											<Custom>
 												<Attenuation Name="Attenuation (Custom)" ID="{DC76B957-F5E5-44EC-BD9A-1F749A97B249}" ShortID="697110745">
 													<PropertyList>
-														<Property Name="RadiusMax" Type="Real64" Value="2"/>
+														<Property Name="RadiusMax" Type="Real64" Value="4"/>
 													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
@@ -5857,7 +5876,7 @@
 																			<SegmentShape>Log3</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>2</XPos>
+																			<XPos>4</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -6082,10 +6101,13 @@
 						</Folder>
 						<Sound Name="Sun Explosion" ID="{E561B19A-1478-4F51-9DFC-B49FC4995C55}" ShortID="713577049">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -6103,6 +6125,9 @@
 									<AudioFile>Sun Explosion.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{23067D62-7104-4313-AE19-1EF70F8D575C}"/>
+							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="Sun Explosion" ID="{F4F47021-D9A8-4A3B-99BB-A36154005800}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -6143,6 +6168,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Load Button Off" ID="{D3E3501C-15F8-4297-A488-336689426317}" ShortID="487076259">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.155889440113395"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.664861800141743"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Load Button Off.wav</AudioFile>
 								</AudioFileSource>
@@ -6169,6 +6198,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Button ON" ID="{1A3E12DF-22FF-481A-9850-8C7FCF310AEB}" ShortID="712067083">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="8.75634301913536E-02"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.378880226789511"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Button ON.wav</AudioFile>
 								</AudioFileSource>
@@ -8299,8 +8332,10 @@
 						</Folder>
 						<Sound Name="Pipe" ID="{55017426-FB4C-45FD-AF74-F9B7071B20F8}" ShortID="726044622">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-17</Value>
@@ -8308,6 +8343,57 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{DAD37B11-785A-4F2A-B688-8FDE2EF666F8}" ShortID="456913643">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="18"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{43F4E44D-7F29-4E58-B603-4DCAF1DA358C}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>18</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 								</Reference>
@@ -10148,7 +10234,7 @@
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-20</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
