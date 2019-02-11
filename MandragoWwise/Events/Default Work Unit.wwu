@@ -1419,7 +1419,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Pose_d_objet" ID="{15A9E098-85AA-40E5-9D2E-B566012E0A69}">
+				<Event Name="Play_Pose" ID="{15A9E098-85AA-40E5-9D2E-B566012E0A69}">
 					<ChildrenList>
 						<Action Name="" ID="{95C06EDE-FCAC-4675-86FA-4380127E51EF}" ShortID="760503097">
 							<PropertyList>
