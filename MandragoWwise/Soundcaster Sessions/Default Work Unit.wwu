@@ -22,6 +22,10 @@
 							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Constellations Successful" ID="{0CD0AD98-D7DE-4859-92A7-B5D0ABB900A6}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="First Star" ID="{4E1F546A-C228-4BC8-854F-D2FFDE9D70D4}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="1" Y="0"/>
 						</Module>
