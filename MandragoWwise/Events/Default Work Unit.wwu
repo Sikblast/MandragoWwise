@@ -1642,6 +1642,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_House_Drop" ID="{F2A2F0E7-0BC6-4744-94AD-8D5DC016BC5F}">
+					<ChildrenList>
+						<Action Name="" ID="{B651B42A-E861-47EF-865E-9F62EE1B851E}" ShortID="1055674301">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="House Drop" ID="{A13B868B-5AD8-4847-B6B1-E564126FECF5}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

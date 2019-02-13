@@ -10693,6 +10693,48 @@
 														<Panner Name="" ID="{73422C73-9F35-42D1-9201-8BBB35551731}"/>
 													</PositioningInfo>
 												</RandomSequenceContainer>
+												<Sound Name="House Drop" ID="{A13B868B-5AD8-4847-B6B1-E564126FECF5}" ShortID="532035045">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{1227D238-9491-47C7-AC46-3C00A211766F}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="429"/>
+																			<Property Name="Min" Type="Real64" Value="-328"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pick Up Pillier 2" ID="{04A7A198-E7C8-4E60-B8C7-6D58EE13615A}" ShortID="29739859">
+															<Language>SFX</Language>
+															<AudioFile>Pick Up Pillier 2.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="726051260"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pick Up Pillier 2" ID="{04A7A198-E7C8-4E60-B8C7-6D58EE13615A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 											<GroupingInfo>
 												<GroupingBehaviorList>
@@ -10701,6 +10743,9 @@
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="Paper Drop" ID="{DCF4758A-2CF0-4FAF-8B02-DE9C6A9AAABA}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="House Drop" ID="{A13B868B-5AD8-4847-B6B1-E564126FECF5}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="Shroom Drop" ID="{212EB7A1-6870-4855-B377-BA00A760F70D}"/>
