@@ -1628,6 +1628,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Pillier" ID="{B4B71EA2-2C84-4DFC-A43D-7C4FAF6B000B}">
+					<ChildrenList>
+						<Action Name="" ID="{52B44245-3A3B-47AB-B38C-DC7AA1B79C94}" ShortID="924747041">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pillier" ID="{3EEEA07F-3423-49A6-BA19-4B6C09FA4315}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

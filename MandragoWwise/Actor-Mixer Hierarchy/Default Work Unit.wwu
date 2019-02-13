@@ -502,6 +502,7 @@
 						</Sound>
 						<Sound Name="Amb TP" ID="{7F189478-D988-4EB1-9CB2-9350C8252DC2}" ShortID="366654479">
 							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -3681,6 +3682,11 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -4736,8 +4742,8 @@
 													<Modifier Name="" ID="{48E87A90-6C9E-4230-AEB3-6BD350AD83FD}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="10"/>
-															<Property Name="Min" Type="Real64" Value="-10"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+															<Property Name="Min" Type="Real64" Value="-20"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -4746,7 +4752,7 @@
 										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
-												<Value>1</Value>
+												<Value>3</Value>
 											</ValueList>
 										</Property>
 										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
@@ -4796,6 +4802,10 @@
 											<AudioFile>Extrud Down Stone.wav</AudioFile>
 										</AudioFileSource>
 										<AudioFileSource Name="Extrud Up Stone" ID="{FBB5027B-B075-4013-868F-8211317EBB5B}" ShortID="42844391">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.26061233167966"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.439075124025514"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Extrud Up Stone.wav</AudioFile>
 										</AudioFileSource>
@@ -4826,8 +4836,8 @@
 													<Modifier Name="" ID="{2EA4A5AD-1247-414F-A59D-EBA85215887E}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="10"/>
-															<Property Name="Min" Type="Real64" Value="-10"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+															<Property Name="Min" Type="Real64" Value="-20"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -4836,7 +4846,7 @@
 										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
-												<Value>1</Value>
+												<Value>3</Value>
 											</ValueList>
 										</Property>
 										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
@@ -4876,7 +4886,9 @@
 										<AudioFileSource Name="Extrud Up Stone" ID="{246AC19E-FF7E-415A-8320-BFD1AC5B8A48}" ShortID="707004769">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="1.45684699582644E-03"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.333800067918734"/>
 												<Property Name="TrimBegin" Type="Real64" Value="3.69472585330429E-02"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.468194203283723"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Stone 2.wav</AudioFile>
@@ -4892,10 +4904,23 @@
 										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
-												<Value>1</Value>
+												<Value>3</Value>
 											</ValueList>
 										</Property>
 										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B311D36A-861D-4D39-B410-EDDFBB83E715}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -5425,6 +5450,18 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Impact Kinder Final" ID="{4042AEE9-2DF3-49BE-8E90-92A3CC039478}" ShortID="186961494">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
@@ -5469,11 +5506,10 @@
 																<XPos>0</XPos>
 																<YPos>-200</YPos>
 																<Flags>5</Flags>
-																<SegmentShape>Log3</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>2.4379</XPos>
-																<YPos>-5.9427</YPos>
+																<XPos>19.81242</XPos>
+																<YPos>-6.18517</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Log3</SegmentShape>
 															</Point>
@@ -6812,9 +6848,23 @@
 							<ChildrenList>
 								<ActorMixer Name="Objects" ID="{DCE4C0ED-978E-461E-9DF5-747A5BA5AB94}" ShortID="541087948">
 									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{187FEABB-ABC3-4D33-8680-9AF3479C8F29}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-12</Value>
+												<Value>-9</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -6823,14 +6873,13 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+											<ObjectRef Name="Binaural No Reverb" ID="{4DBE20F6-EF1C-4CA1-9A3F-1B6A01C6AB45}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="Book" ID="{5A04DD31-1E46-42FE-AACA-491126B4D8CE}" ShortID="576070029">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -6980,7 +7029,6 @@
 										<Sound Name="Volcano" ID="{A1B775B7-CE14-4822-B228-2554E329E19A}" ShortID="858535570">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -7134,7 +7182,6 @@
 										<Sound Name="Parchment" ID="{7864D77E-BE95-449E-BB87-CDA6152F096F}" ShortID="686608041">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -7284,7 +7331,6 @@
 										<Sound Name="House" ID="{A0830D2A-092E-4A1C-AB5A-82CFB1DD83E4}" ShortID="60192818">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
@@ -7422,18 +7468,21 @@
 													<Language>SFX</Language>
 													<AudioFile>Grab Planet Pick Up.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="Pick Up Pillier" ID="{E2A139A6-EC49-406C-8356-A796A3F0B0ED}" ShortID="542839491">
+													<Language>SFX</Language>
+													<AudioFile>Pick Up Pillier.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<PositioningInfo>
 												<Panner Name="" ID="{087D65C2-2BC8-4DEF-8697-84D3D8CC3EC9}"/>
 											</PositioningInfo>
 											<ActiveSourceList>
-												<ActiveSource Name="Grab Planet Pick Up" ID="{5F9D57E5-9DCC-45DC-990C-A693D12651F9}" Platform="Linked"/>
+												<ActiveSource Name="Pick Up Pillier" ID="{E2A139A6-EC49-406C-8356-A796A3F0B0ED}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Planet" ID="{4AA3631B-6D27-4EAE-95F6-B93086C73BAA}" ShortID="852844400">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -7569,6 +7618,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Planet" ID="{C979B1EA-610F-488D-8B0A-E1B35D8F22F5}" ShortID="828221694">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="5.33843019135365E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="7.52233345145287E-02"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Planet.wav</AudioFile>
 												</AudioFileSource>
@@ -7593,7 +7646,6 @@
 										<Sound Name="Bush" ID="{FD07E835-ACF2-4566-98B7-A6A621894F51}" ShortID="653867581">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
@@ -7888,7 +7940,6 @@
 										<Sound Name="Mountain" ID="{0D7EB934-2785-456C-A20B-3C4AA6859276}" ShortID="557972837">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -8188,7 +8239,6 @@
 										<Sound Name="Little Rock" ID="{2CC9585F-7701-45B9-B5E8-BA5B9E9CF42B}" ShortID="817478423">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -8338,7 +8388,6 @@
 										<Sound Name="Planet 2" ID="{4E963AC9-C96A-4FCA-9150-EE22F59D2201}" ShortID="333204592">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -8488,7 +8537,6 @@
 										<Sound Name="Shroom" ID="{F9F31285-3C93-4CF1-9B7E-5ED8B399928B}" ShortID="481662834">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -8641,7 +8689,6 @@
 										<Sound Name="Flower" ID="{5DD96A5F-4BD7-4B80-9129-02E0A03B0426}" ShortID="814585417">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
@@ -8789,6 +8836,25 @@
 												<ActiveSource Name="Fantasy_Game_Item_Collect_Herbs" ID="{FD2BB3BD-A970-4A6E-B9BA-C9837A09F25E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Pillier" ID="{3EEEA07F-3423-49A6-BA19-4B6C09FA4315}" ShortID="85850250">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Binaural No Reverb" ID="{4DBE20F6-EF1C-4CA1-9A3F-1B6A01C6AB45}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pick Up Pillier 2" ID="{3AA784AB-D314-46D3-A0E1-C60823204243}" ShortID="726051260">
+													<Language>SFX</Language>
+													<AudioFile>Pick Up Pillier 2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pick Up Pillier 2" ID="{3AA784AB-D314-46D3-A0E1-C60823204243}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</ActorMixer>
 							</ChildrenList>
@@ -8915,7 +8981,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-12</Value>
+												<Value>-9</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -12081,7 +12147,6 @@
 								<Sound Name="Look_TP" ID="{39745501-B1C2-4BF6-B4F7-20FDF95BAA02}" ShortID="202212511">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
 												<Value>1</Value>
@@ -12096,7 +12161,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-21</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -12361,7 +12426,7 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-20</Value>
+										<Value>-12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
