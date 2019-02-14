@@ -185,7 +185,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="One" ID="{6B4ACC89-FAEE-46E0-8106-BA93989FBD7F}"/>
+						<CurrentStateRef Name="None" ID="{174BBBE7-162B-44A8-97CA-F05AC47DBD95}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Vegetal" ID="{D28589EC-D7B2-4C19-A813-A33A49D9D98E}"/>

@@ -39,6 +39,7 @@
 					<PropertyList>
 						<Property Name="ER_Delay" Type="Real32" Value="1"/>
 						<Property Name="ER_Level" Type="Real32" Value="-3"/>
+						<Property Name="Reverb" Type="bool" Value="False"/>
 						<Property Name="Reverb_fcut" Type="Real32" Value="6000"/>
 						<Property Name="Reverb_level" Type="Real32" Value="-18"/>
 						<Property Name="Reverb_predelay" Type="Real32" Value="40"/>

@@ -36,6 +36,11 @@
 										<Value>516</Value>
 									</ValueList>
 								</Property>
+								<Property Name="BypassEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 							</PropertyList>
