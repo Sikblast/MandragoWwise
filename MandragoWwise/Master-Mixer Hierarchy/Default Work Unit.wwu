@@ -5,6 +5,11 @@
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
 						<Property Name="BypassEffect0" Type="bool">
 							<ValueList>
 								<Value>True</Value>
@@ -33,7 +38,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="BusChannelConfig" Type="int32">
 									<ValueList>
-										<Value>6353158</Value>
+										<Value>528</Value>
 									</ValueList>
 								</Property>
 								<Property Name="BypassEffect1" Type="bool">
@@ -302,7 +307,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="BusChannelConfig" Type="int32">
 									<ValueList>
-										<Value>6353158</Value>
+										<Value>528</Value>
 									</ValueList>
 								</Property>
 								<Property Name="BypassEffect1" Type="bool">
@@ -438,7 +443,7 @@
 											<PropertyList>
 												<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 												<Property Name="DryLevel" Type="Real32" Value="0"/>
-												<Property Name="IRConvolutionStop" Type="Real64" Value="4.73652083333333"/>
+												<Property Name="IRConvolutionStop" Type="Real64" Value="4.73654166666667"/>
 												<Property Name="IRConvolutionThreshold" Type="Real32" Value="-72"/>
 												<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 												<Property Name="IRLevel" Type="Real32" Value="-23.8"/>
@@ -446,6 +451,17 @@
 												<Property Name="PreDelay" Type="Real32" Value="7"/>
 												<Property Name="WetLevel" Type="Real32" Value="3.5"/>
 											</PropertyList>
+											<ChildrenList>
+												<PluginMediaSource Name="AK Amb Stair Way Hall" ID="{642E8C96-14FC-46DB-8AF6-B5C9C3DF935B}" ShortID="536933896">
+													<ParentPluginID>8323075</ParentPluginID>
+													<PropertyList>
+														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR_Amb\Large Spaces\AK Amb Stair Way Hall.wav"/>
+													</PropertyList>
+													<ConvertedFileIDList>
+														<File ID="822562241"/>
+													</ConvertedFileIDList>
+												</PluginMediaSource>
+											</ChildrenList>
 											<PluginData>
 	<ConvolutionData>
 		<CurveList Version="1">

@@ -205,8 +205,8 @@
 				<Property Name="PluginUserAcknowledge\iZotope Trash Multiband Distortion" Type="bool" Value="True"/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{0D6BCDAE-66D5-4C2E-B386-9B8B6CE91C6D}"/>
-				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{73B04CF6-78B4-4DC7-B288-8568574D85A8}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{6DD2527C-FA65-4A6A-BB9F-19E8B5FA3D84}"/>
+				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{5C19D892-6BCE-4BA6-BC55-67DCB6941292}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
 				<Property Name="ProjectExplorer\FirstVisible_8_1" Type="string" Value="{41093F77-829F-4D88-8601-E8B25F3D4781}"/>
@@ -223,13 +223,13 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ826+p9dV3ItFhbVwLMjvWSIJlfI5JhLgTJHDjHtj9eQs"/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="1BdMC8BhOUGOBW+pFQhbTe3A5NyOlx5GnfV0elulq5T3hkg7pkvkR6vwXepQsPuE0GZihTiqWEmgiU9LWy6QiXxS0m1l+mpKu58Z6LX6PYRMHqw7Iv/cSqVd0Dnfl2F/FpS5tRSKbE6P/9a1N7cUnMKODE9ID6RPqUB/W7qdRck="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="1BdMC8BhOUGOBW+pFQhbTXxS0m1l+mpKu58Z6LX6PYRMHqw7Iv/cSqVd0Dnfl2F/FpS5tRSKbE6P/9a1N7cUnMKODE9ID6RPqUB/W7qdRck="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="YDC2ruPTnUydiEuPOuJHTA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="Jj/9SrYxN0iXFJViO80Y6XY+dS7PJE5Ns4oHWDgULWI="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="qXAW6HJsH0CNr8FZ5sNEtQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value="cCNyDQAO70awAOxHHn9LAA=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value="I7uOmS07R0OA/vjiqos97zzRYhXoQaFPo0HUy3JuKuw="/>
 				<Property Name="RTPC\GameParameterSimValue\{09E2B445-C4A3-447F-B3CA-818A1D925EF7}" Type="Real64" Value="6"/>
 				<Property Name="RTPC\GameParameterSimValue\{10244699-1FFE-4C21-A644-A655AA34A86A}" Type="Real64" Value="29.1842510852481"/>
 				<Property Name="RTPC\GameParameterSimValue\{10B566F7-9703-434F-97B2-8BF8BC747849}" Type="Real64" Value="50"/>
@@ -239,7 +239,7 @@
 				<Property Name="RTPC\GameParameterSimValue\{28387EE3-C13A-4316-B9C3-DB5C521624AF}" Type="Real64" Value="1"/>
 				<Property Name="RTPC\GameParameterSimValue\{29DB60C0-D6EE-44C4-9DED-E17E7AD20C61}" Type="Real64" Value="2.50965250965251"/>
 				<Property Name="RTPC\GameParameterSimValue\{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}" Type="Real64" Value="75"/>
-				<Property Name="RTPC\GameParameterSimValue\{4E2E3C8E-5A3D-470B-9F80-10A12CC14F6A}" Type="Real64" Value="0.749250749250751"/>
+				<Property Name="RTPC\GameParameterSimValue\{4E2E3C8E-5A3D-470B-9F80-10A12CC14F6A}" Type="Real64" Value="0"/>
 				<Property Name="RTPC\GameParameterSimValue\{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}" Type="Real64" Value="6"/>
 				<Property Name="RTPC\GameParameterSimValue\{74471369-2198-47F8-B4C3-9EAC3B3DFED8}" Type="Real64" Value="100"/>
 				<Property Name="RTPC\GameParameterSimValue\{8DBF4C35-0079-4C8A-86B1-83117220A407}" Type="Real64" Value="42.2222222222222"/>
