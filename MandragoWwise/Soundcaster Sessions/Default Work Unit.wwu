@@ -26,6 +26,14 @@
 							<Position X="0" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Music" ID="{D8903AAD-0A69-4F5D-A9A7-DF3031E3FCBC}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Kinder Break" ID="{C7DBB3A7-E599-4E82-9294-E9541C824E28}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<Position X="0" Y="6"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="First Star" ID="{4E1F546A-C228-4BC8-854F-D2FFDE9D70D4}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -50,11 +58,11 @@
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Stone Down" ID="{0D6BCDAE-66D5-4C2E-B386-9B8B6CE91C6D}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<ObjectRef Name="Extrud Down Stone" ID="{0D6BCDAE-66D5-4C2E-B386-9B8B6CE91C6D}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Wind" ID="{AF14352A-0BBA-4AC5-BC96-591A5D09BF12}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
+							<ObjectRef Name="Intro" ID="{C0E46A31-B30F-48B5-8D98-D25819D5B32A}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
@@ -62,7 +70,7 @@
 							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Stone_Up_Play" ID="{F409A10C-753F-4C6C-B080-68F3A736F4D3}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
+							<ObjectRef Name="Play_Scale_RTPC" ID="{5F79295F-63FC-4428-9E73-0E4F3E13FA55}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
 							<Position X="2" Y="4"/>
 						</Module>
 						<Module>
@@ -74,7 +82,7 @@
 							<Position X="3" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Stop_Wind" ID="{FDF36FCE-67E0-4091-9FA8-F630441A9272}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
+							<ObjectRef Name="Constellation Hits" ID="{4853D512-CF9B-47D5-874C-DD8E3FD05D27}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="3" Y="2"/>
 						</Module>
 						<Module>
@@ -82,7 +90,7 @@
 							<Position X="3" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Stone_Down_Play" ID="{834BE525-1301-42E9-830B-B74EB8C868F9}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
+							<ObjectRef Name="Stop_Scale_RTPC" ID="{6755B8FC-3FE3-49B7-AC38-1174D26C3E8A}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
 							<Position X="3" Y="4"/>
 						</Module>
 					</ModuleList>
@@ -109,7 +117,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Wind" ID="{29DB60C0-D6EE-44C4-9DED-E17E7AD20C61}"/>
-							<Value>0</Value>
+							<Value>2.50965250965251</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RPM" ID="{9112AA05-F577-44FD-9F4E-4424158129E6}"/>
@@ -125,7 +133,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Grab_Distance" ID="{4E2E3C8E-5A3D-470B-9F80-10A12CC14F6A}"/>
-							<Value>0.749250749250751</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
@@ -157,7 +165,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Scale_Rate" ID="{8DBF4C35-0079-4C8A-86B1-83117220A407}"/>
-							<Value>14.5454545454545</Value>
+							<Value>42.2222222222222</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>

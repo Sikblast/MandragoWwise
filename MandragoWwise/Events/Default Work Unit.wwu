@@ -208,6 +208,7 @@
 						<Action Name="" ID="{B6365962-93DE-4A68-A8DD-7E54A46DBCF0}" ShortID="654270173">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -573,7 +574,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Stone Down" ID="{0D6BCDAE-66D5-4C2E-B386-9B8B6CE91C6D}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="Extrud Down Stone" ID="{0D6BCDAE-66D5-4C2E-B386-9B8B6CE91C6D}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -1591,6 +1592,7 @@
 						<Action Name="" ID="{A26B8BA3-1BAE-49BC-80A2-967E3188EECC}" ShortID="627001060">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -1651,6 +1653,34 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="House Drop" ID="{A13B868B-5AD8-4847-B6B1-E564126FECF5}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Scale_RTPC" ID="{5F79295F-63FC-4428-9E73-0E4F3E13FA55}">
+					<ChildrenList>
+						<Action Name="" ID="{FFECB040-28A9-411A-BEE5-CFD3ADE39FE0}" ShortID="201568901">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Scale RTPC" ID="{3B4886F7-4BA6-47E4-ABF0-5DEA50B0FB84}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Scale_RTPC" ID="{6755B8FC-3FE3-49B7-AC38-1174D26C3E8A}">
+					<ChildrenList>
+						<Action Name="" ID="{198BB19A-55B8-42C1-8B88-1B45CF454EEF}" ShortID="896572244">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Scale RTPC" ID="{3B4886F7-4BA6-47E4-ABF0-5DEA50B0FB84}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

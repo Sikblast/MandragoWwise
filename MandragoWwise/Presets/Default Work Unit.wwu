@@ -1919,6 +1919,82 @@
 						</FocusUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
+				<Effect Name="REVERB AMBI" ID="{58BC8DCE-11D5-450D-8DC4-E38911441EC6}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+					<PropertyList>
+						<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+						<Property Name="DryLevel" Type="Real32" Value="0"/>
+						<Property Name="IRConvolutionStop" Type="Real64" Value="4.73652083333333"/>
+						<Property Name="IRConvolutionThreshold" Type="Real32" Value="-72"/>
+						<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
+						<Property Name="IRLevel" Type="Real32" Value="-23.8"/>
+						<Property Name="IRStretch" Type="Real32" Value="56"/>
+						<Property Name="PreDelay" Type="Real32" Value="7"/>
+						<Property Name="WetLevel" Type="Real32" Value="3.5"/>
+					</PropertyList>
+					<PluginData>
+	<ConvolutionData>
+		<CurveList Version="1">
+			<CurveInfo Name="IRGraphicEQ">
+				<Curve Name="" ID="{6055C8F4-AAAA-4E33-BCE6-793F21DA6758}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="19"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>20000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLPF">
+				<Curve Name="" ID="{AFF95C6F-573C-4298-B98E-92CECEC34750}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>15488.3871</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>4.73654166666667</XPos>
+							<YPos>15560</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLevel">
+				<Curve Name="" ID="{C1E27AF6-D746-4649-A753-3116F560CCE0}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>4.73654166666667</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ConvolutionData>
+</PluginData>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Presets>
