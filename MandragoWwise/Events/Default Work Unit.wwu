@@ -1686,6 +1686,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Mute_Drop" ID="{4FD1C46F-1B63-4655-B30B-AB89B602D0A9}">
+					<ChildrenList>
+						<Action Name="" ID="{9A14B9D2-A137-431B-84D0-4548C87A555F}" ShortID="514322371">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drop" ID="{195C0566-5E40-40D7-8EA1-34CFA878108B}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UnMute_Drop" ID="{6D2828C8-ECA8-4A80-A981-FF2A3B567A58}">
+					<ChildrenList>
+						<Action Name="" ID="{4EB1327D-9BA4-481D-8BF9-96AE4547526D}" ShortID="879101367">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drop" ID="{195C0566-5E40-40D7-8EA1-34CFA878108B}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
