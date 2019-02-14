@@ -12519,6 +12519,7 @@
 								</Sound>
 								<Sound Name="TP Activated" ID="{918F38F8-28C1-43E9-96CC-2CB8EB4064E8}" ShortID="816482700">
 									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
