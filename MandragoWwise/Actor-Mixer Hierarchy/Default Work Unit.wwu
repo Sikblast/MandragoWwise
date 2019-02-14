@@ -4900,7 +4900,7 @@
 										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
-												<Value>2</Value>
+												<Value>1</Value>
 											</ValueList>
 										</Property>
 										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
@@ -4994,7 +4994,7 @@
 										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
-												<Value>2</Value>
+												<Value>1</Value>
 											</ValueList>
 										</Property>
 										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
@@ -5052,7 +5052,7 @@
 										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
-												<Value>3</Value>
+												<Value>1</Value>
 											</ValueList>
 										</Property>
 										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
@@ -6455,6 +6455,7 @@
 						</Sound>
 						<Sound Name="Terra" ID="{5F0D29EE-58DA-4837-B95C-5AE1F605102E}" ShortID="988112173">
 							<PropertyList>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
 										<Value>1</Value>
@@ -6599,7 +6600,7 @@
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-26</Value>
+												<Value>-21</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -6689,7 +6690,7 @@
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-20</Value>
+												<Value>-18</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -8101,6 +8102,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Tree" ID="{54776A51-F469-4A3B-9FA4-AE1EE8DC393D}" ShortID="935937643">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="2.34511575714623E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.172533516418616"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.231998951689109"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.651607163949917"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Tree.wav</AudioFile>
 												</AudioFileSource>
@@ -12391,7 +12398,7 @@
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>

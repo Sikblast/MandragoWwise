@@ -5,6 +5,11 @@
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
 						<Property Name="BypassEffect0" Type="bool">
 							<ValueList>
 								<Value>True</Value>
@@ -39,6 +44,11 @@
 								<Property Name="BypassEffect0" Type="bool">
 									<ValueList>
 										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
 									</ValueList>
 								</Property>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
@@ -291,6 +301,11 @@
 										<Value>6353158</Value>
 									</ValueList>
 								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>0</Value>
+									</ValueList>
+								</Property>
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 							</PropertyList>
 							<PositioningInfo>
@@ -303,6 +318,11 @@
 								<Property Name="BusChannelConfig" Type="int32">
 									<ValueList>
 										<Value>516</Value>
+									</ValueList>
+								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
 									</ValueList>
 								</Property>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
