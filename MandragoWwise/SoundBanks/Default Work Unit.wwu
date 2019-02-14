@@ -5,8 +5,12 @@
 			<ChildrenList>
 				<SoundBank Name="Soundbank" ID="{3B951699-D2BA-4D94-9B90-6B3CD5A8867D}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Ambisonics" ID="{7BCABF5E-1E32-4133-A65E-A9AD803F27B9}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Space_Ship_Ambisonics" ID="{9F0F1041-FE73-4568-B72A-79FFEBC77252}" WorkUnitID="{1562D13C-41E8-4FA1-A341-D4CB726E2AEC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Binauralizer" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Surround" ID="{8B7EEA3F-DFC5-49AE-B253-D81DE79D11BB}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Default Work Unit" ID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Binaural No Reverb" ID="{4DBE20F6-EF1C-4CA1-9A3F-1B6A01C6AB45}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
