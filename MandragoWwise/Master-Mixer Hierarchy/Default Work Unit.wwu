@@ -41,11 +41,6 @@
 										<Value>516</Value>
 									</ValueList>
 								</Property>
-								<Property Name="BypassEffect0" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
 										<Value>25</Value>
@@ -171,94 +166,6 @@
 												</FocusUsage>
 											</CurveUsageInfoList>
 										</Attenuation>
-									</Custom>
-								</Reference>
-								<Reference Name="Effect0">
-									<Custom>
-										<Effect Name="Wwise Convolution Reverb (Custom)" ID="{C16874B1-1BC9-4A26-BC51-1B76C31F2599}" ShortID="288108606" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
-											<PropertyList>
-												<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-												<Property Name="DryLevel" Type="Real32" Value="0"/>
-												<Property Name="IRConvolutionStop" Type="Real64" Value="4.73654166666667"/>
-												<Property Name="IRConvolutionThreshold" Type="Real32" Value="-72"/>
-												<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
-												<Property Name="IRLevel" Type="Real32" Value="-23.8"/>
-												<Property Name="IRStretch" Type="Real32" Value="56"/>
-												<Property Name="PreDelay" Type="Real32" Value="7"/>
-												<Property Name="WetLevel" Type="Real32" Value="3.5"/>
-											</PropertyList>
-											<ChildrenList>
-												<PluginMediaSource Name="AK Amb Stair Way Hall" ID="{21246200-706A-4D02-BD4C-B37E596B64D5}" ShortID="822562241">
-													<ParentPluginID>8323075</ParentPluginID>
-													<PropertyList>
-														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR_Amb\Large Spaces\AK Amb Stair Way Hall.wav"/>
-													</PropertyList>
-												</PluginMediaSource>
-											</ChildrenList>
-											<PluginData>
-	<ConvolutionData>
-		<CurveList Version="1">
-			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{BD3B4FED-31A4-40AB-81D6-B1009A6F3E3B}">
-					<PropertyList>
-						<Property Name="Flags" Type="int32" Value="19"/>
-					</PropertyList>
-					<PointList>
-						<Point>
-							<XPos>20</XPos>
-							<YPos>0</YPos>
-							<Flags>5</Flags>
-						</Point>
-						<Point>
-							<XPos>20000</XPos>
-							<YPos>0</YPos>
-							<Flags>37</Flags>
-						</Point>
-					</PointList>
-				</Curve>
-			</CurveInfo>
-			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{D6F851B5-1052-4817-9D65-496FA60818C9}">
-					<PropertyList>
-						<Property Name="Flags" Type="int32" Value="5"/>
-					</PropertyList>
-					<PointList>
-						<Point>
-							<XPos>0</XPos>
-							<YPos>15488.3871</YPos>
-							<Flags>5</Flags>
-						</Point>
-						<Point>
-							<XPos>4.73654166666667</XPos>
-							<YPos>15560</YPos>
-							<Flags>37</Flags>
-						</Point>
-					</PointList>
-				</Curve>
-			</CurveInfo>
-			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{06ABB7A1-F17B-4C48-94AB-25D958B2C17C}">
-					<PropertyList>
-						<Property Name="Flags" Type="int32" Value="1"/>
-					</PropertyList>
-					<PointList>
-						<Point>
-							<XPos>0</XPos>
-							<YPos>0</YPos>
-							<Flags>5</Flags>
-						</Point>
-						<Point>
-							<XPos>4.73654166666667</XPos>
-							<YPos>0</YPos>
-							<Flags>37</Flags>
-						</Point>
-					</PointList>
-				</Curve>
-			</CurveInfo>
-		</CurveList>
-	</ConvolutionData>
-</PluginData>
-										</Effect>
 									</Custom>
 								</Reference>
 								<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
