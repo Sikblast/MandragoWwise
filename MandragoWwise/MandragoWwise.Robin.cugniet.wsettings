@@ -4,6 +4,7 @@
 		<UserProjectSettings Name="" ID="{475C8B4E-2DF1-4CEC-A114-76F0049FD1C0}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\robin.cugniet\Downloads"/>
+				<Property Name="Event Action List\{00CC6C23-2298-4C62-8B9C-997383B51803}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{01256381-F2D9-43EE-9B8A-48E8E3F5557A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{03201522-D5DD-4A64-A093-074F23E20550}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{04FF8101-6837-41A3-BDB8-81EBC5ADD3E4}\x64_Expand States" Type="string" Value=""/>
@@ -68,6 +69,7 @@
 				<Property Name="Event Action List\{857A6328-81F8-41DB-BAAB-2083CF7E3132}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{85BE1F2B-488A-4321-B1C4-A586A0BB64CD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{88BE61EC-A7EB-423C-AD22-6C362522E06B}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{89D78782-4BB1-40C7-8EE0-E184064B2E60}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8A176316-FD5D-49E4-AC02-6D3E75D0F8AF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{90669AF2-B726-4D47-87BB-563C38857B43}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{91079A02-C315-42FE-B43C-884C0A81DCCC}\x64_Expand States" Type="string" Value=""/>
@@ -95,6 +97,7 @@
 				<Property Name="Event Action List\{BBFE9B07-86C1-43A4-9D48-3AA5E394A948}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{BC04988F-AF1A-4049-8F8A-021EA8C6F977}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{BCF7FBDA-1936-451E-9FE4-956DEA3FE184}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{BE1EEEB8-545D-4886-AC61-4949FD4BF129}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C1563416-8B59-4057-9D56-89D5B8F5F8C6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C1662B55-76C4-4D8B-B65A-C0D2485D5962}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C3F00C90-1E51-4ABB-9FE3-456A8DAECA46}\x64_Expand States" Type="string" Value=""/>
