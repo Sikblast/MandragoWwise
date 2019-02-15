@@ -1724,7 +1724,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Ambiant" ID="{A12E9C79-811C-4C83-8458-CDEA8AACDDBE}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="Anim_Scale" ID="{A12E9C79-811C-4C83-8458-CDEA8AACDDBE}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -1738,7 +1738,49 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Ambiant" ID="{A12E9C79-811C-4C83-8458-CDEA8AACDDBE}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="Anim_Scale" ID="{A12E9C79-811C-4C83-8458-CDEA8AACDDBE}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Anim_Extrud" ID="{89D78782-4BB1-40C7-8EE0-E184064B2E60}">
+					<ChildrenList>
+						<Action Name="" ID="{1093742C-A10E-4ADB-920E-40A5B392A757}" ShortID="330875803">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Anim_Extrud" ID="{127DD8C2-FAF0-488E-A051-DBDF49446360}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Anim_Scale" ID="{00CC6C23-2298-4C62-8B9C-997383B51803}">
+					<ChildrenList>
+						<Action Name="" ID="{E0C367CC-0959-4694-88F4-5B6A450D7A17}" ShortID="43145090">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Anim_Scale" ID="{A12E9C79-811C-4C83-8458-CDEA8AACDDBE}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Anim_Tiles" ID="{BE1EEEB8-545D-4886-AC61-4949FD4BF129}">
+					<ChildrenList>
+						<Action Name="" ID="{C4F7501B-5C35-4A84-81F1-EB9303428533}" ShortID="651551109">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Anim_Tiles" ID="{4D611E18-E1D2-491B-9EAD-39885940E708}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
