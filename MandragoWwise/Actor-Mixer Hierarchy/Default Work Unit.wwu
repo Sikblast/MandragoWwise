@@ -519,7 +519,7 @@
 								<ActiveSource Name="39_ Traveler's Rest minimal" ID="{6387F61F-BFD0-46FE-9F31-D41492E9920F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Wind modern light variable wires" ID="{9D3B31FF-BE48-4B40-802A-FD85C5DC389B}" ShortID="46177020">
+						<Sound Name="Wind Light" ID="{9D3B31FF-BE48-4B40-802A-FD85C5DC389B}" ShortID="46177020">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
@@ -820,6 +820,26 @@
 												<Value>50</Value>
 											</ValueList>
 										</Property>
+										<Property Name="Highpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{201F13DC-D3E0-4AE0-903C-EBA220523C7B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="40"/>
+															<Property Name="Min" Type="Real64" Value="-40"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{00389081-E5D5-4BF2-B456-1ADA9385DA0D}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
 												<Value>1</Value>
@@ -828,6 +848,19 @@
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F02E2939-037C-4FE4-9025-CF308AF68FBE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
 											<ValueList>
@@ -1380,7 +1413,7 @@
 																		</Point>
 																		<Point>
 																			<XPos>10</XPos>
-																			<YPos>-5.94852</YPos>
+																			<YPos>-4.17896</YPos>
 																			<Flags>37</Flags>
 																		</Point>
 																	</PointList>
@@ -9204,7 +9237,7 @@
 												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 												<Property Name="MaxSoundPerInstance" Type="int16">
 													<ValueList>
-														<Value>2</Value>
+														<Value>1</Value>
 													</ValueList>
 												</Property>
 												<Property Name="UseMaxSoundPerInstance" Type="bool">
@@ -11269,9 +11302,6 @@
 										</Effect>
 									</Custom>
 								</Reference>
-								<Reference Name="Effect1" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
-									<ObjectRef Name="Space_Ship_Ambisonics" ID="{9F0F1041-FE73-4568-B72A-79FFEBC77252}" WorkUnitID="{1562D13C-41E8-4FA1-A341-D4CB726E2AEC}"/>
-								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Binauralizer" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 								</Reference>
@@ -12401,7 +12431,7 @@
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-7</Value>
+												<Value>-11</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -12503,7 +12533,7 @@
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-11</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>

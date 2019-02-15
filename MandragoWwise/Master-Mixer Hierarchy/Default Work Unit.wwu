@@ -459,7 +459,7 @@
 												<Property Name="IRLevel" Type="Real32" Value="-23.8"/>
 												<Property Name="IRStretch" Type="Real32" Value="56"/>
 												<Property Name="PreDelay" Type="Real32" Value="7"/>
-												<Property Name="WetLevel" Type="Real32" Value="3.5"/>
+												<Property Name="WetLevel" Type="Real32" Value="-3.5"/>
 											</PropertyList>
 											<ChildrenList>
 												<PluginMediaSource Name="AK Amb Stair Way Hall" ID="{642E8C96-14FC-46DB-8AF6-B5C9C3DF935B}" ShortID="536933896">
