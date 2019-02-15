@@ -12994,7 +12994,7 @@
 												<RTPC Name="" ID="{228B8469-3C3D-4EA9-B61E-4A50E2581EC0}" ShortID="456931507">
 													<ReferenceList>
 														<Reference Name="ControlInput">
-															<ObjectRef Name="Scale" ID="{10B566F7-9703-434F-97B2-8BF8BC747849}" WorkUnitID="{0D722370-0E00-46EF-B000-EC471E7F4B00}"/>
+															<ObjectRef Name="Scale_Rate" ID="{8DBF4C35-0079-4C8A-86B1-83117220A407}" WorkUnitID="{0D722370-0E00-46EF-B000-EC471E7F4B00}"/>
 														</Reference>
 													</ReferenceList>
 													<Curve Name="" ID="{0991CACD-0F6D-45CE-844A-A35F0C8974A4}">
@@ -13038,6 +13038,25 @@
 								</BlendTrack>
 							</BlendTrackList>
 						</BlendContainer>
+						<Sound Name="Ambiant" ID="{A12E9C79-811C-4C83-8458-CDEA8AACDDBE}" ShortID="778515701">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PM_FN_Spawns_Portals_Teleports_22" ID="{C0223692-479C-480F-B975-102AD7FF12BD}" ShortID="25236691">
+									<Language>SFX</Language>
+									<AudioFile>PM_FN_Spawns_Portals_Teleports_22.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PM_FN_Spawns_Portals_Teleports_22" ID="{C0223692-479C-480F-B975-102AD7FF12BD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<PositioningInfo>
 						<Panner Name="" ID="{88FBDBC7-495E-47C0-9BAC-BF3B2D46B229}"/>

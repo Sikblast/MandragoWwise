@@ -1716,6 +1716,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Ambiant" ID="{947A62CD-1685-4687-ABE8-10CA671D3E31}">
+					<ChildrenList>
+						<Action Name="" ID="{EC250F07-009B-431B-AB36-DFD95BA09B0B}" ShortID="813997736">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiant" ID="{A12E9C79-811C-4C83-8458-CDEA8AACDDBE}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Ambiant" ID="{B597994E-A465-41CD-8410-61167865F32D}">
+					<ChildrenList>
+						<Action Name="" ID="{799DDDED-061C-4850-940E-17C1B8C15462}" ShortID="673797964">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiant" ID="{A12E9C79-811C-4C83-8458-CDEA8AACDDBE}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
