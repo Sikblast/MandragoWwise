@@ -1691,6 +1691,7 @@
 						<Action Name="" ID="{9A14B9D2-A137-431B-84D0-4548C87A555F}" ShortID="514322371">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -1705,6 +1706,7 @@
 						<Action Name="" ID="{4EB1327D-9BA4-481D-8BF9-96AE4547526D}" ShortID="879101367">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
