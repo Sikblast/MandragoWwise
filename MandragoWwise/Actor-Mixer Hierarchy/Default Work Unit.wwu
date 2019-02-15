@@ -12823,6 +12823,13 @@
 							</ChildrenList>
 						</Folder>
 						<BlendContainer Name="Scale RTPC" ID="{3B4886F7-4BA6-47E4-ABF0-5DEA50B0FB84}" ShortID="78990820">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
@@ -12997,8 +13004,9 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-11.12604</YPos>
+																<YPos>-200</YPos>
 																<Flags>5</Flags>
+																<SegmentShape>Log3</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>100</XPos>

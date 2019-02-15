@@ -41,11 +41,6 @@
 										<Value>516</Value>
 									</ValueList>
 								</Property>
-								<Property Name="CenterPercentage" Type="int32">
-									<ValueList>
-										<Value>25</Value>
-									</ValueList>
-								</Property>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 							</PropertyList>
@@ -466,6 +461,15 @@
 							</ReferenceList>
 							<PositioningInfo>
 								<Panner Name="" ID="{08CEA055-09C3-49B2-B5C7-B880E9DBCCE1}"/>
+							</PositioningInfo>
+						</Bus>
+						<Bus Name="New Audio Bus" ID="{AC19F695-C93D-4C3D-95BD-28BA74D6E0C8}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+							</PropertyList>
+							<PositioningInfo>
+								<Panner Name="" ID="{399FB3D9-4CC8-458D-BA15-7519E1E2668E}"/>
 							</PositioningInfo>
 						</Bus>
 					</ChildrenList>
