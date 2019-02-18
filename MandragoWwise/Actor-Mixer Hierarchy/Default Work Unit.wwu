@@ -3383,7 +3383,7 @@
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -6365,6 +6365,10 @@
 									<AudioFile>Sun Light.wav</AudioFile>
 								</AudioFileSource>
 								<AudioFileSource Name="Sun Enlighting" ID="{B8AB43A9-0D00-46DF-8AC4-E443834004BF}" ShortID="135110558">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="3.17737420269312"/>
+										<Property Name="FadeInShape" Type="int16" Value="9"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Sun Enlighting.wav</AudioFile>
 								</AudioFileSource>

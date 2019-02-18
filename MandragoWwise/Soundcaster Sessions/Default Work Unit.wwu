@@ -86,7 +86,7 @@
 							<Position X="2" Y="5"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Guide_Play" ID="{4D47B5ED-AC99-4260-8DEA-B90BF725A5E3}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
+							<ObjectRef Name="Stop_Intro" ID="{E88ED2E8-1DD3-4D78-9B61-0DAE09454E48}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
 							<Position X="2" Y="6"/>
 						</Module>
 						<Module>
@@ -112,6 +112,10 @@
 						<Module>
 							<ObjectRef Name="Sun Light" ID="{52B1C299-92F4-40C3-95DE-436609673406}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="3" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Intro" ID="{48C98FCF-1EF3-4E90-9CE8-9AFB20AD5DDF}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
+							<Position X="3" Y="6"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
