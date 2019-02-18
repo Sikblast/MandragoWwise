@@ -530,6 +530,11 @@
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -542,7 +547,7 @@
 														<Value>18</Value>
 													</ValueList>
 												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="2"/>
+												<Property Name="RadiusMax" Type="Real64" Value="8"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -556,10 +561,9 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
-																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>2</XPos>
+																	<XPos>8</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -587,7 +591,7 @@
 																	<SegmentShape>Exp3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>2</XPos>
+																	<XPos>8</XPos>
 																	<YPos>33</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -612,7 +616,7 @@
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>2</XPos>
+																	<XPos>8</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -633,7 +637,7 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>2</XPos>
+																	<XPos>8</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
