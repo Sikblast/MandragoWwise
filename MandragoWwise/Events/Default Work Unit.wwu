@@ -269,7 +269,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Dome Wind" ID="{6898C2D6-D322-4469-B576-6E649C1661C1}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="Wind Light" ID="{9D3B31FF-BE48-4B40-802A-FD85C5DC389B}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -533,10 +533,11 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-20</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -551,12 +552,7 @@
 														<Value>18</Value>
 													</ValueList>
 												</Property>
-												<Property Name="ConeUse" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="15"/>
+												<Property Name="RadiusMax" Type="Real64" Value="2"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -573,8 +569,8 @@
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>15</XPos>
-																	<YPos>-23.03137</YPos>
+																	<XPos>2</XPos>
+																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -601,7 +597,7 @@
 																	<SegmentShape>Exp3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>15</XPos>
+																	<XPos>2</XPos>
 																	<YPos>33</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -626,7 +622,7 @@
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>15</XPos>
+																	<XPos>2</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -647,7 +643,7 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>15</XPos>
+																	<XPos>2</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -3307,7 +3303,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-30</Value>
+												<Value>-40</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -14500,7 +14496,7 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-96</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
