@@ -7,7 +7,7 @@
 					<PropertyList>
 						<Property Name="BusVolume" Type="Real64">
 							<ValueList>
-								<Value>6</Value>
+								<Value>8</Value>
 							</ValueList>
 						</Property>
 						<Property Name="BypassEffect0" Type="bool">
@@ -222,6 +222,11 @@
 										<Value>516</Value>
 									</ValueList>
 								</Property>
+								<Property Name="BypassEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
 										<Value>25</Value>
@@ -361,7 +366,7 @@
 												<Property Name="IRLevel" Type="Real32" Value="-23.8"/>
 												<Property Name="IRStretch" Type="Real32" Value="56"/>
 												<Property Name="PreDelay" Type="Real32" Value="7"/>
-												<Property Name="WetLevel" Type="Real32" Value="-3.5"/>
+												<Property Name="WetLevel" Type="Real32" Value="-1.8"/>
 											</PropertyList>
 											<ChildrenList>
 												<PluginMediaSource Name="AK Amb Stair Way Hall" ID="{642E8C96-14FC-46DB-8AF6-B5C9C3DF935B}" ShortID="536933896">
@@ -445,10 +450,9 @@
 										<Effect Name="Auro Headphone (Custom)" ID="{630711CA-F9B1-4FEC-B258-9049203EC344}" ShortID="980990150" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
 											<PropertyList>
 												<Property Name="ER_Delay" Type="Real32" Value="1"/>
-												<Property Name="ER_Level" Type="Real32" Value="-3"/>
-												<Property Name="Reverb" Type="bool" Value="False"/>
+												<Property Name="ER_Level" Type="Real32" Value="-1.450001"/>
 												<Property Name="Reverb_fcut" Type="Real32" Value="6000"/>
-												<Property Name="Reverb_level" Type="Real32" Value="-18"/>
+												<Property Name="Reverb_level" Type="Real32" Value="-31.26875"/>
 												<Property Name="Reverb_predelay" Type="Real32" Value="40"/>
 												<Property Name="Reverb_tr60" Type="Real32" Value="2"/>
 												<Property Name="Wall_bottom" Type="Real32" Value="1.75"/>

@@ -472,6 +472,7 @@
 						<Action Name="" ID="{47DB1D0E-2DEC-44EF-8925-D31746EA1200}" ShortID="150261877">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.4"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -486,6 +487,7 @@
 						<Action Name="" ID="{4839CB0D-90C2-454F-8DAA-EC0D4772346F}" ShortID="791576279">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.4"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -832,7 +834,7 @@
 						<Action Name="" ID="{D28AA83D-6678-4D0E-8CE6-F5BDFFD1D42E}" ShortID="323988870">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
-								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -885,6 +887,7 @@
 						<Action Name="" ID="{D6483735-8312-45C9-9108-1FA0A55407F1}" ShortID="1035115349">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.4"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -922,6 +925,7 @@
 						<Action Name="" ID="{7DB19E2B-0239-425B-82B3-25AADA5D977C}" ShortID="343001858">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.4"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -1343,7 +1347,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Bush" ID="{FD07E835-ACF2-4566-98B7-A6A621894F51}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="Bush Random" ID="{239EB901-1A3C-4316-AB4F-F66B5419DD97}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -1371,7 +1375,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="House" ID="{A0830D2A-092E-4A1C-AB5A-82CFB1DD83E4}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="House Random" ID="{3B09FAC6-2ED5-4FAF-8330-BA95FDA791F1}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -1441,7 +1445,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Planet" ID="{4AA3631B-6D27-4EAE-95F6-B93086C73BAA}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="Planet Random" ID="{9817B81D-5B89-4EA6-AF39-C297BAB5FE05}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -1469,7 +1473,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Shroom" ID="{F9F31285-3C93-4CF1-9B7E-5ED8B399928B}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="Shroom Random" ID="{B5736065-D9FC-4CCB-910E-7251AC56A1C4}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -1497,7 +1501,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Tree" ID="{1F30EB13-AA60-4584-BE8A-7FF146973825}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="Tree Random" ID="{1FB4BE80-0BB0-4BCB-9463-8DC9808AA720}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -1699,6 +1703,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{7FA05537-474E-412C-B6E6-CA7B28C71C84}" ShortID="343069260">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Socle Scale" ID="{9657C430-4280-4522-AF51-D3D4AA8554EF}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="UnMute_Drop" ID="{6D2828C8-ECA8-4A80-A981-FF2A3B567A58}">
@@ -1711,6 +1725,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Drop" ID="{195C0566-5E40-40D7-8EA1-34CFA878108B}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F2B7EDA3-ADF7-444A-926D-AFC327CB082B}" ShortID="315468037">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Socle Scale" ID="{9657C430-4280-4522-AF51-D3D4AA8554EF}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -1781,6 +1805,128 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Anim_Tiles" ID="{4D611E18-E1D2-491B-9EAD-39885940E708}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Planet_Random" ID="{17C2D0D4-BC1D-4C6C-AAB7-0E65E15FD9F7}">
+					<ChildrenList>
+						<Action Name="" ID="{14D5285F-624B-4AA9-8081-F10C93833DF8}" ShortID="33200789">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Planet Random" ID="{9817B81D-5B89-4EA6-AF39-C297BAB5FE05}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Planet_01" ID="{E6E2CA30-26E0-4B05-B824-E1D5E6936C6B}">
+					<ChildrenList>
+						<Action Name="" ID="{A7A6E4B5-1752-4689-A4CF-48F8C7B29C39}" ShortID="265724313">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Planet" ID="{4AA3631B-6D27-4EAE-95F6-B93086C73BAA}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Medium_House_Random" ID="{3DF36487-B5B2-4212-BEC7-7CB7BE6FD7EA}">
+					<ChildrenList>
+						<Action Name="" ID="{5DDDDD07-2471-495A-9406-56111319E5CD}" ShortID="482314031">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Medium House Random" ID="{706CE15D-E574-4193-BB27-ED13299F1DD2}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Little_House_Random" ID="{9B0B5C79-34E1-41B1-AB1E-CA069DA30D3D}">
+					<ChildrenList>
+						<Action Name="" ID="{E55AB19D-E7CA-4B02-B91D-17BCA425E7CC}" ShortID="784662341">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Little House Random" ID="{CD75483C-8A14-401F-A605-5D901E224026}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Rock_Random" ID="{77CF6442-93DA-434A-8B19-25D97F56C719}">
+					<ChildrenList>
+						<Action Name="" ID="{3FCF8BBA-7A9F-4C9F-BC4E-C3142A02C135}" ShortID="585939209">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rock Random" ID="{F042D7F6-E484-4B17-9ED8-3C73B8ED2D36}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Mute_Planet" ID="{9F3DD33B-6238-4EA9-AAB6-AC5B887EE4D9}">
+					<ChildrenList>
+						<Action Name="" ID="{B1AC2C11-F66A-4874-97DC-190C5796E89B}" ShortID="580274447">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Planet" ID="{4AA3631B-6D27-4EAE-95F6-B93086C73BAA}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{80A48841-2974-4B07-B278-C27D5B0E8A7F}" ShortID="244236966">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Planet Random" ID="{9817B81D-5B89-4EA6-AF39-C297BAB5FE05}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UnMute_Planet" ID="{87D575F3-F62B-416A-8E21-B721156D0C21}">
+					<ChildrenList>
+						<Action Name="" ID="{673295B3-C352-40CB-AB0A-BEAA9FEA6017}" ShortID="723025057">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Planet Random" ID="{9817B81D-5B89-4EA6-AF39-C297BAB5FE05}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E68E317C-E09D-4C3A-BA29-2173D5D891F4}" ShortID="458393737">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Planet" ID="{4AA3631B-6D27-4EAE-95F6-B93086C73BAA}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
