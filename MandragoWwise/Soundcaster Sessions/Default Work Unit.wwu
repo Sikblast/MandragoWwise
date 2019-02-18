@@ -86,7 +86,7 @@
 							<Position X="2" Y="5"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Stone Drop" ID="{EFF522B3-C46C-4746-9B25-50E71D1D398A}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+							<ObjectRef Name="Guide_Play" ID="{4D47B5ED-AC99-4260-8DEA-B90BF725A5E3}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
 							<Position X="2" Y="6"/>
 						</Module>
 						<Module>
@@ -112,10 +112,6 @@
 						<Module>
 							<ObjectRef Name="Sun Light" ID="{52B1C299-92F4-40C3-95DE-436609673406}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="3" Y="5"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Mute_Drop" ID="{4FD1C46F-1B63-4655-B30B-AB89B602D0A9}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
-							<Position X="3" Y="6"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
