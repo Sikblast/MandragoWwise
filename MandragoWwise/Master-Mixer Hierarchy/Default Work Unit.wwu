@@ -7,7 +7,7 @@
 					<PropertyList>
 						<Property Name="BusVolume" Type="Real64">
 							<ValueList>
-								<Value>8</Value>
+								<Value>10</Value>
 							</ValueList>
 						</Property>
 						<Property Name="BypassEffect0" Type="bool">
@@ -38,7 +38,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="BusChannelConfig" Type="int32">
 									<ValueList>
-										<Value>516</Value>
+										<Value>803467534</Value>
 									</ValueList>
 								</Property>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
@@ -219,7 +219,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="BusChannelConfig" Type="int32">
 									<ValueList>
-										<Value>516</Value>
+										<Value>803467534</Value>
 									</ValueList>
 								</Property>
 								<Property Name="BypassEffect0" Type="bool">

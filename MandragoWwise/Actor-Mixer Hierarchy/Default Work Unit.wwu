@@ -8534,8 +8534,8 @@
 															<Modifier Name="" ID="{FE33DDC6-6FE7-4520-A596-1A229B148FBD}">
 																<PropertyList>
 																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="200"/>
-																	<Property Name="Min" Type="Real64" Value="-200"/>
+																	<Property Name="Max" Type="Real64" Value="300"/>
+																	<Property Name="Min" Type="Real64" Value="-300"/>
 																</PropertyList>
 															</Modifier>
 														</ModifierInfo>
@@ -10621,7 +10621,7 @@
 														</Property>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-10</Value>
+																<Value>-12</Value>
 															</ValueList>
 															<RTPCList>
 																<RTPC Name="" ID="{FE11C199-9542-444A-B7C0-B35DC0465A2A}" ShortID="823005801">
@@ -12343,7 +12343,7 @@
 														</Property>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-10</Value>
+																<Value>-14</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -14491,7 +14491,7 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-12</Value>
+										<Value>-6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
