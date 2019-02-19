@@ -527,6 +527,7 @@
 						<Sound Name="Wind Light" ID="{9D3B31FF-BE48-4B40-802A-FD85C5DC389B}" ShortID="46177020">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
@@ -6340,11 +6341,22 @@
 						</BlendContainer>
 						<Sound Name="Sun Light" ID="{52B1C299-92F4-40C3-95DE-436609673406}" ShortID="767546353">
 							<PropertyList>
-								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsNonCachable" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsZeroLantency" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>3</Value>
@@ -6373,6 +6385,9 @@
 									<AudioFile>Sun Enlighting.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{1BDD46A1-211B-4F85-A4B1-762846173174}"/>
+							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="Sun Enlighting" ID="{B8AB43A9-0D00-46DF-8AC4-E443834004BF}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -6545,7 +6560,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-20</Value>
+										<Value>-18</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -9795,7 +9810,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-5</Value>
+														<Value>-7</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -10471,6 +10486,7 @@
 								<ActorMixer Name="Drop" ID="{195C0566-5E40-40D7-8EA1-34CFA878108B}" ShortID="434354971">
 									<PropertyList>
 										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
 												<Value>1</Value>
@@ -14484,7 +14500,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DCF4827-3C8C-4A75-9C08-7D1B61A8678D}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Binauralizer" ID="{D7A7BE6E-DC55-458B-85B5-702CC8EF5922}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
+							<ObjectRef Name="Ambisonics" ID="{7BCABF5E-1E32-4133-A65E-A9AD803F27B9}" WorkUnitID="{39F29509-1226-4CE0-91C3-8C7B63F5E42C}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -14534,7 +14550,7 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Mandra AJV" ID="{6CB746EB-93EF-46E8-90B0-470691871801}" Platform="Linked"/>
+								<ActiveSource Name="Short Ambisonic" ID="{900DB193-9C75-4278-961E-835406A2BCA6}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
