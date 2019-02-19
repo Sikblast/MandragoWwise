@@ -1932,6 +1932,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Mute_Planet_Random" ID="{E817FE87-A83D-47DE-A484-25F594A0D60B}">
+					<ChildrenList>
+						<Action Name="" ID="{39A1B852-C9C1-4779-A0A2-52EC4BE6A846}" ShortID="433837974">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Planet Random" ID="{9817B81D-5B89-4EA6-AF39-C297BAB5FE05}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UnMute_Planet_Random" ID="{CB4314DE-96C4-48E0-8918-C3D4D23088EF}">
+					<ChildrenList>
+						<Action Name="" ID="{10ABF551-8301-4B6F-A52D-D2639763FDFB}" ShortID="434830032">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Planet Random" ID="{9817B81D-5B89-4EA6-AF39-C297BAB5FE05}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

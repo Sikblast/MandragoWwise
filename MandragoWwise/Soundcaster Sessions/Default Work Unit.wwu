@@ -18,7 +18,7 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Wind" ID="{AF14352A-0BBA-4AC5-BC96-591A5D09BF12}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
+							<ObjectRef Name="Planet Random" ID="{9817B81D-5B89-4EA6-AF39-C297BAB5FE05}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
@@ -46,7 +46,7 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Stop_Wind" ID="{FDF36FCE-67E0-4091-9FA8-F630441A9272}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
+							<ObjectRef Name="Mute_Planet_Random" ID="{E817FE87-A83D-47DE-A484-25F594A0D60B}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
 							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
@@ -74,7 +74,7 @@
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Guide_Play" ID="{4D47B5ED-AC99-4260-8DEA-B90BF725A5E3}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
+							<ObjectRef Name="UnMute_Planet_Random" ID="{CB4314DE-96C4-48E0-8918-C3D4D23088EF}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
 							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
@@ -100,10 +100,6 @@
 						<Module>
 							<ObjectRef Name="Constellation Hits" ID="{4853D512-CF9B-47D5-874C-DD8E3FD05D27}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 							<Position X="3" Y="2"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Guide_Stop" ID="{AF1F0171-3C01-422A-A353-590984272392}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
-							<Position X="3" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Stop_Scale_RTPC" ID="{6755B8FC-3FE3-49B7-AC38-1174D26C3E8A}" WorkUnitID="{AEB63060-D3E3-4C9D-9D88-4B8F3AE2474C}"/>
