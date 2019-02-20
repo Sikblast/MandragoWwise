@@ -7068,7 +7068,7 @@
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-20</Value>
+												<Value>-28</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -7204,6 +7204,10 @@
 											<AudioFile>PM_FN_Spawns_Portals_Teleports_27.wav</AudioFile>
 										</AudioFileSource>
 										<AudioFileSource Name="Scale Pose 2" ID="{4E45909B-E436-4137-9502-58B1E261F778}" ShortID="303058869">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.324886885778408"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.751114635010631"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Scale Pose 2.wav</AudioFile>
 										</AudioFileSource>
@@ -7539,7 +7543,7 @@
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -9810,7 +9814,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-7</Value>
+														<Value>-9</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -10083,7 +10087,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-6</Value>
+														<Value>-9</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -12529,9 +12533,9 @@
 														</AudioFileSource>
 														<AudioFileSource Name="BT BOING Rubber Band Up" ID="{83BBAD4B-6372-4C75-9A53-D3B4B45CFDC3}" ShortID="799930282">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="3.21427774764028E-02"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="8.62893355071215E-03"/>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.524207713205764"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.194366728229792"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.217521033257536"/>
 																<Property Name="TrimEnd" Type="Real64" Value="1.57262313961729"/>
 															</PropertyList>
 															<Language>SFX</Language>
@@ -13753,6 +13757,11 @@
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
