@@ -3276,6 +3276,7 @@
 								<Sound Name="Wrong Constellation" ID="{43759CD0-798A-4CE6-9673-A81CF2666F7A}" ShortID="223573872">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
@@ -3298,7 +3299,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-40</Value>
+												<Value>-24</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
