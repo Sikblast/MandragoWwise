@@ -562,7 +562,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Extrud Up Stone" ID="{87FDA704-BD00-42B0-AD03-00AAC25833C2}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="Extrudation Up" ID="{5570256F-A357-42DA-8406-6772EEF9EF7A}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -576,7 +576,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Extrud Down Stone" ID="{0D6BCDAE-66D5-4C2E-B386-9B8B6CE91C6D}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="Extrudation Down" ID="{1C54B171-C1AE-4D92-9074-7C398AF04DCD}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -1403,7 +1403,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Little Rock" ID="{2CC9585F-7701-45B9-B5E8-BA5B9E9CF42B}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="New Random Little Rock" ID="{EDA92E4C-9B77-41F3-BB20-A31BEDF2E2C5}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -1656,7 +1656,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="House Drop" ID="{A13B868B-5AD8-4847-B6B1-E564126FECF5}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="House" ID="{BA77D21F-AFA9-4D81-ABF2-C87AC70C6611}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -1833,7 +1833,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Planet" ID="{4AA3631B-6D27-4EAE-95F6-B93086C73BAA}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
+									<ObjectRef Name="Planet Drop" ID="{099B017A-FA13-4F2C-9744-32B99F59B748}" WorkUnitID="{3BAC1E4C-FF22-4ADC-A55D-D039DF97617F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
